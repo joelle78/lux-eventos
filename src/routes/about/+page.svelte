@@ -1,1 +1,0 @@
-Dit is de about page

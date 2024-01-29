@@ -1,0 +1,6 @@
+{
+	"runtime": "nodejs20.x",
+	"handler": "..\\..\\..\\..\\..\\..\\Users\\Joelle\\Desktop\\GitHub\\boilerplate-sveltekit-hygraph\\.svelte-kit\\vercel-tmp\\index.js",
+	"launcherType": "Nodejs",
+	"experimentalResponseStreaming": true
+}
