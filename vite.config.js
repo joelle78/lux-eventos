@@ -13,7 +13,7 @@ export default defineConfig({
 	plugins: [sveltekit()],
 	build: {
 		rollupOptions: {
-			external: ['virtual:$env/static/private'],
+			external: ['$env/static/private'],
 		},
 	},
 });
