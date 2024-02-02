@@ -7,7 +7,7 @@
 
 {#each data.homepages as homepage }
     <article>
-        <h2>{homepage.titel2}</h2>
+        <h3>{homepage.titel2}</h3>
         <p>{homepage.beschrijving2}</p>
     </article>
 
