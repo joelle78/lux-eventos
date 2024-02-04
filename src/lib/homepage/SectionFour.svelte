@@ -1,7 +1,11 @@
 <script>
-    import ButtonSingUp from "$lib/reusable-components/ButtonSingUp.svelte";
+    import ButtonSingUp from "$lib/reusable-components/buttons/ButtonSignUp.svelte";
+
+
 
     export let data
+
+
 </script>
 
 {#each data.homepages as homepage }
@@ -10,6 +14,9 @@
         <p>{homepage.nummeredList4}</p>
         <p>{homepage.beschrijving4}</p>
     </article>
+
+
+
 {/each}
 
 <ButtonSingUp data={data} />

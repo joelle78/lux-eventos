@@ -7,7 +7,7 @@
 
     <article>
     <h1>Het event team op maat gemaakt. Jouw succes begint met
-        onze selectie.</h1>
+        onze selectie</h1>
     </article>
 </header>
 

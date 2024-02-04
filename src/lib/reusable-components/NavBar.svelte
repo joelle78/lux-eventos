@@ -11,14 +11,14 @@
                     <a class="menu-item" href="/"> Home </a>
                 </li>
                 <li>
-                    <a class="menu-item" href="/stekjes_overzicht"> Werken bij </a>
+                    <a class="menu-item" href="/werken-bij"> Werken bij </a>
                 </li>
                 <li>
-                    <a class="menu-item" href="/workshops"> Voor opdrachtgevers </a>
+                    <a class="menu-item" href="/voor-opdrachtgevers"> Voor opdrachtgevers </a>
                 </li>
 
                 <li>
-                    <a class="menu-item" href="/maken"> Over ons </a>
+                    <a class="menu-item" href="/over"> Over ons </a>
                 </li>
                 <li>
                     <a class="menu-item" href="/contact"> Contact </a>
