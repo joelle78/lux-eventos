@@ -18,7 +18,7 @@
                 </li>
 
                 <li>
-                    <a class="menu-item" href="/over"> Over ons </a>
+                    <a class="menu-item" href="/over-ons"> Over ons </a>
                 </li>
                 <li>
                     <a class="menu-item" href="/contact"> Contact </a>
