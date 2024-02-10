@@ -18,7 +18,6 @@
 </section>
 
 <style>
-
     .section-one {
         background-color: var(--background-color-light);
     }
@@ -33,22 +32,24 @@
         left: 6%;
     }
 
-    h2 {
-        position: relative;
+    h2, span {
         font-family: "cormorant-garamond", serif;
-        font-weight: 600;
+        font-weight: 400;
         font-style: normal;
-        font-size: 4.5rem;
         margin-left: 10rem;
+    }
+
+    h2 {
+        font-size: 4.5rem;
     }
 
     span {
         font-family: "roboto", sans-serif;
-        font-weight: 100;
+        font-weight: 300;
         font-style: italic;
-        display: block;
         font-size: 3rem;
         margin-left: 8rem;
+        display: block;
     }
 
     p {
@@ -58,8 +59,7 @@
         font-style: normal;
         font-size: 1.5rem;
         line-height: 2.8rem;
-        margin-top: 2rem;
-        margin-left: 24rem;
+        margin: 2rem 0 0 24rem;
         padding-bottom: 8rem;
     }
 

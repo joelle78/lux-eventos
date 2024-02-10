@@ -16,7 +16,7 @@
 
     h1 {
         font-family: "roboto", sans-serif;
-        font-weight: 100;
+        font-weight: 200;
         font-style: normal;
         font-size: 3rem;
         text-align: center;

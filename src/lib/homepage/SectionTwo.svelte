@@ -24,36 +24,36 @@
         padding-bottom: 15rem;
     }
 
+    h3, p {
+        font-family: "roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        margin-left: 1rem;
+    }
+
     h3 {
         font-family: "cormorant-garamond", serif;
-        font-weight: 200;
-        font-style: normal;
+        font-weight: 500;
         font-size: 3rem;
         margin-top: 4rem;
-        margin-left: 1rem;
         line-height: 4rem;
     }
 
     span {
-        font-style: italic;
-        font-weight: 900;
+        font-style: normal;
+        font-weight: 500;
     }
 
     p {
-        font-family: "roboto", sans-serif;
-        font-weight: 300;
-        font-style: normal;
         font-size: 1.2rem;
         line-height: 2.2rem;
         margin-top: 1.5rem;
-        margin-left: 1rem;
         width: 75%;
     }
 
     article {
         margin-left: 1.5rem;
     }
-
 
     .text-container {
         position: absolute;
@@ -62,10 +62,7 @@
         background-color: white;
         top: 230vh;
         left: 25vw;
-
     }
-
-
 
     img {
         position: relative;
