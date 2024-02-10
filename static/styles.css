@@ -1,5 +1,15 @@
+/* ADOBE FONTS*/
+@import url("https://use.typekit.net/itk1wbv.css");
+
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+:root {
+    --background-color-light: #F2F1ED;
+    --background-color-medium: #EEEAE7;
+    --background-color-dark: #2B2726;
 }

@@ -1,12 +1,12 @@
 <script>
-    import HeaderImgOverOns from '$lib/assets/header-over-ons.png'
+    import HeaderImgContact from '$lib/assets/header-contact.png'
 </script>
 
 <header>
-    <img src={HeaderImgOverOns} alt="" aria-label="">
+    <img src={HeaderImgContact} alt="" aria-label="">
 
     <article>
-        <h1>Waar talent en gastvrijheid samenkomen voor onvergetelijke evenementen!</h1>
+        <h1>Neem contact met ons op!</h1>
     </article>
 </header>
 
@@ -36,14 +36,15 @@
         width: 100%;
         height: 100vh;
         overflow-y: hidden;
+
         background-color: black;
+
     }
 
     img {
         width: 100%;
         object-fit: cover;
         filter: grayscale(1);
-        opacity: 0.6;
     }
 
 
