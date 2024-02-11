@@ -153,14 +153,14 @@
     }
 
     h5 {
-        font-size: 4.5rem;
+        font-size: var(--header-one);
     }
 
     span {
         font-family: "roboto", sans-serif;
         font-weight: 300;
         font-style: italic;
-        font-size: 3rem;
+        font-size: var(--header-two);
         margin-left: 1rem;
         display: block;
     }
@@ -170,7 +170,7 @@
         font-family: "roboto", sans-serif;
         font-weight: 300;
         font-style: normal;
-        font-size: 1.5rem;
+        font-size: var(--paragraph);
         line-height: 2.8rem;
         margin: 2rem 0 0 24rem;
         padding-bottom: 8rem;
@@ -181,7 +181,7 @@
         justify-content: center;
         align-items: center;
         position: relative;
-        margin-top: 1rem;
+        margin: 2rem 0 0 0;
         padding-bottom: 5rem;
     }
 
@@ -200,9 +200,8 @@
         font-weight: 600;
         font-style: normal;
         text-align: center;
-        font-size: 2rem;
-        margin-top: 4rem;
-        margin-bottom: 2rem;
+        font-size: var(--header-three);
+        margin: 4rem 0 2rem 0;
     }
 
     .carrousel-text p {
@@ -210,10 +209,9 @@
         font-weight: 300;
         font-style: normal;
         text-align: center;
-        font-size: 1.3rem;
+        font-size: var(--paragraph);
         line-height: 2.5rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding: 0 2rem 0 2rem;
     }
 
     .carrousel-text {

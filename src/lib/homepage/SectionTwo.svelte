@@ -34,7 +34,7 @@
     h3 {
         font-family: "cormorant-garamond", serif;
         font-weight: 500;
-        font-size: 3rem;
+        font-size: var(--header-two);
         margin-top: 4rem;
         line-height: 4rem;
     }
@@ -45,7 +45,7 @@
     }
 
     p {
-        font-size: 1.2rem;
+        font-size: var(--paragraph);
         line-height: 2.2rem;
         margin-top: 1.5rem;
         width: 75%;

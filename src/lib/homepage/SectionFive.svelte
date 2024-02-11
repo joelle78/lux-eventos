@@ -38,7 +38,7 @@
 
 <style>
     h6 {
-        font-size: 3rem;
+        font-size: var(--header-two);
         font-family: "roboto", serif;
         font-weight: 300;
         font-style: normal;
@@ -55,7 +55,7 @@
         font-family: "roboto", sans-serif;
         font-weight: 300;
         font-style: italic;
-        font-size: 1.2rem;
+        font-size: var(--paragraph);
         line-height: 2rem;
         width: 80%;
         text-align: center;
@@ -72,8 +72,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding-top: 8rem;
-        padding-bottom: 8rem;
+        padding: 8rem 0 8rem 0;
     }
 
     ul {
@@ -83,13 +82,12 @@
         list-style: none;
         text-align: center;
         line-height: 2.5rem;
-        margin-top: 3rem;
-        margin-bottom: 2rem;
+        margin: 3rem 0 2rem 0;
         width: 80%;
     }
 
     li {
-        font-size: 1.2rem;
+        font-size: var(--paragraph);
         margin-bottom: 2rem;
     }
 

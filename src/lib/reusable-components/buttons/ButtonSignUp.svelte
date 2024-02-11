@@ -8,7 +8,7 @@
         font-family: "roboto", serif;
         font-weight: 400;
         font-style: normal;
-        background-color: var(--background-color-medium);
+        background-color: transparent;
         display: inline-block;
         padding: 10px 20px;
         border: 2px solid var(--color-dark-brown); /* Border color */

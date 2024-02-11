@@ -13,4 +13,9 @@
     --background-color-medium: #EEEAE7;
     --background-color-dark: #2B2726;
     --color-dark-brown: #94694B;
+
+    --header-one: 4.5rem;
+    --header-two: 3rem;
+    --header-three: 2rem;
+    --paragraph: 1.2rem;
 }

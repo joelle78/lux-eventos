@@ -23,7 +23,7 @@
         font-family: "roboto", sans-serif;
         font-weight: 200;
         font-style: normal;
-        font-size: 3rem;
+        font-size: var(--header-two);
         text-align: center;
         position: absolute;
         line-height: 5rem;

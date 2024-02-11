@@ -6,7 +6,7 @@
     <img src={HeaderImgWerkenBij} alt="" aria-label="">
 
     <article>
-        <h1>Ontdek op maat gemaakte opdrachten die passen bij jouw expertise en ambities</h1>
+        <h1>Ontdek <span>OP MAAT</span> gemaakte opdrachten die passen bij <span>JOUW</span> expertise en ambities</h1>
     </article>
 </header>
 
@@ -15,13 +15,23 @@
 <style>
 
     h1 {
+        font-family: "roboto", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        font-size: var(--header-two);
         text-align: center;
         position: absolute;
-        font-size: 3rem;
-        line-height: 4rem;
+        line-height: 5rem;
+        letter-spacing: 0.3rem;
         color: white;
         top: 40%;
         width: 80%;
+    }
+
+    span {
+        font-family: "cormorant-garamond", serif;
+        font-weight: 900;
+        font-style: normal;
     }
 
     article {
@@ -37,6 +47,7 @@
         height: 100vh;
         overflow-y: hidden;
         background-color: black;
+
     }
 
     img {

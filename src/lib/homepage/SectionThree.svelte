@@ -25,7 +25,7 @@
         font-family: "cormorant-garamond", serif;
         font-weight: 500;
         position: relative;
-        font-size: 4rem;
+        font-size: var(--header-one);
         color: white;
         top: 40vh;
         left: 40vw;
@@ -38,9 +38,7 @@
         font-weight: 400;
         font-style: italic;
         letter-spacing: 0.2rem;
-        margin-top: 0.3rem;
-        margin-left: 9rem;
-
+        margin: 0.3rem 0 0 9rem;
     }
 
     .text-container {
@@ -58,7 +56,7 @@
         font-family: "roboto", sans-serif;
         font-weight: 300;
         font-style: normal;
-        font-size: 1.3rem;
+        font-size: var(--paragraph);
         line-height: 2.3rem;
         width: 90%;
         margin-left: 1.5rem;

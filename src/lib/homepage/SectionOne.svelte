@@ -52,14 +52,14 @@
     }
 
     h2 {
-        font-size: 4.5rem;
+        font-size: var(--header-one);
     }
 
     span {
         font-family: "roboto", sans-serif;
         font-weight: 300;
         font-style: italic;
-        font-size: 3rem;
+        font-size: var(--header-two);
         margin-left: 8rem;
         display: block;
     }
@@ -69,7 +69,7 @@
         font-family: "roboto", sans-serif;
         font-weight: 300;
         font-style: normal;
-        font-size: 1.5rem;
+        font-size: var(--paragraph);
         line-height: 2.8rem;
         margin: 2rem 0 0 24rem;
         padding-bottom: 8rem;
