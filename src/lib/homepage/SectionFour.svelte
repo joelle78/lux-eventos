@@ -3,11 +3,7 @@
     export let data;
 
 
-
-
-
-
-    import { onMount } from 'svelte';
+    import {onMount} from 'svelte';
 
     let carrousel;
     let dots = [];
@@ -38,7 +34,7 @@
 
         const handleDotClick = (index) => {
             const scrollDistance = (index / (dots.length - 1)) * (carrousel.scrollWidth - carrousel.clientWidth);
-            carrousel.scrollTo({ left: scrollDistance, behavior: 'smooth' });
+            carrousel.scrollTo({left: scrollDistance, behavior: 'smooth'});
         };
 
         carrousel.addEventListener('scroll', handleScroll);
@@ -61,7 +57,6 @@
 </script>
 
 
-
 <section class="section-four">
     {#each data.homepages as homepage }
         <article>
@@ -78,60 +73,54 @@
     {/each}
 
     <div class="carrousel-container">
+        <div class="carrousel">
 
-<!--       <button class="left-arrow"> <svg  width="50" height="52" viewBox="0 0 50 52" fill="none" xmlns="http://www.w3.org/2000/svg">-->
-<!--            <path d="M0.0242521 26L49.5452 0.926677L49.5032 51.1561L0.0242521 26Z" fill="#94694B"/>-->
-<!--        </svg>-->
-<!--       </button>-->
+            <div class="carrousel-text">
+                <h6>Uurloon</h6>
+                <p>Bij Lux-Eventos begrijpen we dat jouw talent van onschatbare waarde zijn. Daarom streven we ernaar om
+                    niet alleen een uitzonderlijke werkomgeving te bieden, maar ook een eerlijk en concurrerend uurloon
+                    dat
+                    jou weerspiegelt.
 
-    <div class="carrousel">
+                    In vergelijking met onze concurrenten nemen wij de beloning van freelancers serieus. Wij zijn
+                    trots om een bovengemiddeld uurloon aan te bieden, omdat we geloven dat jouw inzet van
+                    waarde zijn.</p>
+            </div>
 
-        <div class="carrousel-text">
-            <h6>Uurloon</h6>
-            <p>Bij Lux-Eventos begrijpen we dat jouw talent van onschatbare waarde zijn. Daarom streven we ernaar om
-                niet alleen een uitzonderlijke werkomgeving te bieden, maar ook een eerlijk en concurrerend uurloon dat
-                jou weerspiegelt.
+            <div class="carrousel-text">
+                <h6>Variatie in opdrachten</h6>
+                <p>Als freelancer heb je bij ons toegang tot een breed scala aan opdrachten in de horeca en
+                    events. Of het nu gaat om een intiem diner, een grootse bruiloft, of een zakelijk evenement,
+                    er wacht altijd een nieuwe uitdaging op je.</p>
+            </div>
 
-                In vergelijking met onze concurrenten nemen wij de beloning van freelancers serieus. Wij zijn
-                trots om een bovengemiddeld uurloon aan te bieden, omdat we geloven dat jouw inzet van
-                waarde zijn.</p>
+            <div class="carrousel-text">
+                <h6>Flexibiliteit</h6>
+                <p>Wij begrijpen de waarde van flexibiliteit. Als freelancer bepaal jij zelf welke opdrachten bij jou
+                    passen en wanneer je beschikbaar bent. Jouw agenda, jouw regels.</p>
+            </div>
+
+            <div class="carrousel-text">
+                <h6>Ondersteuning en samenwerking</h6>
+                <p>Bij Lux-Eventos geloven we in samenwerking en ondersteuning. Ons team staat altijd voor je
+                    klaar om je te begeleiden, vragen te beantwoorden en successen te vieren.</p>
+            </div>
+
+            <div>
+                <div class="page-indicator">
+                    {#each Array.from({length: data.homepages.length}) as _, i}
+                        <span class="page-indicator-dot active {i === activeDotIndex ? 'active' : ''}"></span>
+                        <span class="page-indicator-dot"></span>
+                        <span class="page-indicator-dot"></span>
+                        <span class="page-indicator-dot"></span>
+                    {/each}
+                </div>
+
+
+            </div>
+
         </div>
-
-        <div class="carrousel-text">
-            <h6>Variatie in opdrachten</h6>
-            <p>Als freelancer heb je bij ons toegang tot een breed scala aan opdrachten in de horeca en
-                events. Of het nu gaat om een intiem diner, een grootse bruiloft, of een zakelijk evenement,
-                er wacht altijd een nieuwe uitdaging op je.</p>
-        </div>
-
-        <div class="carrousel-text" >
-            <h6>Flexibiliteit</h6>
-            <p>Wij begrijpen de waarde van flexibiliteit. Als freelancer bepaal jij zelf welke opdrachten bij jou
-                passen en wanneer je beschikbaar bent. Jouw agenda, jouw regels.</p>
-        </div>
-
-        <div class="carrousel-text" >
-            <h6>Ondersteuning en samenwerking</h6>
-            <p>Bij Lux-Eventos geloven we in samenwerking en ondersteuning. Ons team staat altijd voor je
-                klaar om je te begeleiden, vragen te beantwoorden en successen te vieren.</p>
-        </div>
-
-        <div>
-        <div class="page-indicator">
-            {#each Array.from({ length: data.homepages.length }) as _, i}
-                <span class="page-indicator-dot active {i === activeDotIndex ? 'active' : ''}"></span>
-                <span class="page-indicator-dot"></span>
-                <span class="page-indicator-dot"></span>
-                <span class="page-indicator-dot"></span>
-            {/each}
     </div>
-
-
-    </div>
-
-    </div>
-
-
 
 
 </section>
@@ -147,16 +136,14 @@
     }
 
     .svg-container {
-        width: 7%; /* Adjust this value as needed */
-        margin-left: 5%; /* Adjust this value as needed */
+        width: 7%;
+        margin-left: 5%;
     }
 
     .svg-container svg {
-        width: 100%; /* Make the SVG fill its container */
-        height: auto; /* Maintain aspect ratio */
+        width: 100%;
+        height: auto;
     }
-
-
 
     h5, span {
         font-family: "cormorant-garamond", serif;
@@ -189,12 +176,12 @@
         padding-bottom: 8rem;
     }
 
-    .carrousel-container{
+    .carrousel-container {
         display: flex;
         justify-content: center;
         align-items: center;
         position: relative;
-        margin-top: 4rem;
+        margin-top: 1rem;
         padding-bottom: 5rem;
     }
 
@@ -230,11 +217,8 @@
     }
 
     .carrousel-text {
-        /* Laat afbeeldingen niet groeien */
         flex-grow: 0;
-        /* Laat afbeeldingen niet kleiner worden */
         flex-shrink: 0;
-        /* Maak ze standaard 100% breed */
         flex-basis: 100%;
         scroll-snap-align: center;
     }
@@ -258,7 +242,6 @@
     .page-indicator-dot.active {
         background-color: var(--color-dark-brown);
     }
-
 
 
 </style>

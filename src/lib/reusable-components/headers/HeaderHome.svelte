@@ -1,5 +1,6 @@
 <script>
     import HeaderImgHome from '$lib/assets/header-home.png'
+
 </script>
 
 <header>
@@ -7,7 +8,11 @@
 
     <article>
         <h1>Het event team op maat gemaakt, <span>JOUW</span> succes begint met <span>ONZE</span> selectie</h1>
+        <a href="/voor-opdrachtgevers" >
+            <button type="button">Ontdek nu!</button>
+        </a>
     </article>
+
 </header>
 
 
@@ -46,7 +51,6 @@
         width: 100%;
         height: 100vh;
         overflow-y: hidden;
-
         background-color: black;
 
     }
@@ -57,6 +61,34 @@
         filter: grayscale(1);
     }
 
+    a {
+        position: absolute;
+        top: 80%;
+    }
+
+    button {
+        margin-top: 2rem;
+        font-family: "roboto", serif;
+        font-weight: 300;
+        font-style: normal;
+        background-color: transparent;
+        display: inline-block;
+        padding: 10px 20px;
+        border: 2px solid white;
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+        transition: border-color 0.3s ease;
+        letter-spacing: 0.2rem;
+    }
+
+    button:hover {
+        border-radius: 5px;
+        transition: ease 1s;
+        border: 2px solid var(--background-color-medium);
+        color: var(--background-color-medium);
+    }
 
 
 

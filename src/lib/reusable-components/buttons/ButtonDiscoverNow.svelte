@@ -1,4 +1,4 @@
-<a href="https://app.fleks.works/applicants/new-applicant/lux-eventos" >
+<a href="/voor-opdrachtgevers" >
     <button class="outlined-button" type="button">Meld je nu aan!</button>
 </a>
 
