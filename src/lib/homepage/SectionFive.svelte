@@ -11,15 +11,18 @@
 
             <ul>
                 <li>
-                    <span>1. Aanmelden:</span> Registreer je als freelancer op onze website en vul je profiel in. We willen alles
+                    <span>1. Aanmelden:</span> Registreer je als freelancer op onze website en vul je profiel in. We
+                    willen alles
                     weten over jouw ervaring, passies en specialiteiten.
                 </li>
                 <li>
-                   <span> 2. Matchmaking:</span> Ons zorgvuldige selectieproces zorgt ervoor dat we niet alleen de beste freelancers
+                    <span> 2. Matchmaking:</span> Ons zorgvuldige selectieproces zorgt ervoor dat we niet alleen de
+                    beste freelancers
                     aantrekken, maar ook degenen die perfect passen bij de unieke eisen van onze opdrachten.
                 </li>
                 <li>
-                    <span>3. Samenwerking:</span> Zodra je bent geselecteerd voor een opdracht, begint de samenwerking. Werk samen
+                    <span>3. Samenwerking:</span> Zodra je bent geselecteerd voor een opdracht, begint de samenwerking.
+                    Werk samen
                     met ons en ontdek hoe het is om deel uit te maken van een team dat jouw succes centraal stelt.
                 </li>
             </ul>
@@ -27,6 +30,7 @@
             <p>{homepage.beschrijving5}</p>
             <ButtonSingUp data={data}/>
         </article>
+
     {/each}
 
 
@@ -89,7 +93,7 @@
         margin-bottom: 2rem;
     }
 
-    li  span {
+    li span {
         font-weight: 600;
         font-style: normal;
     }
