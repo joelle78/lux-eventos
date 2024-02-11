@@ -1,1 +1,1 @@
-<button type="button">Meld mij nu aan!</button>
+<button  type="button">Meld mij nu aan!</button>

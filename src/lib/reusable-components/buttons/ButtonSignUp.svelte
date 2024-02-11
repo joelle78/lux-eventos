@@ -1,1 +1,1 @@
-<button type="button">Meld je nu aan!</button>
+<a href="https://app.fleks.works/applicants/new-applicant/lux-eventos"><button type="button">Meld je nu aan!</button></a>
