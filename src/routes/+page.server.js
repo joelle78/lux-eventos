@@ -12,8 +12,10 @@ query MyQuery {
     titel3
     beschrijving3
     titel4
-    nummeredList4
     beschrijving4
+    titel5
+    beschrijving5
+    nummeredList5
   }
   assets {
     url

@@ -5,12 +5,14 @@
 <section class="section-one">
 {#each data.homepages as homepage }
     <article>
+
+        <div class="svg-container">
         <svg width="97" height="85" viewBox="0 0 97 85" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M3 85V3H97" stroke="#94694B" stroke-width="5"/>
         </svg>
+        </div>
 
-<!--        <h2>{homepage.titel}</h2>-->
-        <h2>WELKOM BIJ<span>Lux-Eventos</span></h2>
+        <h2>WELKOM BIJ <span>Lux-Eventos</span></h2>
         <p>{homepage.beschrijving}</p>
 
     </article>
@@ -26,11 +28,21 @@
         padding-top: 11rem;
     }
 
-    svg {
-        position: absolute;
-        top: 118vh;
-        left: 6%;
+    .svg-container {
+        width: 7%; /* Adjust this value as needed */
+        margin-left: 5%; /* Adjust this value as needed */
     }
+
+    svg {
+        width: 100%; /* Make the SVG fill its container */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    /*svg {*/
+    /*    position: absolute;*/
+    /*    top: 118vh;*/
+    /*    left: 6%;*/
+    /*}*/
 
     h2, span {
         font-family: "cormorant-garamond", serif;

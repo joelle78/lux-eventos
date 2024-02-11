@@ -68,7 +68,7 @@
         position: relative;
         width: 25%;
         left: 49vw;
-        margin-top: 7rem;
+        margin-top: 15rem;
 
     }
 

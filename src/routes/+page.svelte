@@ -5,6 +5,9 @@
     import SectionTwo from "$lib/homepage/SectionTwo.svelte";
     import SectionThree from "$lib/homepage/SectionThree.svelte";
     import SectionFour from "$lib/homepage/SectionFour.svelte";
+    import SectionFive from "$lib/homepage/SectionFive.svelte";
+
+
 
     export let data
 </script>
@@ -17,6 +20,7 @@
 <SectionTwo data={data} />
 <SectionThree data={data} />
 <SectionFour data={data} />
+<SectionFive data={data} />
 
 
 
