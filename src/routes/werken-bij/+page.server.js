@@ -12,6 +12,7 @@ query MyQuery {
     quote2
     beschrijving2
     titel3
+    titelPijlers
     pijlers3 {
       text
     }
