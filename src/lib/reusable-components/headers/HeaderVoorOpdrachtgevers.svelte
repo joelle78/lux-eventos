@@ -6,7 +6,7 @@
     <img src={HeaderImgVoorOpdrachtgevers} alt="" aria-label="">
 
     <article>
-        <h1>Waar Horeca en Talent Samenkomen!</h1>
+        <h1>Waar <span>HORECA</span> en <span>TALENT</span> samenkomen!</h1>
     </article>
 </header>
 
@@ -15,13 +15,21 @@
 <style>
 
     h1 {
+        font-family: "roboto", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        font-size: var(--header-two);
         text-align: center;
         position: absolute;
-        font-size: 3rem;
-        line-height: 4rem;
         color: white;
         top: 40%;
         width: 80%;
+    }
+
+    span {
+        font-family: "cormorant-garamond", serif;
+        font-weight: 900;
+        font-style: normal;
     }
 
     article {

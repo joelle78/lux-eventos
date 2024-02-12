@@ -162,7 +162,7 @@
     }
 
     .card-container {
-        outline: 3px solid var(--color-dark-brown);
+        outline: 2px solid var(--color-dark-brown);
         width: 100%;
         height: 50vh;
     }
