@@ -6,7 +6,7 @@
     <img src={HeaderImgOverOns} alt="" aria-label="">
 
     <article>
-        <h1>Waar talent en gastvrijheid samenkomen voor onvergetelijke evenementen!</h1>
+        <h1>Waar <span>TALENT</span> en <span>GASTVRIJHEID</span> samenkomen voor <span>ONVERGETELIJKE</span> evenementen!</h1>
     </article>
 </header>
 
@@ -15,14 +15,23 @@
 <style>
 
     h1 {
+        font-family: "roboto", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        font-size: var(--header-two);
         text-align: center;
         position: absolute;
-        font-size: 3rem;
-        line-height: 4rem;
         color: white;
         top: 40%;
         width: 80%;
     }
+
+    span {
+        font-family: "cormorant-garamond", serif;
+        font-weight: 900;
+        font-style: normal;
+    }
+
 
     article {
         display: flex;
@@ -43,7 +52,7 @@
         width: 100%;
         object-fit: cover;
         filter: grayscale(1);
-        opacity: 0.6;
+        opacity: 0.4;
     }
 
 

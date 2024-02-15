@@ -7,6 +7,7 @@
 <section>
 {#each data.voorOpdrachtgeversPages as opdrachtgevers }
     <article>
+
         <div class="flex-text-container-1">
             <img src={image6} alt="Description of the image"/>
             <h2>ONTDEK <span>Lux-Eventos</span></h2>
