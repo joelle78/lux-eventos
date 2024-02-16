@@ -9,6 +9,12 @@
     {#each data.overOnsPages as overOns }
         <article>
 
+            <div class="svg-container">
+            <svg width="37" height="25" viewBox="0 0 97 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 85V3H97" stroke="white" stroke-width="5"/>
+            </svg>
+            </div>
+
             <h3>HET TEAM</h3>
 
             <div class="flex-container-1">
@@ -33,6 +39,16 @@
     section {
         padding-top: 10rem;
         background-color: var(--background-color-dark);
+    }
+
+    .svg-container {
+        width: 7%; /* Adjust this value as needed */
+        margin-left: 5%; /* Adjust this value as needed */
+    }
+
+    svg {
+        width: 100%; /* Make the SVG fill its container */
+        height: auto; /* Maintain aspect ratio */
     }
 
     h3 {

@@ -172,7 +172,7 @@
         font-style: normal;
         font-size: var(--paragraph);
         line-height: 2.8rem;
-        margin: 2rem 0 0 24rem;
+        margin: 2rem 0 0 20rem;
         padding-bottom: 8rem;
     }
 
@@ -196,8 +196,8 @@
     }
 
     h6 {
-        font-family: "cormorant-garamond", serif;
-        font-weight: 600;
+        font-family: "roboto", serif;
+        font-weight: 300;
         font-style: normal;
         text-align: center;
         font-size: var(--header-three);

@@ -5,6 +5,7 @@
     import SectionOne from "$lib/voor-opdrachtgevers-page/SectionOne.svelte";
     import SectionTwo from "$lib/voor-opdrachtgevers-page/SectionTwo.svelte";
     import SectionThree from "$lib/voor-opdrachtgevers-page/SectionThree.svelte";
+    import SectionFour from "$lib/voor-opdrachtgevers-page/SectionFour.svelte";
 
 
     export let data;
@@ -16,3 +17,4 @@
 <SectionOne data={data} />
 <SectionTwo data={data}/>
 <SectionThree data={data}/>
+<SectionFour data={data}/>

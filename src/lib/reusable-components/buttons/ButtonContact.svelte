@@ -1,4 +1,4 @@
-<a href="/contact">
+<a href="#contact-employees">
 <button type="button">Neem contact op!</button>
 </a>
 
