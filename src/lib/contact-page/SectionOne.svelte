@@ -52,6 +52,8 @@
         background-color: var(--background-color-light);
     }
 
+
+
     h5 {
         font-family: "cormorant-garamond", serif;
         font-weight: 400;
@@ -136,6 +138,7 @@
 
     button {
         margin-top: 2rem;
+        margin-bottom: 5rem;
         font-family: "roboto", serif;
         font-weight: 400;
         font-style: normal;
