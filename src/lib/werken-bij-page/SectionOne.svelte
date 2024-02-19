@@ -8,7 +8,7 @@
     {#each data.werkenBijPages as werkenBijPage }
 
         <article>
-            <h2>JOUW <span>event</span> REIS <span class="span-next-line">begint hier</span></h2>
+            <h2 id="your-trip">JOUW <span>event</span> REIS <span class="span-next-line">begint hier</span></h2>
             <img src={image4} alt="Description of the image"/>
 
             <div class="text-container">

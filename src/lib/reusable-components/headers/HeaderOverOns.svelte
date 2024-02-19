@@ -8,6 +8,16 @@
     <article>
         <h1>Waar <span>TALENT</span> en <span>GASTVRIJHEID</span> samenkomen voor <span>ONVERGETELIJKE</span> evenementen!</h1>
     </article>
+
+    <div class="flex-container-arrow">
+    <a href="#mission">
+        <svg width="49" height="32" viewBox="0 0 59 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M57.7984 0.542852L29.7882 40.4509L1.70059 0.597358L57.7984 0.542852Z" stroke="white"/>
+        </svg>
+
+    </a>
+    </div>
+
 </header>
 
 
@@ -53,6 +63,17 @@
         object-fit: cover;
         filter: grayscale(1);
         opacity: 0.4;
+    }
+
+    .flex-container-arrow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a {
+        position: absolute;
+        top: 90%;
     }
 
 

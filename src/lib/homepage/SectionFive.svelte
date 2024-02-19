@@ -56,17 +56,17 @@
         font-style: italic;
     }
 
-    p {
-        font-family: "roboto", sans-serif;
-        font-weight: 300;
-        font-style: italic;
-        font-size: var(--paragraph);
-        line-height: 2.2rem;
-        width: 50%;
-        margin-bottom: 1rem;
-        margin-left: 20rem;
+    /*p {*/
+    /*    font-family: "roboto", sans-serif;*/
+    /*    font-weight: 300;*/
+    /*    font-style: italic;*/
+    /*    font-size: var(--paragraph);*/
+    /*    line-height: 2.2rem;*/
+    /*    width: 50%;*/
+    /*    margin-bottom: 1rem;*/
+    /*    margin-left: 20rem;*/
 
-    }
+    /*}*/
 
     .section-five {
         background-color: var(--background-color-medium);

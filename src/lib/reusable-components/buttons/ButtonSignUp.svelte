@@ -4,7 +4,6 @@
 
 <style>
     button {
-        margin-top: 2rem;
         font-family: "roboto", serif;
         font-weight: 400;
         font-style: normal;

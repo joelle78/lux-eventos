@@ -7,7 +7,7 @@
 <section>
 {#each data.overOnsPages as overOns }
     <article>
-        <h2>ONZE MISSIE</h2>
+        <h2 id="mission">ONZE MISSIE</h2>
         <div class="flex-container-1">
             <p>{overOns.beschrijving}</p>
             <div class="color-background-1"></div>

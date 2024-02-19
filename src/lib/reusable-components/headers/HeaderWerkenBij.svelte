@@ -8,6 +8,15 @@
     <article>
         <h1>Ontdek <span>OP MAAT</span> gemaakte opdrachten die passen bij <span>JOUW</span> expertise en ambities</h1>
     </article>
+
+    <div class="flex-container-arrow">
+        <a href="#your-trip">
+            <svg width="49" height="32" viewBox="0 0 59 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M57.7984 0.542852L29.7882 40.4509L1.70059 0.597358L57.7984 0.542852Z" stroke="white"/>
+            </svg>
+
+        </a>
+    </div>
 </header>
 
 
@@ -54,6 +63,17 @@
         width: 100%;
         object-fit: cover;
         filter: grayscale(1);
+    }
+
+    .flex-container-arrow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a {
+        position: absolute;
+        top: 90%;
     }
 
 
