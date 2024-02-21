@@ -39,9 +39,9 @@
 
     .span-next-line {
         display: block;
-        font-family: "abril-fatface", sans-serif;
+        font-family: "cormorant-garamond", sans-serif;
         font-weight: 300;
-        font-style: italic;
+        font-style: normal;
         font-size: var(--header-one);
         margin-top: 2rem;
         margin-left: 17rem;

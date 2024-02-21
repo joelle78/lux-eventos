@@ -165,10 +165,10 @@
     p {
         text-align: left;
         font-family: "roboto", serif;
-        font-weight: 300;
+        font-weight: 200;
         font-style: normal;
-        font-size:var(--paragraph);
-        line-height: 2.1rem;
+        font-size: 1.5rem;
+        line-height: 3rem;
     }
 
     .flex-container-freelancers-top {

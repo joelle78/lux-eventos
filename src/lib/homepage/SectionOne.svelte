@@ -1,5 +1,7 @@
 <script>
     export let data
+
+    
 </script>
 
 <section class="section-one">
@@ -15,11 +17,16 @@
         <h2>WELKOM BIJ <span>Lux-Eventos</span></h2>
         <p>{homepage.beschrijving}</p>
 
+
     </article>
 {/each}
 </section>
 
 <style>
+
+
+
+
     .section-one {
         background-color: var(--background-color-light);
     }
@@ -74,6 +81,7 @@
         margin: 2rem 0 0 24rem;
         padding-bottom: 8rem;
     }
+
 
 
 </style>

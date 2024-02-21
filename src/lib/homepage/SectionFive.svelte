@@ -8,7 +8,7 @@
     {#each data.homepages as homepage }
         <article>
 
-            <h6>Hoe word je onderdeel van <span class="span-1">ons team?</span></h6>
+            <h6>Hoe word je onderdeel van <span>ons team?</span></h6>
 <!--            <p>{homepage.beschrijving5}</p>-->
 
             <ul>
@@ -50,18 +50,10 @@
         margin-bottom: 3rem;
     }
 
-    .span-1 {
-        font-family: "abril-fatface", sans-serif;
-        font-weight: 200;
-        font-style: italic;
-        display: block;
-        margin-top: 1rem;
-    }
-
     span {
         font-family: "roboto", sans-serif;
-        font-weight: 200;
-        font-style: italic;
+        font-weight: 300;
+        font-style: normal;
     }
 
     /*p {*/
