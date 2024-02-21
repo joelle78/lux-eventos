@@ -49,7 +49,7 @@
 
 <style>
     section {
-        background-color: var(--background-color-light);
+        background-color: var(--background-color-medium);
     }
 
 

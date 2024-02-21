@@ -20,8 +20,8 @@
 
     // Function to update the carousel display
     function updateCarousel() {
-        const carouselItemsV = document.querySelectorAll('.carrousel-text-v');
-        const carouselItemsA = document.querySelectorAll('.carrousel-text-a');
+        const carouselItemsV = document.querySelectorAll('.carrousel-text-v-w');
+        const carouselItemsA = document.querySelectorAll('.carrousel-text-a-w');
 
         carouselItemsV.forEach((item, index) => {
             item.style.display = index === currentIndex ? 'block' : 'none';
@@ -40,6 +40,7 @@
         };
     });
 
+
 </script>
 
 
@@ -48,7 +49,7 @@
 
         <article>
 
-            <h3>VOOR FREELANCERS</h3>
+            <h3>VOOR WERKGEVERS</h3>
             <div class="flex-container-freelancers-top">
                 <svg width="630" height="7" viewBox="0 0 630 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M630 4L0.000158251 3.09691" stroke="#94694B" stroke-width="4.72125"/>
@@ -63,32 +64,32 @@
             <div class="carrousel-container">
                 <div class="carrousel">
 
-                    <div class="carrousel-container-v" >
+                    <div class="carrousel-container-v-w" >
 
-                    <div class="carrousel-text-v ">
+                        <div class="carrousel-text-v-w ">
 
-                        <p> {contactpage.freelancersVraag1}</p>
-                    </div>
+                            <p> {contactpage.werkgeversVraag1}</p>
+                        </div>
 
-                    <div class="carrousel-text-v ">
+                        <div class="carrousel-text-v-w ">
 
-                        <p> {contactpage.freelancersVraag2}</p>
-                    </div>
+                            <p> {contactpage.werkgeversVraag2}</p>
+                        </div>
 
-                    <div class="carrousel-text-v ">
+                        <div class="carrousel-text-v-w ">
 
-                        <p> {contactpage.freelancersVraag3}</p>
-                    </div>
+                            <p> {contactpage.werkgeversVraag3}</p>
+                        </div>
 
-                    <div class="carrousel-text-v ">
+                        <div class="carrousel-text-v-w ">
 
-                        <p> {contactpage.freelancersVraag4}</p>
-                    </div>
+                            <p> {contactpage.werkgeversVraag4}</p>
+                        </div>
 
-                    <div class="carrousel-text-v ">
+                        <div class="carrousel-text-v-w ">
 
-                        <p> {contactpage.freelancersVraag5}</p>
-                    </div>
+                            <p> {contactpage.werkgeversVraag5}</p>
+                        </div>
 
                     </div>
 
@@ -98,30 +99,30 @@
 
 
                     <div class="carrousel-container-a" >
-                    <div class="carrousel-text-a" >
+                        <div class="carrousel-text-a-w" >
 
-                        <p>{contactpage.freelancersAntwoord1}</p>
-                    </div>
+                            <p>{contactpage.werkgeversAntwoord1}</p>
+                        </div>
 
-                    <div class="carrousel-text-a ">
+                        <div class="carrousel-text-a-w ">
 
-                        <p>{contactpage.freelancersAntwoord2}</p>
-                    </div>
+                            <p>{contactpage.werkgeversAntwoord2}</p>
+                        </div>
 
-                    <div class="carrousel-text-a ">
+                        <div class="carrousel-text-a-w ">
 
-                        <p>{contactpage.freelancersAntwoord3}</p>
-                    </div>
+                            <p>{contactpage.werkgeversAntwoord3}</p>
+                        </div>
 
-                    <div class="carrousel-text-a ">
+                        <div class="carrousel-text-a-w ">
 
-                        <p>{contactpage.freelancersAntwoord4}</p>
-                    </div>
+                            <p>{contactpage.werkgeversAntwoord4}</p>
+                        </div>
 
-                    <div class="carrousel-text-a ">
+                        <div class="carrousel-text-a-w ">
 
-                        <p>{contactpage.freelancersAntwoord5}</p>
-                    </div>
+                            <p>{contactpage.werkgeversAntwoord5}</p>
+                        </div>
 
                     </div>
 
@@ -129,8 +130,8 @@
             </div>
 
             <div class="button-container">
-            <button class="left-button" on:click={previous}> VORIGE </button>
-            <button class="right-button" on:click={next}> VOLGENDE </button>
+                <button class="left-button" on:click={previous}> VORIGE </button>
+                <button class="right-button" on:click={next}> VOLGENDE </button>
             </div>
         </article>
     {/each}
@@ -144,7 +145,7 @@
 
     section {
         padding-top: 10rem;
-        background-color: var(--background-color-light);
+        background-color: var(--background-color-medium);
     }
 
     h3 {
@@ -197,7 +198,7 @@
         gap: 5rem;
     }
 
-    .carrousel-container-v {
+    .carrousel-container-v-w {
         display: flex;
         flex-direction: row;
         overflow: auto;
@@ -216,7 +217,7 @@
 
     }
 
-    .carrousel-text-v {
+    .carrousel-text-v-w {
         width: 20%;
         flex-grow: 0;
         flex-shrink: 0;
@@ -224,14 +225,14 @@
         scroll-snap-align: center;
     }
 
-    .carrousel-text-a {
+    .carrousel-text-a-w {
         width: 20%;
         flex-grow: 0;
         flex-shrink: 0;
         flex-basis: 100%;
         scroll-snap-align: center;
     }
-    
+
     .button-container {
         position: relative;
         top:-20vh;
