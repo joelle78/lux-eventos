@@ -11,7 +11,7 @@
 
 
     <article>
-        <h3>Word <span>DE TOPPER</span> bij <span class="span-new-line">Lux-Eventos</span></h3>
+        <h3>WORD <span>DE TOPPER</span> BIJ <span class="span-new-line">LUX-EVENTOS</span></h3>
         <p>{werkenBijPage.intro2}</p>
 
         <div class="image-color-container"></div>
@@ -33,8 +33,8 @@
     h3 {
         padding-top: 10rem;
         font-size: var(--header-one);
-        font-family: "roboto", serif;
-        font-weight: 200;
+        font-family: "cormorant-garamond", serif;
+        font-weight: 400;
         font-style: normal;
         text-align: center;
         line-height: 4rem;
@@ -48,18 +48,20 @@
         margin-top: 2rem;
         letter-spacing: 0.1rem;
 
+
     }
 
     span {
         font-size: var(--header-one);
         font-family: "cormorant-garamond", serif;
-        font-weight: 800;
+        font-weight: 400;
     }
 
     .span-new-line {
-        font-family: "roboto", serif;
-        font-weight: 200;
-        font-style: italic;
+        font-family: "cormorant-garamond", serif;
+        font-weight: 400;
+        font-style: normal;
+
     }
 
 

@@ -53,6 +53,7 @@
     section {
         background-color: var(--background-color-medium);
         padding-top: 8rem;
+        padding-bottom: 8rem;
     }
 
     h5 {

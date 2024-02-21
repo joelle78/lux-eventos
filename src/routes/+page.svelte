@@ -6,6 +6,7 @@
     import SectionThree from "$lib/homepage/SectionThree.svelte";
     import SectionFour from "$lib/homepage/SectionFour.svelte";
     import SectionFive from "$lib/homepage/SectionFive.svelte";
+    import Footer from "$lib/reusable-components/Footer.svelte";
 
 
 
@@ -21,6 +22,7 @@
 <SectionThree data={data} />
 <SectionFour data={data} />
 <SectionFive data={data} />
+<Footer/>
 
 
 

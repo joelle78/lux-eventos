@@ -8,7 +8,7 @@
     {#each data.werkenBijPages as werkenBijPage }
 
         <article>
-            <h2 id="your-trip">JOUW <span>event</span> REIS <span class="span-next-line">begint hier</span></h2>
+            <h2 id="your-trip">Jouw <span>event</span> reis <span class="span-next-line">begint hier</span></h2>
             <img src={image4} alt="Description of the image"/>
 
             <div class="text-container">
@@ -24,8 +24,8 @@
 
     h2 {
         font-size: var(--header-one);
-        font-family: "cormorant-garamond", serif;
-        font-weight: 400;
+        font-family: "roboto", sans-serif;
+        font-weight: 200;
         font-style: normal;
         margin: 0 0 7rem 8rem;
         line-height: 4rem;
@@ -39,10 +39,12 @@
 
     .span-next-line {
         display: block;
-        font-family: "roboto", sans-serif;
+        font-family: "abril-fatface", sans-serif;
         font-weight: 300;
         font-style: italic;
-        font-size: var(--header-two);
+        font-size: var(--header-one);
+        margin-top: 2rem;
+        margin-left: 17rem;
     }
 
     .text-container {

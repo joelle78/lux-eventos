@@ -57,10 +57,10 @@
 
     span {
         font-family: "roboto", sans-serif;
-        font-weight: 300;
-        font-style: italic;
+        font-weight: 200;
+        font-style: normal;
         font-size: var(--header-two);
-        margin-left: 8rem;
+        margin-left: 9rem;
         display: block;
     }
 

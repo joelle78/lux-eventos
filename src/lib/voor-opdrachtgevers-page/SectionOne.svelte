@@ -43,8 +43,9 @@
 
     span {
         font-family: "roboto", serif;
-        font-weight: 300;
-        font-style: italic;
+        font-weight: 200;
+        font-style: normal;
+        font-size: var(--header-one);
         display: block;
     }
 

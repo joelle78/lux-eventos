@@ -60,6 +60,7 @@
         right: 9%;
         line-height: 2.2rem;
         margin-top: 3rem;
+
     }
 
     .color-background-1 {

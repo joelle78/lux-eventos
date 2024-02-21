@@ -157,7 +157,7 @@
         flex-direction: row;
         gap: 2rem;
         width: 75%;
-        margin-bottom: 4rem;
+        margin-bottom: 8rem;
 
     }
 

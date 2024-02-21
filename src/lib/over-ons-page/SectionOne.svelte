@@ -27,7 +27,7 @@
 
 h2 {
     font-family: "cormorant-garamond", serif;
-    font-weight: 600;
+    font-weight: 400;
     font-style: normal;
     font-size: var(--header-one);
     margin-bottom: 5rem;

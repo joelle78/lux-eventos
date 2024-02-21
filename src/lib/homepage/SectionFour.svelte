@@ -146,8 +146,8 @@
     }
 
     h5, span {
-        font-family: "cormorant-garamond", serif;
-        font-weight: 400;
+        font-family: "cormorant-garamond", sans-serif;
+        font-weight: 200;
         font-style: normal;
         margin-left: 10rem;
     }
@@ -158,8 +158,8 @@
 
     span {
         font-family: "roboto", sans-serif;
-        font-weight: 300;
-        font-style: italic;
+        font-weight: 200;
+        font-style: normal;
         font-size: var(--header-two);
         margin-left: 1rem;
         display: block;
@@ -196,7 +196,7 @@
     }
 
     h6 {
-        font-family: "roboto", serif;
+        font-family: "roboto", sans-serif;
         font-weight: 300;
         font-style: normal;
         text-align: center;

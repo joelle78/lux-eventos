@@ -5,6 +5,7 @@
     import SectionOne from "$lib/werken-bij-page/SectionOne.svelte";
     import SectionTwo from "$lib/werken-bij-page/SectionTwo.svelte";
     import SectionThree from "$lib/werken-bij-page/SectionThree.svelte";
+    import Footer from "$lib/reusable-components/Footer.svelte";
     export let data;
 
 </script>
@@ -15,3 +16,4 @@
 <SectionOne data={data}/>
 <SectionTwo data={data}/>
 <SectionThree data={data}/>
+<Footer/>

@@ -5,6 +5,7 @@
     import SectionOne from "$lib/contact-page/SectionOne.svelte";
     import SectionTwo from "$lib/contact-page/SectionTwo.svelte";
     import SectionThree from "$lib/contact-page/SectionThree.svelte";
+    import Footer from "$lib/reusable-components/Footer.svelte";
 
 
     export let data;
@@ -15,3 +16,4 @@
 <SectionOne data={data} />
 <SectionTwo data={data} />
 <SectionThree data={data} />
+<Footer/>

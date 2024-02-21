@@ -5,6 +5,7 @@
     import HeaderOverOns from "$lib/reusable-components/headers/HeaderOverOns.svelte";
     import SectionOne from "$lib/over-ons-page/SectionOne.svelte";
     import SectionTwo from "$lib/over-ons-page/SectionTwo.svelte";
+    import Footer from "$lib/reusable-components/Footer.svelte";
 
     export let data;
 </script>
@@ -14,3 +15,4 @@
 
 <SectionOne data={data}/>
 <SectionTwo data={data}/>
+<Footer/>
