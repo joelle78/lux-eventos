@@ -167,8 +167,8 @@
         font-family: "fira-sans", serif;
         font-weight: 200;
         font-style: normal;
-        font-size: 1.5rem;
-        line-height: 3rem;
+        font-size: 1.3rem;
+        line-height: 2.2rem;
     }
 
     .flex-container-freelancers-top {

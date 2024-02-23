@@ -63,7 +63,7 @@
 
             <div class="svg-container">
                 <svg width="37" height="25" viewBox="0 0 97 85" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M3 85V3H97" stroke="#B8A096" stroke-width="5"/>
+                    <path d="M3 85V3H97" stroke="#B8A096" stroke-width="3"/>
                 </svg>
             </div>
 
