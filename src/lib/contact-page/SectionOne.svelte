@@ -66,8 +66,8 @@
 
     p {
         text-align: center;
-        font-family: "roboto", serif;
-        font-weight: 300;
+        font-family: "fira-sans", sans-serif;
+        font-weight: 200;
         font-style: normal;
         font-size: var(--paragraph);
         width: 70%;
@@ -76,16 +76,16 @@
     }
 
     label {
-        font-family: "roboto", serif;
-        font-weight: 300;
+        font-family: "fira-sans", sans-serif;
+        font-weight: 200;
         font-style: normal;
         font-size: var(--paragraph);
         display: block;
     }
 
     input {
-        font-family: "roboto", serif;
-        font-weight: 300;
+        font-family: "fira-sans", sans-serif;
+        font-weight: 200;
         font-style: normal;
         font-size: 1rem;
         width: 20rem;
@@ -94,8 +94,8 @@
     }
 
     textarea {
-        font-family: "roboto", serif;
-        font-weight: 300;
+        font-family: "fira-sans", sans-serif;
+        font-weight: 200;
         font-style: normal;
         font-size: 1rem;
         width: 43rem;
@@ -133,7 +133,7 @@
 
     input:focus,
     textarea:focus {
-        outline: 2px solid var(--color-dark-brown);
+        outline: 2px solid var(--color-beige);
     }
 
     button {
@@ -145,7 +145,7 @@
         background-color: transparent;
         display: inline-block;
         padding: 10px 20px;
-        border: 2px solid var(--color-dark-brown); /* Border color */
+        border: 2px solid var(--color-beige); /* Border color */
         color: black;
         text-decoration: none;
         font-size: 16px;

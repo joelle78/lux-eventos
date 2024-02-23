@@ -34,7 +34,7 @@
 
     h2 {
         font-family: "cormorant-garamond", serif;
-        font-weight: 400;
+        font-weight: 200;
         font-style: normal;
         font-size: var(--header-one);
         margin-left: 2rem;
@@ -42,9 +42,9 @@
     }
 
     span {
-        font-family: "roboto", serif;
-        font-weight: 200;
-        font-style: normal;
+        font-family: "amaranth", serif;
+        font-weight: 100;
+        font-style: italic;
         font-size: var(--header-one);
         display: block;
     }
@@ -61,11 +61,11 @@
     }
 
     .flex-text-container-2 p{
-        font-family: "roboto", serif;
-        font-weight: 300;
+        font-family: "fira-sans", serif;
+        font-weight: 200;
         font-style: normal;
         font-size: var(--paragraph);
-        line-height: 2rem;
+        line-height: 2.2rem;
         margin-bottom: 8rem;
     }
     
@@ -78,7 +78,7 @@
     }
     .test p{
         width: 78%;
-        margin-top: 1.5rem;
+        margin-top: 1.7rem;
         margin-left: 3.1rem;
         margin-bottom: 2rem;
     }

@@ -20,14 +20,14 @@
 <style>
 
     h1 {
-        font-family: "roboto", sans-serif;
+        font-family: "fira-sans", sans-serif;
         font-weight: 200;
         font-style: normal;
         font-size: var(--header-two);
         text-align: center;
         position: absolute;
         line-height: 5rem;
-        letter-spacing: 0.3rem;
+        letter-spacing: 0.2rem;
         color: white;
         top: 40%;
         width: 80%;

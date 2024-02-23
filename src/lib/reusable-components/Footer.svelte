@@ -4,6 +4,10 @@
 
 <footer>
 
+    <div class="flex-container-line">
+    <hr class="line-footer">
+    </div>
+
     <ul>
 
         <li>
@@ -29,6 +33,19 @@
         background-color: var(--background-color-light);
     }
 
+    .flex-container-line {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+     .line-footer {
+         border: 1px solid var(--color-beige);
+         width: 80%;
+         margin-top: 2rem;
+
+    }
+
     ul {
         padding-top: 8rem;
         padding-bottom: 1rem;
@@ -39,8 +56,8 @@
 
     li {
         color: black;
-        font-family: "cormorant-garamond", serif;
-        font-weight: 800;
+        font-family: "fira-sans", serif;
+        font-weight: 200;
         font-style: normal;
         font-size: var(--paragraph);
     }

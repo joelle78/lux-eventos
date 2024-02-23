@@ -22,10 +22,11 @@
 
 <style>
 
+
     h2 {
         font-size: var(--header-one);
-        font-family: "roboto", sans-serif;
-        font-weight: 200;
+        font-family: "fira-sans", sans-serif;
+        font-weight: 100;
         font-style: normal;
         margin: 0 0 7rem 8rem;
         line-height: 4rem;
@@ -33,15 +34,15 @@
 
     span {
         font-size: var(--header-one);
-        font-family: "roboto", serif;
-        font-weight: 200;
+        font-family: "fira-sans", serif;
+        font-weight: 100;
     }
 
     .span-next-line {
         display: block;
-        font-family: "cormorant-garamond", sans-serif;
-        font-weight: 300;
-        font-style: normal;
+        font-family: "amaranth", serif;
+        font-weight: 400;
+        font-style: italic;
         font-size: var(--header-one);
         margin-top: 2rem;
         margin-left: 17rem;
@@ -59,8 +60,8 @@
 
     p {
         font-size: var(--paragraph);
-        font-family: "roboto", sans-serif;
-        font-weight: 300;
+        font-family: "fira-sans", sans-serif;
+        font-weight: 200;
         text-align: left;
         line-height: 2.5rem;
         width: 65%;
@@ -70,7 +71,7 @@
 
     .section-one-work-at {
         background-color: var(--background-color-medium);
-        padding-top: 8rem;
+        padding-top: 10rem;
         height: 160vh;
     }
 

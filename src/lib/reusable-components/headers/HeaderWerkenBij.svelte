@@ -30,11 +30,11 @@
         font-size: var(--header-two);
         text-align: center;
         position: absolute;
-        line-height: 5rem;
+        line-height: 4rem;
         letter-spacing: 0.3rem;
         color: white;
         top: 40%;
-        width: 80%;
+        width: 75%;
     }
 
     span {

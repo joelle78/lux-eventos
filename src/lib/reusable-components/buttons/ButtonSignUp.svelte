@@ -10,7 +10,7 @@
         background-color: transparent;
         display: inline-block;
         padding: 10px 20px;
-        border: 2px solid var(--color-dark-brown); /* Border color */
+        border: 3px solid var(--color-beige); /* Border color */
         color: black;
         text-decoration: none;
         font-size: 16px;

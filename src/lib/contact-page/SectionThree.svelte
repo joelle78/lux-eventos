@@ -52,11 +52,11 @@
             <h3>VOOR WERKGEVERS</h3>
             <div class="flex-container-freelancers-top">
                 <svg width="630" height="7" viewBox="0 0 630 7" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M630 4L0.000158251 3.09691" stroke="#94694B" stroke-width="4.72125"/>
+                    <path d="M630 4L0.000158251 3.09691" stroke="#B8A096" stroke-width="2"/>
                 </svg>
                 <h4>FAQ</h4>
                 <svg width="630" height="7" viewBox="0 0 630 7" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M630 4L0.000158251 3.09691" stroke="#94694B" stroke-width="4.72125"/>
+                    <path d="M630 4L0.000158251 3.09691" stroke="#B8A096" stroke-width="2"/>
                 </svg>
             </div>
 
@@ -94,7 +94,7 @@
                     </div>
 
                     <svg class="svg-middle" width="6" height="644" viewBox="0 0 6 244" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3 0L3 644" stroke="#94694B" stroke-width="5"/>
+                        <path d="M3 0L3 444" stroke="#B8A096" stroke-width="2"/>
                     </svg>
 
 
@@ -165,7 +165,7 @@
 
     p {
         text-align: left;
-        font-family: "roboto", serif;
+        font-family: "fira-sans", serif;
         font-weight: 200;
         font-style: normal;
         font-size: 1.5rem;

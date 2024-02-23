@@ -9,7 +9,7 @@
 
     <div class="text-container">
     <article>
-        <h3>WIE ZIJN <span>WIJ?</span></h3>
+        <h3>Wie zijn <span>wij?</span></h3>
         <p>{homepage.beschrijving2}</p>
     </article>
     </div>
@@ -25,15 +25,15 @@
     }
 
     h3, p {
-        font-family: "roboto", sans-serif;
-        font-weight: 300;
+        font-family: "fira-sans", sans-serif;
+        font-weight: 200;
         font-style: normal;
         margin-left: 1rem;
     }
 
     h3 {
-        font-family: "cormorant-garamond", serif;
-        font-weight: 500;
+        font-family: "catamaran", serif;
+        font-weight: 200;
         font-size: var(--header-two);
         margin-top: 4rem;
         line-height: 4rem;
@@ -41,7 +41,7 @@
 
     span {
         font-style: normal;
-        font-weight: 500;
+        font-weight: 200;
     }
 
     p {

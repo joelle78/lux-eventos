@@ -11,13 +11,13 @@
 
 
     <article>
-        <h3>WORD <span>DE TOPPER</span> BIJ <span class="span-new-line">LUX-EVENTOS</span></h3>
+        <h3>Word <span>DE TOPPER</span> bij <span class="span-new-line">Lux-Eventos</span></h3>
         <p>{werkenBijPage.intro2}</p>
 
         <div class="image-color-container"></div>
         <div class="flex-container-1">
         <img src={image5} alt="Description of the image" />
-        <p>{werkenBijPage.quote2}</p>
+        <p class="quote">{werkenBijPage.quote2}</p>
         </div>
 
         <div class="text-container">
@@ -33,8 +33,8 @@
     h3 {
         padding-top: 10rem;
         font-size: var(--header-one);
-        font-family: "cormorant-garamond", serif;
-        font-weight: 400;
+        font-family: "fira-sans", serif;
+        font-weight: 100;
         font-style: normal;
         text-align: center;
         line-height: 4rem;
@@ -42,11 +42,10 @@
 
     p {
         font-size: 1rem;
-        font-family: "roboto", serif;
-        font-weight: 300;
+        font-family: "fira-sans", serif;
+        font-weight: 200;
         text-align: center;
         margin-top: 2rem;
-        letter-spacing: 0.1rem;
 
 
     }
@@ -55,12 +54,13 @@
         font-size: var(--header-one);
         font-family: "cormorant-garamond", serif;
         font-weight: 400;
+
     }
 
     .span-new-line {
-        font-family: "cormorant-garamond", serif;
-        font-weight: 400;
-        font-style: normal;
+        font-family: "amaranth", serif;
+        font-weight: 100;
+        font-style: italic;
 
     }
 
@@ -71,11 +71,11 @@
 
     .image-color-container {
         position: absolute;
-        background-color: var(--color-dark-brown);
-        width: 30%;
+        background-color: var(--color-beige);
+        width: 29%;
         height: 40%;
-        top: 322%;
-        left: 9%;
+        top: 321%;
+        left: 9.4%;
     }
 
     .flex-container-1 {
@@ -88,8 +88,12 @@
     .flex-container-1 p {
         padding-top: 2rem;
         width: 25%;
-        line-height: 2.5rem;
+        line-height: 2.2rem;
         text-align: left;
+    }
+
+    .quote {
+        font-style: italic;
     }
 
     img {
@@ -105,7 +109,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        line-height: 2.5rem;
+        line-height: 2.2rem;
         gap: 3rem;
     }
 

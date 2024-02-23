@@ -62,8 +62,8 @@
         <article>
 
             <div class="svg-container">
-                <svg width="37" height="25"  viewBox="0 0 97 85" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M3 85V3H97" stroke="#94694B" stroke-width="5"/>
+                <svg width="37" height="25" viewBox="0 0 97 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 85V3H97" stroke="#B8A096" stroke-width="5"/>
                 </svg>
             </div>
 
@@ -146,29 +146,32 @@
     }
 
     h5, span {
-        font-family: "cormorant-garamond", sans-serif;
+        font-family: "catamaran", sans-serif;
         font-weight: 200;
         font-style: normal;
         margin-left: 10rem;
+
     }
 
     h5 {
         font-size: var(--header-one);
+
     }
 
     span {
-        font-family: "roboto", sans-serif;
+        font-family: "fira-sans", sans-serif;
         font-weight: 200;
-        font-style: normal;
+        font-style: italic;
         font-size: var(--header-two);
-        margin-left: 1rem;
+        margin-top: 0.5rem;
+        margin-left: 0.3rem;
         display: block;
     }
 
     article p {
         width: 60%;
-        font-family: "roboto", sans-serif;
-        font-weight: 300;
+        font-family: "fira-sans", sans-serif;
+        font-weight: 200;
         font-style: normal;
         font-size: var(--paragraph);
         line-height: 2.8rem;
@@ -196,7 +199,7 @@
     }
 
     h6 {
-        font-family: "roboto", sans-serif;
+        font-family: "catamaran", sans-serif;
         font-weight: 300;
         font-style: normal;
         text-align: center;
@@ -205,7 +208,7 @@
     }
 
     .carrousel-text p {
-        font-family: "roboto", sans-serif;
+        font-family: "fira-sans", sans-serif;
         font-weight: 300;
         font-style: normal;
         text-align: center;
@@ -238,7 +241,7 @@
     }
 
     .page-indicator-dot.active {
-        background-color: var(--color-dark-brown);
+        background-color: var(--color-beige);
     }
 
 

@@ -25,7 +25,7 @@
 <style>
 
     h1 {
-        font-family: "roboto", sans-serif;
+        font-family: "fira-sans", sans-serif;
         font-weight: 200;
         font-style: normal;
         font-size: var(--header-two);
@@ -34,6 +34,8 @@
         color: white;
         top: 40%;
         width: 80%;
+        letter-spacing: 0.2rem;
+        line-height: 5rem;
     }
 
     span {

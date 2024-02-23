@@ -49,7 +49,7 @@
     h4 {
         color: white;
         font-size: var(--header-two);
-        font-family: "roboto", serif;
+        font-family: "catamaran", sans-serif;
         font-weight: 400;
         font-style: normal;
         margin-left: 10rem;
@@ -78,8 +78,8 @@
     ol {
         list-style-type: decimal;
         position: relative;
-        font-family: "roboto", sans-serif;
-        font-weight: 300;
+        font-family: "fira-sans", sans-serif;
+        font-weight: 200;
         font-style: normal;
         color: white;
         text-align: left;
@@ -87,8 +87,6 @@
         left:43%;
         width: 50%;
         padding-bottom: 5rem;
-
-
     }
 
     li {

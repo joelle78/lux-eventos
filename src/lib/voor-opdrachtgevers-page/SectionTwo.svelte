@@ -36,7 +36,7 @@
 
     h3 {
         font-family: "cormorant-garamond", serif;
-        font-weight: 600;
+        font-weight: 400;
         font-style: normal;
         font-size: var(--header-one);
         margin-left: 10rem;
@@ -53,8 +53,8 @@
     .flex-container-1 p {
         position: relative;
         width: 30%;
-        font-family: "roboto", serif;
-        font-weight: 300;
+        font-family: "fira-sans", serif;
+        font-weight: 200;
         font-style: normal;
         font-size: var(--paragraph);
         right: 9%;
@@ -65,7 +65,7 @@
 
     .color-background-1 {
         position: relative;
-        background-color: var(--color-dark-brown);
+        background-color: var(--color-beige);
         width: 30%;
         height: 40vh;
     }
@@ -73,8 +73,8 @@
     img {
         position: absolute;
         width: 30%;
-        left: 48.5%;
-        top: 330%;
+        left: 49%;
+        top: 336.5%;
     }
 
     .flex-container-2 {
@@ -91,9 +91,11 @@
         font-family: "roboto", serif;
         font-weight: 300;
         font-style: normal;
-        width:82%;
+        width:80%;
         line-height: 2.2rem;
         margin-bottom: 2rem;
+        text-align: center;
+
     }
 
 

@@ -27,7 +27,7 @@
 
 h2 {
     font-family: "cormorant-garamond", serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     font-size: var(--header-one);
     margin-bottom: 5rem;
@@ -44,8 +44,8 @@ h2 {
 .flex-container-1 p {
     position: relative;
     width: 30%;
-    font-family: "roboto", serif;
-    font-weight: 300;
+    font-family: "fira-sans", sans-serif;
+    font-weight: 200;
     font-style: normal;
     font-size: var(--paragraph);
     right: 9%;
@@ -55,7 +55,7 @@ h2 {
 
 .color-background-1 {
     position: relative;
-    background-color: var(--color-dark-brown);
+    background-color: var(--color-beige);
     width: 25%;
     height: 45vh;
 }

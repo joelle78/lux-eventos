@@ -23,7 +23,7 @@
 
     h4 {
         font-family: "cormorant-garamond", serif;
-        font-weight: 300;
+        font-weight: 400;
         position: relative;
         font-size: var(--header-one);
         color: white;
@@ -39,7 +39,7 @@
         font-style: italic;
         font-size: var(--header-one);
         letter-spacing: 0.2rem;
-        margin: 0.3rem 0 0 9rem;
+        margin: 0.3rem 0 0 12rem;
     }
 
     .text-container {
@@ -54,8 +54,8 @@
     }
 
     p {
-        font-family: "roboto", sans-serif;
-        font-weight: 300;
+        font-family: "fira-sans", sans-serif;
+        font-weight: 200;
         font-style: normal;
         font-size: var(--paragraph);
         line-height: 2.3rem;

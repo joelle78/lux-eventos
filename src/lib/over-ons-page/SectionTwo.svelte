@@ -53,7 +53,7 @@
 
     h3 {
         font-family: "cormorant-garamond", serif;
-        font-weight: 400;
+        font-weight: 300;
         font-style: normal;
         font-size: var(--header-one);
         margin-left: 10rem;
@@ -87,8 +87,8 @@
     p {
         width: 25%;
         color: white;
-        font-family: "roboto", serif;
-        font-weight: 300;
+        font-family: "fira-sans", sans-serif;
+        font-weight: 200;
         font-style: normal;
         font-size: var(--paragraph);
         line-height: 2.2rem;

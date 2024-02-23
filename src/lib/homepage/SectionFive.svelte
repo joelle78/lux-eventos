@@ -43,16 +43,16 @@
 
     h6 {
         font-size: var(--header-two);
-        font-family: "roboto", serif;
-        font-weight: 300;
+        font-family: "catamaran", serif;
+        font-weight: 200;
         font-style: normal;
         margin-left: 10rem;
         margin-bottom: 3rem;
     }
 
     span {
-        font-family: "roboto", sans-serif;
-        font-weight: 300;
+        font-family: "catamaran", sans-serif;
+        font-weight: 200;
         font-style: normal;
     }
 
@@ -79,7 +79,7 @@
     }
 
     ul {
-        font-family: "roboto", sans-serif;
+        font-family: "fira-sans", sans-serif;
         font-weight: 300;
         font-style: normal;
         list-style: none;
