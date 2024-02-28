@@ -88,14 +88,58 @@
 
     .flex-container-2 p {
         font-size: var(--paragraph);
-        font-family: "roboto", serif;
-        font-weight: 300;
+        font-family: "fira-sans", serif;
+        font-weight: 200;
         font-style: normal;
         width:80%;
         line-height: 2.2rem;
         margin-bottom: 2rem;
         text-align: center;
+    }
 
+    /*MEDIA QUERY TABLET */
+    @media screen and (max-width: 768px) {
+        section {
+            width: 130%;
+            height: 200vh;
+        }
+
+        h3 {
+            margin-left: 5rem;
+        }
+
+        .color-background-1 {
+            width: 35%;
+            height: 33vh;
+            left: 3%;
+            top: 7vh;
+        }
+
+        img {
+            position: absolute;
+            width: 45%;
+            left: 70%;
+            top: 350.5%;
+        }
+
+        .flex-container-1 {
+            margin-bottom: 5rem;
+        }
+
+        .flex-container-1 p {
+            margin-left: 3rem;
+            font-size: var(--par-tablet);
+            line-height: 2rem;
+            width: 35%;
+        }
+
+        .flex-container-2 p {
+            width:85%;
+            font-size: var(--par-tablet);
+            line-height: 2rem;
+            margin-bottom: 2rem;
+
+        }
     }
 
 

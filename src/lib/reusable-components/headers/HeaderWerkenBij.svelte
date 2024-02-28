@@ -79,8 +79,8 @@
     /* MEDIA QUERY TABLET */
     @media screen and (max-width: 768px) {
         h1 {
-            font-size: 1.6rem;
-            line-height: 2.2rem;
+            font-size: 2rem;
+            line-height: 2.3rem;
             width: 80%;
         }
 

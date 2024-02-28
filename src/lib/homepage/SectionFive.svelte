@@ -107,6 +107,7 @@
         margin-left: 20rem;
     }
 
+    /*MEDIA QUERY TABLET */
     @media screen and (max-width: 768px) {
         .section-five {
             width: 130%;
