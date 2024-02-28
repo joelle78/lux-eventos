@@ -21,6 +21,11 @@
 
 
 <style>
+    .section-one-work-at {
+        background-color: var(--background-color-medium);
+        padding-top: 10rem;
+        height: 160vh;
+    }
 
 
     h2 {
@@ -44,8 +49,7 @@
         font-weight: 400;
         font-style: italic;
         font-size: var(--header-one);
-        margin-top: 2rem;
-        margin-left: 17rem;
+        margin: 2rem 0 0 17rem;
     }
 
     .text-container {
@@ -69,17 +73,44 @@
         margin-left: 8rem;
     }
 
-    .section-one-work-at {
-        background-color: var(--background-color-medium);
-        padding-top: 10rem;
-        height: 160vh;
-    }
-
     img {
         position: absolute;
         z-index: 2;
         width: 40%;
         margin-left: 8rem;
+
+    }
+
+    /* MEDIA QUERY TABLET */
+    @media screen and (max-width: 768px) {
+        .section-one-work-at {
+            width: 130%;
+            height: 200vh;
+        }
+
+        p {
+            margin-left: 6.5rem;
+            line-height: 2rem;
+            font-size: var(--par-tablet);
+        }
+
+        img {
+            position: absolute;
+            z-index: 2;
+            width: 50%;
+            margin-left: 8rem;
+        }
+
+        .text-container {
+            position: relative;
+            z-index: 1;
+            top:20vh;
+            left: 43%;
+            background-color: white;
+            width: 40%;
+            height: 75vh;
+        }
+
 
     }
 

@@ -173,5 +173,28 @@
         line-height: 2rem;
     }
 
+    /* MEDIA QUERY TABLET */
+    @media screen and (max-width: 768px) {
+        .section-three-work-at {
+            width: 130%;
+            height: 200vh;
+        }
+
+        h5 {
+            font-size: 1.4rem;
+        }
+
+        .flex-container-1, .flex-container-2 {
+            gap: 1.5rem;
+            width: 85%;
+            margin-bottom: 3rem;
+
+        }
+
+        .card-container {
+            height: 70vh;
+        }
+    }
+
 
 </style>

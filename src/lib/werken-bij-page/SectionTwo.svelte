@@ -12,7 +12,7 @@
 
     <article>
         <h3>Word <span>DE TOPPER</span> bij <span class="span-new-line">Lux-Eventos</span></h3>
-        <p>{werkenBijPage.intro2}</p>
+        <p class="p-intro">{werkenBijPage.intro2}</p>
 
         <div class="image-color-container"></div>
         <div class="flex-container-1">
@@ -115,6 +115,45 @@
 
     .text-container p {
         width: 80%;
+    }
+
+    /* MEDIA QUERY TABLET */
+    @media screen and (max-width: 768px) {
+        .section-two-work-at {
+            width: 130%;
+            height: 200vh;
+        }
+
+        h3 {
+            text-align: left;
+            margin-left: 9rem;
+        }
+
+        .span-new-line {
+            display: block;
+            margin-top: 1rem;
+        }
+
+        .p-intro {
+            text-align: left;
+            width: 50%;
+            margin: 4rem 0 0 9rem;
+            line-height: 2rem;
+        }
+
+        .image-color-container {
+            width: 38%;
+            height: 40%;
+            top: 371%;
+            left: 19%;
+        }
+
+        .flex-container-1 {
+            display: flex;
+            flex-direction: row;
+            margin-top: 4.7rem;
+            gap: 7rem;
+        }
     }
 </style>
 

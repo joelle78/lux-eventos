@@ -114,7 +114,7 @@
         }
 
         h6 {
-            margin-left: 7rem;
+            margin: 0 0 1rem 7rem;
         }
 
         ul {

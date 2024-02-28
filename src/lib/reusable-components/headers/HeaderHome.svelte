@@ -101,9 +101,6 @@
             height: 90vh;
         }
 
-        img {
-            filter: grayscale(0.5);
-        }
 
         a {
             position: absolute;

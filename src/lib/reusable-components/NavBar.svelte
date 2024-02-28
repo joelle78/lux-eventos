@@ -60,7 +60,7 @@
 
     /* MEDIA QUERY TABLET */
     @media screen and (max-width: 768px) {
-   
+
 
         ul {
             font-size: 0.6rem;
