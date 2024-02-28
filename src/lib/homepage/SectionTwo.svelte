@@ -69,7 +69,35 @@
         width: 25%;
         left: 49vw;
         margin-top: 15rem;
+    }
 
+    /*MEDIA QUERY TABLET*/
+    @media screen and (max-width: 768px) {
+        .section-two {
+            width: 130%;
+            height: 150vh;
+        }
+
+        h3 {
+            margin-top: 2rem;
+        }
+
+        p {
+            font-size: var(--par-tablet);
+        }
+
+        .text-container {
+            height: 80%;
+            width: 50%;
+            top: 250vh;
+            left: 25vw;
+        }
+
+        img {
+            width: 30%;
+            left: 70vw;
+            margin-top: 21rem;
+        }
     }
 
 </style>

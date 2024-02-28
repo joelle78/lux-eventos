@@ -84,4 +84,30 @@
         left: 1.2vw;
     }
 
+    @media screen and (max-width: 768px) {
+        .section-three {
+            width: 130%;
+            height: 180vh;
+        }
+
+        p {
+            font-size: var(--par-tablet);
+
+        }
+
+        .image-container {
+            width: 42vw;
+            height: 33vh;
+            top: 20vh;
+            left: 10vw;
+        }
+
+        img {
+            width: 110%;
+            left: 1.8vw;
+        }
+
+
+    }
+
 </style>

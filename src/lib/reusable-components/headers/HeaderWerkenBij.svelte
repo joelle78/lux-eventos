@@ -62,7 +62,7 @@
     img {
         width: 100%;
         object-fit: cover;
-        filter: grayscale(1);
+        /*filter: grayscale(0.5);*/
     }
 
     .flex-container-arrow {

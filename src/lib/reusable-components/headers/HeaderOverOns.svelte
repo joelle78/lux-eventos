@@ -63,7 +63,7 @@
     img {
         width: 100%;
         object-fit: cover;
-        filter: grayscale(1);
+        /*filter: grayscale(1);*/
         opacity: 0.4;
     }
 

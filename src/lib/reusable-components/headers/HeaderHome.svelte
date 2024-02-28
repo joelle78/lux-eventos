@@ -15,8 +15,6 @@
 
 </header>
 
-
-
 <style>
 
     h1 {
@@ -58,7 +56,7 @@
     img {
         width: 100%;
         object-fit: cover;
-        filter: grayscale(1);
+        filter: grayscale(0.5);
     }
 
     a {
@@ -89,6 +87,36 @@
         border: 2px solid var(--background-color-medium);
         color: var(--background-color-medium);
     }
+
+    /* MEDIA QUERY TABLET */
+    @media screen and (max-width: 768px) {
+        h1 {
+            font-size: 1.6rem;
+            line-height: 2.2rem;
+            width: 80%;
+        }
+
+        header {
+            width: 130%;
+            height: 90vh;
+        }
+
+        img {
+            filter: grayscale(0.5);
+        }
+
+        a {
+            position: absolute;
+            top: 70%;
+        }
+
+        button {
+            margin-top: 0.1rem;
+            font-size: 12px;
+        }
+
+    }
+
 
 
 

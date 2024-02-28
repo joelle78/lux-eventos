@@ -39,7 +39,9 @@
 </section>
 
 <style>
-
+    .section-five {
+        background-color: var(--background-color-medium);
+    }
 
     h6 {
         font-size: var(--header-two);
@@ -68,9 +70,7 @@
 
     /*}*/
 
-    .section-five {
-        background-color: var(--background-color-medium);
-    }
+
 
     article {
         display: flex;
@@ -105,6 +105,25 @@
 
     .button {
         margin-left: 20rem;
+    }
+
+    @media screen and (max-width: 768px) {
+        .section-five {
+            width: 130%;
+            height: 210vh;
+        }
+
+        h6 {
+            margin-left: 7rem;
+        }
+
+        ul {
+            margin-left: 18rem;
+        }
+
+        .button {
+            margin-left: 18rem;
+        }
     }
 
 </style>

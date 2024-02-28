@@ -1,32 +1,29 @@
 <script>
     export let data
 
-    
+
 </script>
 
 <section class="section-one">
-{#each data.homepages as homepage }
-    <article>
+    {#each data.homepages as homepage }
+        <article>
 
-        <div class="svg-container">
-            <svg width="37" height="25" viewBox="0 0 97 85" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M3 85V3H97" stroke="#B8A096" stroke-width="3"/>
-            </svg>
+            <div class="svg-container">
+                <svg width="37" height="25" viewBox="0 0 97 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 85V3H97" stroke="#B8A096" stroke-width="3"/>
+                </svg>
 
-        </div>
+            </div>
 
-        <h2>WELKOM BIJ <span>Lux-Eventos</span></h2>
-        <p>{homepage.beschrijving}</p>
+            <h2>WELKOM BIJ <span>Lux-Eventos</span></h2>
+            <p>{homepage.beschrijving}</p>
 
 
-    </article>
-{/each}
+        </article>
+    {/each}
 </section>
 
 <style>
-
-
-
 
     .section-one {
         background-color: var(--background-color-light);
@@ -84,6 +81,34 @@
         padding-bottom: 8rem;
     }
 
+    /* MEDIA QUERY TABLET */
+    @media screen and (max-width: 768px) {
+        .section-one {
+            width: 130%;
+            height: 130vh;
+        }
+
+        h2, span {
+            margin-left: 7rem;
+        }
+
+        h2 {
+            font-size: var(--header-one);
+        }
+
+        span {
+            margin-left: 11rem;
+        }
+
+        p {
+            width: 65%;
+            font-size: var(--par-tablet);
+            line-height: 2.2rem;
+            margin: 3rem 0 0 18rem;
+        }
+
+
+    }
 
 
 </style>

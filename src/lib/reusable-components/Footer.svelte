@@ -61,4 +61,11 @@
         font-style: normal;
         font-size: var(--paragraph);
     }
+
+    @media screen and (max-width: 768px) {
+        footer {
+            width: 130%;
+            height: auto;
+        }
+    }
 </style>

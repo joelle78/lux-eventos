@@ -150,12 +150,10 @@
         font-weight: 200;
         font-style: normal;
         margin-left: 10rem;
-
     }
 
     h5 {
         font-size: var(--header-one);
-
     }
 
     span {
@@ -163,8 +161,7 @@
         font-weight: 200;
         font-style: italic;
         font-size: var(--header-two);
-        margin-top: 0.5rem;
-        margin-left: 0.3rem;
+        margin: 0.5rem 0 0 0.3rem;
         display: block;
     }
 
@@ -242,6 +239,38 @@
 
     .page-indicator-dot.active {
         background-color: var(--color-beige);
+    }
+
+    @media screen and (max-width: 768px) {
+        .section-four {
+            width: 130%;
+            height: 210vh;
+        }
+
+        h5 {
+            font-family: 'cormorant-garamond', sans-serif;
+            margin-top: 0;
+            margin-left: 7rem;
+        }
+
+        span {
+            margin-left: 1rem;
+        }
+
+        article p {
+            font-size: var(--par-tablet);
+            line-height: 2rem;
+        }
+
+        .carrousel {
+            width: 80%;
+            height: 65vh;
+        }
+
+        .carrousel-text p {
+            font-size: var(--par-tablet);
+            line-height: 2rem;
+        }
     }
 
 
