@@ -51,11 +51,11 @@
 
             <h3>VOOR WERKGEVERS</h3>
             <div class="flex-container-freelancers-top">
-                <svg width="630" height="7" viewBox="0 0 630 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="svg-left" width="630" height="7" viewBox="0 0 630 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M630 4L0.000158251 3.09691" stroke="#B8A096" stroke-width="2"/>
                 </svg>
                 <h4>FAQ</h4>
-                <svg width="630" height="7" viewBox="0 0 630 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="svg-right" width="630" height="7" viewBox="0 0 630 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M630 4L0.000158251 3.09691" stroke="#B8A096" stroke-width="2"/>
                 </svg>
             </div>
@@ -262,6 +262,26 @@
     @media screen and (max-width: 768px) {
         section {
             width: 130%;
+        }
+
+
+        p {
+            font-size: var(--par-tablet);
+            padding-left: 3rem;
+            padding-right: 3rem;
+        }
+
+        .svg-left {
+            padding-left: 3rem;
+        }
+
+        .svg-right {
+            padding-right: 3rem;
+        }
+
+        .svg-middle {
+            padding-top: 4rem;
+            padding-bottom: 2rem;
         }
     }
 
