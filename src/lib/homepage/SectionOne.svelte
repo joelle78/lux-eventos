@@ -106,8 +106,14 @@
             line-height: 2.2rem;
             margin: 3rem 0 0 18rem;
         }
+    }
 
-
+    /* MEDIA QUERY MOBILE L */
+    @media screen and (max-width: 426px) {
+        .section-one {
+            width: 200%;
+            height: 130vh;
+        }
     }
 
 

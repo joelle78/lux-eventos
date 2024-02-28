@@ -114,6 +114,32 @@
 
     }
 
+    /* MEDIA QUERY MOBILE L */
+    @media screen and (max-width: 426px) {
+        h1 {
+            font-size: 1.2rem;
+            line-height: 2rem;
+            width: 80%;
+        }
+
+        header {
+            width: 200%;
+            height: 80vh;
+        }
+
+
+        a {
+            position: absolute;
+            top: 70%;
+        }
+
+        button {
+            margin-top: 0.1rem;
+            font-size: 10px;
+        }
+
+    }
+
 
 
 
