@@ -158,4 +158,10 @@
         border-radius: 5px;
         transition: ease 1s;
     }
+
+    @media screen and (max-width: 768px) {
+        section {
+            width: 130%;
+        }
+    }
 </style>

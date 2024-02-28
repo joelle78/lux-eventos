@@ -5,17 +5,17 @@
 </script>
 
 <section>
-{#each data.overOnsPages as overOns }
-    <article>
-        <h2 id="mission">ONZE MISSIE</h2>
-        <div class="flex-container-1">
-            <p>{overOns.beschrijving}</p>
-            <div class="color-background-1"></div>
-            <img src={image8} alt="Description of the image"/>
-        </div>
-    </article>
+    {#each data.overOnsPages as overOns }
+        <article>
+            <h2 id="mission">ONZE MISSIE</h2>
+            <div class="flex-container-1">
+                <p>{overOns.beschrijving}</p>
+                <div class="color-background-1"></div>
+                <img src={image8} alt="Description of the image"/>
+            </div>
+        </article>
 
-{/each}
+    {/each}
 </section>
 
 <style>
@@ -25,45 +25,73 @@
         padding-bottom: 8rem;
     }
 
-h2 {
-    font-family: "cormorant-garamond", serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: var(--header-one);
-    margin-bottom: 5rem;
-    text-align: center;
-}
+    h2 {
+        font-family: "cormorant-garamond", serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: var(--header-one);
+        margin-bottom: 5rem;
+        text-align: center;
+    }
 
-.flex-container-1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 10rem;
-}
+    .flex-container-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 10rem;
+    }
 
-.flex-container-1 p {
-    position: relative;
-    width: 30%;
-    font-family: "fira-sans", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    font-size: var(--paragraph);
-    right: 9%;
-    line-height: 2.2rem;
-    margin-top: 2rem;
-}
+    .flex-container-1 p {
+        position: relative;
+        width: 30%;
+        font-family: "fira-sans", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        font-size: var(--paragraph);
+        right: 9%;
+        line-height: 2.2rem;
+        margin-top: 2rem;
+    }
 
-.color-background-1 {
-    position: relative;
-    background-color: var(--color-beige);
-    width: 25%;
-    height: 45vh;
-}
+    .color-background-1 {
+        position: relative;
+        background-color: var(--color-beige);
+        width: 25%;
+        height: 45vh;
+    }
 
-img {
-    position: absolute;
-    width: 25%;
-    left: 51%;
-    top: 143%;
-}
+    img {
+        position: absolute;
+        width: 25%;
+        left: 51%;
+        top: 143%;
+    }
+
+    /* MEDIA QUERY TABLET */
+    @media screen and (max-width: 768px) {
+        section {
+            width: 130%;
+        }
+
+        .flex-container-1 p {
+            width: 35%;
+            font-size: var(--par-tablet);
+            right: 9%;
+            line-height: 2rem;
+            margin-top: 4rem;
+        }
+
+        .color-background-1 {
+            width: 30%;
+            height: 45vh;
+            left: 5%;
+            top: 4vh;
+        }
+
+        img {
+            width: 40%;
+            left: 71%;
+            top: 143%;
+        }
+    }
 </style>

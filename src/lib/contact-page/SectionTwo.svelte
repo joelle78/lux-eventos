@@ -257,6 +257,12 @@
         padding-left: 7rem;
     }
 
+    /*MEDIA QUERY TABLET */
+    @media screen and (max-width: 768px) {
+        section {
+            width: 130%;
+        }
+    }
 
 
 

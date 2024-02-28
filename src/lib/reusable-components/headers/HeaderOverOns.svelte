@@ -78,6 +78,19 @@
         top: 90%;
     }
 
+    /* MEDIA QUERY TABLET */
+    @media screen and (max-width: 768px) {
+        h1 {
+            font-size: 2rem;
+            line-height: 2.4rem;
+            width: 85%;
+        }
+
+        header {
+            width: 130%;
+            height: 90vh;
+        }
+    }
 
 
 

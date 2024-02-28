@@ -42,13 +42,13 @@
     }
 
     .svg-container {
-        width: 7%; /* Adjust this value as needed */
-        margin-left: 5%; /* Adjust this value as needed */
+        width: 7%;
+        margin-left: 5%;
     }
 
     svg {
-        width: 100%; /* Make the SVG fill its container */
-        height: auto; /* Maintain aspect ratio */
+        width: 100%;
+        height: auto;
     }
 
     h3 {
@@ -109,6 +109,32 @@
         top: 18vh;
     }
 
+
+    /* MEDIA QUERY TABLET */
+    @media screen and (max-width: 768px) {
+        section {
+            width: 130%;
+        }
+
+        img {
+            width: 30%;
+        }
+
+        .flex-container-1 p {
+            width: 20%;
+            right: 3%;
+            bottom: 8vh;
+            font-size: var(--par-tablet);
+        }
+
+        .flex-container-2 p {
+            width: 21%;
+            padding-top: 6rem;
+            left: 3%;
+            top: 20vh;
+            font-size: var(--par-tablet);
+        }
+    }
 </style>
 
 <!--<div class="flex-text-container-1">-->
