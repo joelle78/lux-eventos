@@ -15,6 +15,7 @@
 
             </div>
 
+
             <h2>WELKOM BIJ <span>Lux-Eventos</span></h2>
             <p>{homepage.beschrijving}</p>
 
@@ -108,11 +109,31 @@
         }
     }
 
-    /* MEDIA QUERY MOBILE L */
+    /* MEDIA QUERY MOBILE S */
     @media screen and (max-width: 426px) {
         .section-one {
-            width: 200%;
+            width: 260%;
             height: 130vh;
+        }
+
+        article {
+            display: flex;
+            flex-direction: column;
+            margin-left: 3rem;
+        }
+
+
+        h2 {
+            margin-left: 5rem;
+            font-size: 3.5rem;
+        }
+
+        span {
+            margin-left: 4rem;
+        }
+
+        p{
+            margin-left: 9rem;
         }
     }
 

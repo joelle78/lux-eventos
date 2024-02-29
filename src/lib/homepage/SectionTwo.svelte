@@ -100,4 +100,25 @@
         }
     }
 
+    /* MEDIA QUERY MOBILE S */
+    @media screen and (max-width: 426px) {
+        .section-two {
+            width: 260%;
+            height: 160vh;
+        }
+
+        .text-container {
+            height: 85%;
+            width: 100%;
+            top: 230vh;
+            left: 50vw;
+        }
+
+        img {
+            width: 35%;
+            left: 140vw;
+            margin-top: 21rem;
+        }
+    }
+
 </style>

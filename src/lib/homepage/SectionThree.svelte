@@ -106,7 +106,36 @@
             width: 110%;
             left: 1.8vw;
         }
+    }
 
+    /* MEDIA QUERY MOBILE S */
+    @media screen and (max-width: 426px) {
+        .section-three {
+            width: 260%;
+            height: 180vh;
+        }
+
+
+        .image-container {
+            width: 80vw;
+            height: 35vh;
+            top: 20vh;
+            left: 35vw;
+        }
+
+        img {
+            width: 140%;
+            left: 5vw;
+        }
+
+        h4 {
+            width: 60%;
+        }
+
+        .text-container {
+            width: 80%;
+            margin-top: 2rem;
+        }
 
     }
 

@@ -114,8 +114,8 @@
 
     }
 
-    /* MEDIA QUERY MOBILE L */
-    @media screen and (max-width: 426px) {
+    /* MEDIA QUERY MOBILE S */
+    @media screen and (max-width: 320px) {
         h1 {
             font-size: 1.2rem;
             line-height: 2rem;
@@ -123,8 +123,8 @@
         }
 
         header {
-            width: 200%;
-            height: 80vh;
+            width: 260%;
+            height: 70vh;
         }
 
 

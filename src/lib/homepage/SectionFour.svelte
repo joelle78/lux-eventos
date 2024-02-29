@@ -273,6 +273,33 @@
         }
     }
 
+    /* MEDIA QUERY MOBILE S */
+    @media screen and (max-width: 426px) {
+        .section-four {
+            width: 260%;
+            height: 190vh;
+        }
+
+        article p {
+            margin-left: 8rem;
+            width: 65%;
+        }
+
+        .carrousel {
+            width: 80%;
+            height: 60vh;
+        }
+
+        h6 {
+            margin-top: 2rem;
+            font-size: 2rem;
+        }
+
+        .carrousel-text p {
+            font-size: 1rem;
+        }
+    }
+
 
 </style>
 

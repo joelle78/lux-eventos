@@ -127,4 +127,12 @@
         }
     }
 
+    /* MEDIA QUERY MOBILE S */
+    @media screen and (max-width: 426px) {
+        .section-five {
+            width: 260%;
+            height: 210vh;
+        }
+    }
+
 </style>

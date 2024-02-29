@@ -62,9 +62,18 @@
         font-size: var(--paragraph);
     }
 
+    /* MEDIA QUERY TABLET */
     @media screen and (max-width: 768px) {
         footer {
             width: 130%;
+            height: auto;
+        }
+    }
+
+    /* MEDIA QUERY MOBILE S */
+    @media screen and (max-width: 426px) {
+        footer {
+            width: 260%;
             height: auto;
         }
     }
