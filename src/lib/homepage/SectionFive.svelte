@@ -141,7 +141,7 @@
     }
 
     /* MEDIA QUERY MOBILE S */
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 321px) {
         .section-five {
             width: 260%;
             height: 210vh;

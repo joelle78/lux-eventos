@@ -126,7 +126,7 @@
     }
 
     /* MEDIA QUERY MOBILE S */
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 321px) {
         .section-two {
             width: 260%;
             height: 150vh;
