@@ -79,12 +79,8 @@
                 <h6>Uurloon</h6>
                 <p>Bij Lux-Eventos begrijpen we dat jouw talent van onschatbare waarde zijn. Daarom streven we ernaar om
                     niet alleen een uitzonderlijke werkomgeving te bieden, maar ook een eerlijk en concurrerend uurloon
-                    dat
-                    jou weerspiegelt.
-
-                    In vergelijking met onze concurrenten nemen wij de beloning van freelancers serieus. Wij zijn
-                    trots om een bovengemiddeld uurloon aan te bieden, omdat we geloven dat jouw inzet van
-                    waarde zijn.</p>
+                    dat jou weerspiegelt.
+                </p>
             </div>
 
             <div class="carrousel-text">
@@ -274,20 +270,30 @@
     }
 
     /* MEDIA QUERY MOBILE S */
-    @media screen and (max-width: 426px) {
+    @media screen and (max-width: 320px) {
         .section-four {
             width: 260%;
             height: 190vh;
         }
 
+        h5 {
+            line-height: 4rem;
+        }
+
         article p {
+            margin-top: 3rem;
+            margin-bottom: 7rem;
             margin-left: 8rem;
-            width: 65%;
+            padding-bottom: 0;
+            width: 75%;
+            font-size: 1.2rem;
         }
 
         .carrousel {
+            margin-top: 0;
             width: 80%;
             height: 60vh;
+
         }
 
         h6 {
@@ -296,7 +302,7 @@
         }
 
         .carrousel-text p {
-            font-size: 1rem;
+            font-size: 1.2rem;
         }
     }
 

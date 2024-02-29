@@ -71,7 +71,7 @@
     }
 
     /* MEDIA QUERY MOBILE S */
-    @media screen and (max-width: 426px) {
+    @media screen and (max-width: 320px) {
         footer {
             width: 260%;
             height: auto;

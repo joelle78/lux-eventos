@@ -110,7 +110,7 @@
     }
 
     /* MEDIA QUERY MOBILE S */
-    @media screen and (max-width: 426px) {
+    @media screen and (max-width: 320px) {
         .section-one {
             width: 260%;
             height: 130vh;
@@ -125,15 +125,16 @@
 
         h2 {
             margin-left: 5rem;
-            font-size: 3.5rem;
         }
 
         span {
-            margin-left: 4rem;
+            margin-left: 1rem;
         }
 
-        p{
-            margin-left: 9rem;
+        p {
+            margin-left: 6rem;
+            font-size: 1.2rem;
+            width: 75%;
         }
     }
 

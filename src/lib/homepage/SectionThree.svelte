@@ -109,7 +109,7 @@
     }
 
     /* MEDIA QUERY MOBILE S */
-    @media screen and (max-width: 426px) {
+    @media screen and (max-width: 320px) {
         .section-three {
             width: 260%;
             height: 180vh;
@@ -135,6 +135,10 @@
         .text-container {
             width: 80%;
             margin-top: 2rem;
+        }
+
+        p {
+            font-size: 1.2rem;
         }
 
     }

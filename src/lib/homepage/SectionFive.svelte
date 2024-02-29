@@ -128,10 +128,14 @@
     }
 
     /* MEDIA QUERY MOBILE S */
-    @media screen and (max-width: 426px) {
+    @media screen and (max-width: 320px) {
         .section-five {
             width: 260%;
             height: 210vh;
+        }
+
+        li {
+            font-size: 1.2rem;
         }
     }
 
