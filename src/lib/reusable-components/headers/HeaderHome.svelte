@@ -114,6 +114,14 @@
 
     }
 
+    /* MEDIA QUERY MOBILE L */
+    @media screen and (max-width: 426px) {
+        header {
+            width: 200%;
+            height: 70vh;
+        }
+    }
+
     /* MEDIA QUERY MOBILE M */
     @media screen and (max-width: 376px) {
         header {

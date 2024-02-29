@@ -109,6 +109,14 @@
         }
     }
 
+    /* MEDIA QUERY MOBILE L */
+    @media screen and (max-width: 426px) {
+        .section-one {
+            width: 200%;
+            height: 130vh;
+        }
+    }
+
     /* MEDIA QUERY MOBILE M */
     @media screen and (max-width: 376px) {
         .section-one {
