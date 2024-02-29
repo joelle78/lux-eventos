@@ -70,6 +70,14 @@
         }
     }
 
+    /* MEDIA QUERY MOBILE M */
+    @media screen and (max-width: 376px) {
+        footer {
+            width: 220%;
+            height: auto;
+        }
+    }
+
     /* MEDIA QUERY MOBILE S */
     @media screen and (max-width: 320px) {
         footer {

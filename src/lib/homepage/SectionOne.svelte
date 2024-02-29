@@ -109,10 +109,10 @@
         }
     }
 
-    /* MEDIA QUERY MOBILE S */
-    @media screen and (max-width: 320px) {
+    /* MEDIA QUERY MOBILE M */
+    @media screen and (max-width: 376px) {
         .section-one {
-            width: 260%;
+            width: 220%;
             height: 130vh;
         }
 
@@ -121,7 +121,6 @@
             flex-direction: column;
             margin-left: 3rem;
         }
-
 
         h2 {
             margin-left: 5rem;
@@ -135,6 +134,14 @@
             margin-left: 6rem;
             font-size: 1.2rem;
             width: 75%;
+        }
+    }
+
+    /* MEDIA QUERY MOBILE S */
+    @media screen and (max-width: 320px) {
+        .section-one {
+            width: 260%;
+            height: 130vh;
         }
     }
 

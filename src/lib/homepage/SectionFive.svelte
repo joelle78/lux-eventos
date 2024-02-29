@@ -127,6 +127,19 @@
         }
     }
 
+
+    /* MEDIA QUERY MOBILE M */
+    @media screen and (max-width: 376px) {
+        .section-five {
+            width: 220%;
+            height: 210vh;
+        }
+
+        li {
+            font-size: 1.2rem;
+        }
+    }
+
     /* MEDIA QUERY MOBILE S */
     @media screen and (max-width: 320px) {
         .section-five {
@@ -134,9 +147,6 @@
             height: 210vh;
         }
 
-        li {
-            font-size: 1.2rem;
-        }
     }
 
 </style>

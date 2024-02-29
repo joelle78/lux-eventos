@@ -269,11 +269,11 @@
         }
     }
 
-    /* MEDIA QUERY MOBILE S */
-    @media screen and (max-width: 320px) {
+    /* MEDIA QUERY MOBILE M */
+    @media screen and (max-width: 376px) {
         .section-four {
-            width: 260%;
-            height: 190vh;
+            width: 220%;
+            height: 180vh;
         }
 
         h5 {
@@ -303,6 +303,14 @@
 
         .carrousel-text p {
             font-size: 1.2rem;
+        }
+    }
+
+    /* MEDIA QUERY MOBILE S */
+    @media screen and (max-width: 320px) {
+        .section-four {
+            width: 260%;
+            height: 190vh;
         }
     }
 

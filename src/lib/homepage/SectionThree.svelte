@@ -108,13 +108,12 @@
         }
     }
 
-    /* MEDIA QUERY MOBILE S */
-    @media screen and (max-width: 320px) {
+    /* MEDIA QUERY MOBILE M */
+    @media screen and (max-width: 376px) {
         .section-three {
-            width: 260%;
+            width: 220%;
             height: 180vh;
         }
-
 
         .image-container {
             width: 80vw;
@@ -124,7 +123,7 @@
         }
 
         img {
-            width: 140%;
+            width: 110%;
             left: 5vw;
         }
 
@@ -139,6 +138,19 @@
 
         p {
             font-size: 1.2rem;
+        }
+    }
+
+    /* MEDIA QUERY MOBILE S */
+    @media screen and (max-width: 320px) {
+        .section-three {
+            width: 260%;
+            height: 180vh;
+        }
+
+        img {
+            width: 140%;
+            left: 5vw;
         }
 
     }
