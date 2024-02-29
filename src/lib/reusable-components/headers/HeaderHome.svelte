@@ -118,7 +118,7 @@
     @media screen and (max-width: 426px) {
         header {
             width: 200%;
-            height: 70vh;
+            height: auto;
         }
     }
 
