@@ -113,7 +113,8 @@
     @media screen and (max-width: 426px) {
         .section-one {
             width: 200%;
-            height: 130vh;
+            height: 150vh;
+
         }
         
         svg {
@@ -122,7 +123,7 @@
 
         h2 {
             margin-left: 6rem;
-            font-size: 4rem;
+
         }
 
         span {
@@ -130,8 +131,8 @@
         }
 
         p {
-            margin-left: 11rem;
-            font-size: 1.5rem;
+            margin-left: 7rem;
+            font-size: 1.8rem;
             width: 70%;
         }
     }
