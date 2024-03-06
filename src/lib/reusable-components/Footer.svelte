@@ -84,7 +84,20 @@
         }
     }
 
-    /* MEDIA QUERY MOBILE M */
+    /* MEDIA QUERY MOBILE L */
+    @media screen and (max-width: 426px) {
+        footer {
+            width: 200%;
+            height: auto;
+        }
+
+        img {
+            width: 35%;
+        }
+    }
+
+
+        /* MEDIA QUERY MOBILE M */
     @media screen and (max-width: 376px) {
         footer {
             width: 220%;
