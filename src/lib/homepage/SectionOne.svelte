@@ -122,7 +122,7 @@
         }
 
         h2 {
-            margin-left: 6rem;
+            margin-left: 4rem;
 
         }
 
@@ -131,7 +131,7 @@
         }
 
         p {
-            margin-left: 7rem;
+            margin-left: 10rem;
             font-size: 1.8rem;
             width: 70%;
         }

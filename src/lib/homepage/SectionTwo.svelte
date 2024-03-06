@@ -100,6 +100,33 @@
         }
     }
 
+    /* MEDIA QUERY MOBILE L */
+    @media screen and (max-width: 426px) {
+        .section-two {
+            width: 200%;
+            height: 200vh;
+
+        }
+
+        .text-container {
+            height: 100%;
+            width: 100%;
+            top: 340vh;
+            left: 13vw;
+        }
+
+        img {
+            width: 40%;
+            left: 109vw;
+            margin-top: 25rem;
+        }
+
+        p {
+            font-size: 1.8rem;
+            width:80%;
+        }
+    }
+
     /* MEDIA QUERY MOBILE M */
     @media screen and (max-width: 376px) {
         .section-two {
