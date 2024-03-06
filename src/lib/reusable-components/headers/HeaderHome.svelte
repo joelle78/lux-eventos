@@ -118,17 +118,18 @@
     @media screen and (max-width: 426px) {
         header {
             width: 200%;
-            height: 150vh;
+            height: 170vh;
         }
 
         img {
-            height: 150vh;
+            height: 170vh;
             /*overflow: clip;*/
         }
 
         h1 {
-            font-size: 2.5rem;
-            line-height: 3rem;
+            font-size: 3rem;
+            line-height: 3.5rem;
+            width: 90%;
         }
 
         button {
