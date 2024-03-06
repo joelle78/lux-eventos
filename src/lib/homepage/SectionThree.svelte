@@ -124,22 +124,23 @@
         }
 
         img {
-            width: 110%;
+            width: 120%;
             left: 4vw;
         }
 
         h4 {
+            padding-top: 2rem;
             width: 60%;
         }
 
         .text-container {
             width: 90%;
-            height: 25%;
+            height: 20%;
             margin-top: 2rem;
         }
 
         p {
-            font-size: 1.8rem;
+            font-size: 1.5rem;
             width: 88%;
         }
 
