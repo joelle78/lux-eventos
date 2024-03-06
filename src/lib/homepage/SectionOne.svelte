@@ -115,6 +115,25 @@
             width: 200%;
             height: 130vh;
         }
+        
+        svg {
+         width: 5rem;
+        }
+
+        h2 {
+            margin-left: 6rem;
+            font-size: 4rem;
+        }
+
+        span {
+            margin-left: 1rem;
+        }
+
+        p {
+            margin-left: 11rem;
+            font-size: 1.3rem;
+            width: 75%;
+        }
     }
 
     /* MEDIA QUERY MOBILE M */
