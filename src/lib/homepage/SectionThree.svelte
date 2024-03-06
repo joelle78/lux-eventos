@@ -143,8 +143,6 @@
             font-size: 1.5rem;
             width: 88%;
         }
-
-
     }
 
     /* MEDIA QUERY MOBILE M */

@@ -237,6 +237,7 @@
         background-color: var(--color-beige);
     }
 
+    /*MEDIA QUERY TABLET*/
     @media screen and (max-width: 768px) {
         .section-four {
             width: 130%;
@@ -268,6 +269,49 @@
             line-height: 2rem;
         }
     }
+
+    /* MEDIA QUERY MOBILE L */
+    @media screen and (max-width: 426px) {
+        .section-four {
+            width: 200%;
+            height: 190vh;
+        }
+
+        svg {
+            display: none;
+        }
+
+        h5 {
+            line-height: 4rem;
+        }
+
+        article p {
+            margin-top: 3rem;
+            margin-bottom: 7rem;
+            margin-left: 8rem;
+            padding-bottom: 0;
+            width: 75%;
+            font-size: 1.8rem;
+            line-height: 2.2rem;
+        }
+
+        .carrousel {
+            margin-top: 0;
+            width: 80%;
+            height: 60vh;
+
+        }
+
+        h6 {
+            margin-top: 2rem;
+            font-size: 2rem;
+        }
+
+        .carrousel-text p {
+            font-size: 1.2rem;
+        }
+    }
+
 
     /* MEDIA QUERY MOBILE M */
     @media screen and (max-width: 376px) {
