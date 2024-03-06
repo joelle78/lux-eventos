@@ -298,7 +298,7 @@
         .carrousel {
             margin-top: 0;
             width: 80%;
-            height: 60vh;
+            height: 55vh;
 
         }
 
@@ -309,6 +309,10 @@
 
         .carrousel-text p {
             font-size: 1.2rem;
+        }
+
+        .page-indicator {
+            bottom: 28%;
         }
     }
 
