@@ -61,7 +61,7 @@
         width: 28%;
         background-color: white;
         top: 230vh;
-        left: 25vw;
+        left: 23vw;
     }
 
     img {
@@ -116,9 +116,9 @@
         }
 
         img {
-            width: 40%;
-            left: 109vw;
-            top: 30vh;
+            width: 43%;
+            left: 105vw;
+            top: 15vh;
         }
 
         p {
