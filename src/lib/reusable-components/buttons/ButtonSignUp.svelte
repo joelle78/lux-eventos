@@ -24,4 +24,11 @@
         transition: ease 1s;
     }
 
+    /* MEDIA QUERY MOBILE L */
+    @media screen and (max-width: 426px) {
+        button {
+            font-size: 20px;
+        }
+    }
+
 </style>

@@ -127,6 +127,43 @@
         }
     }
 
+    /* MEDIA QUERY MOBILE L */
+    @media screen and (max-width: 426px) {
+        .section-five {
+            width: 200%;
+            height: 225vh;
+        }
+
+        span {
+            display: block;
+        }
+
+        h6 {
+            margin-left: 7rem;
+        }
+
+        ul {
+            margin-left: 7rem;
+
+        }
+
+        li span {
+
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        li {
+            font-size: 1.8rem;
+            width: 140%;
+
+        }
+
+        .button {
+            margin-left: 7rem;
+        }
+    }
+
 
     /* MEDIA QUERY MOBILE M */
     @media screen and (max-width: 376px) {
