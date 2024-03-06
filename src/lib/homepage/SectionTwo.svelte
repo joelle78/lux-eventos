@@ -112,13 +112,12 @@
             width: 100%;
             top: 340vh;
             left: 13vw;
-            position: absolute;
         }
 
         img {
             width: 43%;
             left: 105vw;
-            top: 15vh;
+            top: 23vh;
         }
 
         p {

@@ -84,6 +84,7 @@
         left: 1.2vw;
     }
 
+    /* MEDIA QUERY TABLET*/
     @media screen and (max-width: 768px) {
         .section-three {
             width: 130%;
@@ -106,6 +107,43 @@
             width: 110%;
             left: 1.8vw;
         }
+    }
+
+    /* MEDIA QUERY MOBILE L */
+    @media screen and (max-width: 426px) {
+        .section-three {
+            width: 200%;
+            height: 200vh;
+        }
+
+        .image-container {
+            width: 80vw;
+            height: 35vh;
+            top: 20vh;
+            left: 10vw;
+        }
+
+        img {
+            width: 110%;
+            left: 4vw;
+        }
+
+        h4 {
+            width: 60%;
+        }
+
+        .text-container {
+            width: 90%;
+            height: 25%;
+            margin-top: 2rem;
+        }
+
+        p {
+            font-size: 1.8rem;
+            width: 88%;
+        }
+
+
     }
 
     /* MEDIA QUERY MOBILE M */
