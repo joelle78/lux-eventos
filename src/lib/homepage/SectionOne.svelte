@@ -113,7 +113,7 @@
     @media screen and (max-width: 426px) {
         .section-one {
             width: 200%;
-            height: 150vh;
+            height: 140vh;
 
         }
         
