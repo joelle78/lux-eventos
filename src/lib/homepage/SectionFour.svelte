@@ -298,7 +298,7 @@
         .carrousel {
             margin-top: 0;
             width: 80%;
-            height: 55vh;
+            height: 50vh;
 
         }
 
