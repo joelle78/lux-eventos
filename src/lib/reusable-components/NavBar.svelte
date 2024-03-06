@@ -3,70 +3,157 @@
 </script>
 
 <header>
+
+
     <div class="header-wrapper">
-        <nav>
+        <input id="toggle" type="checkbox">
 
-            <!-- LOGO -->
-            <a href="/">
-            </a>
+        <label for="toggle" class="hamburger">
+            <div class="top-bun"></div>
+            <div class="meat"></div>
+            <div class="bottom-bun"></div>
+        </label>
 
-            <ul>
-                <li>
-                    <a class="menu-item" href="/"> HOME </a>
-                </li>
-                <li>
-                    <a class="menu-item" href="/werken-bij"> WERKEN BIJ </a>
-                </li>
-                <li>
-                    <a class="menu-item" href="/voor-opdrachtgevers"> VOOR OPDRACHTGEVERS </a>
-                </li>
+        <div class="nav">
+            <div class="nav-wrapper">
+                <nav>
+                    <ul class="menu">
+                        <li><a href="/" class="menu-item">HOME</a></li>
+                        <li><a href="/werken-bij" class="menu-item">WERKEN BIJ</a></li>
+                        <li><a href="/voor-opdrachtgevers" class="menu-item">VOOR OPDRACHTGEVERS</a></li>
+                        <li><a href="/over-ons" class="menu-item">OVER ONS</a></li>
+                        <li><a href="/contact" class="menu-item">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
 
-                <li>
-                    <a class="menu-item" href="/over-ons"> OVER ONS </a>
-                </li>
-                <li>
-                    <a class="menu-item" href="/contact"> CONTACT </a>
-                </li>
-            </ul>
-        </nav>
     </div>
-
 </header>
 
 <style>
-    nav {
-        position: absolute;
-        z-index: 2;
-        right: 5%;
-        margin-top: 1rem;
-    }
+
 
     ul {
-        font-family: "cormorant-garamond", serif;
-        font-weight: 800;
+        font-family: "fira-sans", serif;
+        font-weight: 300;
         font-style: normal;
-        font-size: 0.8rem;
+        font-size: 1.2rem;
         letter-spacing: 0.2rem;
         display: flex;
-        flex-direction: row;
-        gap: 3rem;
+        flex-direction: column;
         list-style: none;
     }
 
-    a {
-        text-decoration: none;
-        color: white;
+
+    #toggle {
+        display: none;
     }
 
-    /* MEDIA QUERY TABLET */
-    @media screen and (max-width: 768px) {
+    /**
+      Hamburger
+    **/
+    .hamburger {
+        position: fixed;
+        top: 5em;
+        right: 5%;
+        margin-left: -2em;
+        margin-top: -45px;
+        width: 2em;
+        height: 45px;
+        z-index: 5;
+    }
+
+    .hamburger div {
+        position: relative;
+        width: 3em;
+        height: 7px;
+        border-radius: 1px;
+        background-color: white;
+        margin-top: 8px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    /**
+    Nav Styles
+    **/
+    .nav {
+        position: fixed;
+        z-index: 3;
+        width: 100%;
+        height: 100%;
+        background-color: var(--color-beige);
+        top: -100%; left: 0; right: 0; bottom: 0;
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
+        transform: scale(0);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .nav-wrapper {
+        position: relative;
+        overflow: hidden;
+        overflow-y: auto;
+        height: 100%;
+
+    }
+    nav {
+        text-align: center;
+        margin-top: 25%;
 
 
-        ul {
-            font-size: 0.6rem;
-        }
+    }
+    nav a {
+        position: relative;
+        text-decoration: none;
+        color: black;
+        font-size: 2em;
+        display: inline-block;
+        margin-top: 1.25em;
+        transition: color 0.2s ease-in-out;
+        letter-spacing: 1px;
 
 
+    }
+    /*nav a:before {*/
+    /*    content: '';*/
+    /*    height: 0;*/
+    /*    position: absolute;*/
+    /*    width: 0.25em;*/
+    /*    background-color: white;*/
+    /*    left: -0.5em;*/
+    /*    transition: all 0.2s ease-in-out;*/
+    /*}*/
+    nav a:hover {
+        color: white;
+    }
+    nav a:hover:before {
+        height: 100%;
+    }
+
+    /**
+    Animations
+    **/
+    #toggle:checked + .hamburger .top-bun {
+        transform: rotate(-45deg);
+        margin-top: 25px;
+    }
+    #toggle:checked + .hamburger .bottom-bun {
+        opacity: 0;
+        transform: rotate(45deg);
+    }
+    #toggle:checked + .hamburger .meat {
+        transform: rotate(45deg);
+        margin-top: -7px;
+    }
+
+    #toggle:checked + .hamburger + .nav {
+        top: 0;
+        transform: scale(1);
     }
 
 </style>

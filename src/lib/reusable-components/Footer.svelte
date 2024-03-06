@@ -1,4 +1,6 @@
 <script>
+    import LogoTrans from '$lib/assets/logo-transparant.png';
+
 
 </script>
 
@@ -8,8 +10,8 @@
     <hr class="line-footer">
     </div>
 
+    <div class="flex-wrapper-footer">
     <ul>
-
         <li>
             06 12345678
         </li>
@@ -20,10 +22,10 @@
         <li>
             info@lux-eventos.nl
         </li>
-
-
     </ul>
 
+    <img src={LogoTrans} alt="" aria-label=""/>
+    </div>
 
 
 </footer>
@@ -31,6 +33,7 @@
 <style>
     footer {
         background-color: var(--background-color-light);
+        padding-bottom: 2rem;
     }
 
     .flex-container-line {
@@ -50,7 +53,6 @@
         padding-top: 8rem;
         padding-bottom: 1rem;
         margin-left: 10rem;
-
         list-style: none;
     }
 
@@ -60,6 +62,18 @@
         font-weight: 200;
         font-style: normal;
         font-size: var(--paragraph);
+    }
+
+    .flex-wrapper-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    img {
+        width: 25%;
+        margin-top: 2rem;
+        margin-right: 5rem;
     }
 
     /* MEDIA QUERY TABLET */
