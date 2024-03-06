@@ -105,7 +105,6 @@
         .section-two {
             width: 200%;
             height: 200vh;
-
         }
 
         .text-container {
@@ -113,12 +112,13 @@
             width: 100%;
             top: 340vh;
             left: 13vw;
+            position: absolute;
         }
 
         img {
             width: 40%;
             left: 109vw;
-            margin-top: 25rem;
+            top: 30vh;
         }
 
         p {

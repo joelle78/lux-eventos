@@ -113,8 +113,7 @@
     @media screen and (max-width: 426px) {
         .section-one {
             width: 200%;
-            height: 140vh;
-
+            height: 135vh;
         }
         
         svg {
