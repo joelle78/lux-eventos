@@ -141,13 +141,12 @@
     @media screen and (max-width: 376px) {
         header {
             width: 220%;
-            height: 70vh;
+            height: 170vh;
         }
 
-        h1 {
-            font-size: 1.3rem;
-            line-height: 2.3rem;
-            width: 80%;
+        img {
+            height: 170vh;
+            /*overflow: clip;*/
         }
 
     }
@@ -155,15 +154,14 @@
     /* MEDIA QUERY MOBILE S */
     @media screen and (max-width: 320px) {
 
-        h1 {
-            font-size: 1.3rem;
-            line-height: 2.3rem;
-            width: 80%;
-        }
-
         header {
             width: 260%;
-            height: 70vh;
+            height: 170vh;
+        }
+
+        img {
+            height: 170vh;
+            /*overflow: clip;*/
         }
     }
 

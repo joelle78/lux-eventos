@@ -169,11 +169,7 @@
     @media screen and (max-width: 376px) {
         .section-five {
             width: 220%;
-            height: 210vh;
-        }
-
-        li {
-            font-size: 1.2rem;
+            height: 235vh;
         }
     }
 
@@ -181,7 +177,7 @@
     @media screen and (max-width: 321px) {
         .section-five {
             width: 260%;
-            height: 210vh;
+            height: 235vh;
         }
 
     }

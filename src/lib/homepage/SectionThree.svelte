@@ -163,19 +163,6 @@
             width: 110%;
             left: 5vw;
         }
-
-        h4 {
-            width: 60%;
-        }
-
-        .text-container {
-            width: 80%;
-            margin-top: 2rem;
-        }
-
-        p {
-            font-size: 1.2rem;
-        }
     }
 
     /* MEDIA QUERY MOBILE S */

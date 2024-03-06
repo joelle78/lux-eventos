@@ -140,27 +140,7 @@
     @media screen and (max-width: 376px) {
         .section-one {
             width: 220%;
-            height: 130vh;
-        }
-
-        article {
-            display: flex;
-            flex-direction: column;
-            margin-left: 3rem;
-        }
-
-        h2 {
-            margin-left: 5rem;
-        }
-
-        span {
-            margin-left: 1rem;
-        }
-
-        p {
-            margin-left: 6rem;
-            font-size: 1.2rem;
-            width: 75%;
+            height: 135vh;
         }
     }
 

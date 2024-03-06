@@ -324,34 +324,10 @@
             height: 180vh;
         }
 
-        h5 {
-            line-height: 4rem;
+        .page-indicator {
+            bottom: 25%;
         }
 
-        article p {
-            margin-top: 3rem;
-            margin-bottom: 7rem;
-            margin-left: 8rem;
-            padding-bottom: 0;
-            width: 75%;
-            font-size: 1.2rem;
-        }
-
-        .carrousel {
-            margin-top: 0;
-            width: 80%;
-            height: 60vh;
-
-        }
-
-        h6 {
-            margin-top: 2rem;
-            font-size: 2rem;
-        }
-
-        .carrousel-text p {
-            font-size: 1.2rem;
-        }
     }
 
     /* MEDIA QUERY MOBILE S */

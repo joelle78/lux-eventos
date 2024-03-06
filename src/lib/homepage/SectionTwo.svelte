@@ -130,24 +130,20 @@
     @media screen and (max-width: 376px) {
         .section-two {
             width: 220%;
-            height: 140vh;
+            height: 200vh;
         }
 
         .text-container {
-            height: 85%;
-            width: 100%;
-            top: 220vh;
-            left: 35vw;
+            height: 110%;
+            width: 110%;
+            top: 340vh;
+            left: 13vw;
         }
 
         img {
-            width: 35%;
-            left: 120vw;
-            margin-top: 21rem;
-        }
-
-        p {
-            font-size: 1.2rem;
+            width: 43%;
+            left: 110vw;
+            top: 23vh;
         }
     }
 
@@ -155,20 +151,21 @@
     @media screen and (max-width: 321px) {
         .section-two {
             width: 260%;
-            height: 150vh;
+            height: 190vh;
         }
 
+
         .text-container {
-            height: 85%;
-            width: 110%;
-            top: 220vh;
-            left: 35vw;
+            height: 115%;
+            width: 125%;
+            top: 340vh;
+            left: 13vw;
         }
 
         img {
-            width: 35%;
+            width: 43%;
             left: 130vw;
-            margin-top: 21rem;
+            top: 23vh;
         }
     }
 

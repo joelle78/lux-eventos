@@ -90,6 +90,26 @@
         }
     }
 
+    /* MEDIA QUERY MOBILE L */
+    @media screen and (max-width: 426px) {
+        header {
+            width: 200%;
+            height: 170vh;
+        }
+
+        img {
+            height: 170vh;
+            /*overflow: clip;*/
+        }
+
+        h1 {
+            font-size: 3rem;
+            line-height: 3.5rem;
+            width: 90%;
+        }
+    }
+
+
 
 
 
