@@ -110,6 +110,32 @@
             width: 40%;
             height: 75vh;
         }
+    }
+
+    /* MEDIA QUERY MOBILE L */
+    @media screen and (max-width: 426px) {
+
+
+        p {
+            font-size: 1.8rem;
+            width: 80%;
+        }
+
+        .section-one-work-at {
+            width: 200%;
+            height: 160vh;
+        }
+
+        img {
+            display: none;
+        }
+
+        .text-container {
+           left: -2%;
+            top: 5vh;
+            width: 85%;
+            height: 65vh;
+        }
 
 
     }
