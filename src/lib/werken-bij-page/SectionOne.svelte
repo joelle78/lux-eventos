@@ -92,6 +92,7 @@
             margin-left: 6.5rem;
             line-height: 2rem;
             font-size: var(--par-tablet);
+            padding: 3rem 0 3rem 0;
         }
 
         img {
@@ -108,7 +109,7 @@
             left: 43%;
             background-color: white;
             width: 40%;
-            height: 75vh;
+            height: auto;
         }
     }
 
@@ -117,6 +118,7 @@
         p {
             font-size: 1.8rem;
             width: 80%;
+
         }
 
         .section-one-work-at {
@@ -132,7 +134,7 @@
            left: -2%;
             top: 5vh;
             width: 85%;
-            height: 65vh;
+
         }
     }
 
