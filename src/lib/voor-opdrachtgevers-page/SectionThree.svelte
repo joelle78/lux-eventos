@@ -102,4 +102,16 @@
             height: 170vh;
         }
     }
+
+    /* MEDIA QUERY MOBILE L */
+    @media screen and (max-width: 426px) {
+        section {
+            width: 200%;
+            height: 200vh;
+        }
+
+        p {
+            font-size: 1.8rem;
+        }
+    }
 </style>

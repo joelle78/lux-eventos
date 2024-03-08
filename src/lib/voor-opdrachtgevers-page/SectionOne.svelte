@@ -109,7 +109,43 @@
             top: 170%;
             left: 60%;
         }
+    }
+
+    /* MEDIA QUERY MOBILE L */
+    @media screen and (max-width: 426px) {
+       section {
+           width: 200%;
+           height: 210vh;
+        }
+
+        .p-2 {
+            width: 30%;
+            margin-left: -7rem;
+        }
+
+
+        .flex-text-container-1 img {
+            width: 35%;
+        }
+
+        .test {
+            width: 80%;
+            top: 240%;
+            left:87%;
+        }
+    }
+
+    /* MEDIA QUERY MOBILE M */
+    @media screen and (max-width: 376px) {
 
     }
+
+    /* MEDIA QUERY MOBILE S */
+    @media screen and (max-width: 320px) {
+
+
+        }
+
+
 
 </style>
