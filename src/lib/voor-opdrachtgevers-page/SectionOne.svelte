@@ -5,25 +5,25 @@
 </script>
 
 <section>
-{#each data.voorOpdrachtgeversPages as opdrachtgevers }
-    <article>
+    {#each data.voorOpdrachtgeversPages as opdrachtgevers }
+        <article>
 
-        <div class="flex-text-container-1">
-            <img src={image6} alt="Description of the image"/>
-            <h2 id="discover">ONTDEK <span>Lux-Eventos</span></h2>
-        </div>
-
-
-        <div class="flex-text-container-2">
-            <div class="test">
-        <p>{opdrachtgevers.intro}</p>
+            <div class="flex-text-container-1">
+                <img src={image6} alt="Description of the image"/>
+                <h2 id="discover">ONTDEK <span>Lux-Eventos</span></h2>
             </div>
-        <p class="p-2">{opdrachtgevers.beschrijving}</p>
-        </div>
 
-    </article>
 
-{/each}
+            <div class="flex-text-container-2">
+                <div class="test">
+                    <p>{opdrachtgevers.intro}</p>
+                </div>
+                <p class="p-2">{opdrachtgevers.beschrijving}</p>
+            </div>
+
+        </article>
+
+    {/each}
 </section>
 
 <style>
@@ -58,7 +58,7 @@
         width: 25%;
     }
 
-    .flex-text-container-2 p{
+    .flex-text-container-2 p {
         font-family: "fira-sans", serif;
         font-weight: 200;
         font-style: normal;
@@ -66,7 +66,7 @@
         line-height: 2.2rem;
         margin-bottom: 8rem;
     }
-    
+
     .test {
         position: absolute;
         background-color: white;
@@ -75,7 +75,7 @@
         left: 46%;
     }
 
-    .test p{
+    .test p {
         width: 78%;
         margin: 1.7rem 0 2rem 3.1rem;
     }
@@ -113,14 +113,20 @@
 
     /* MEDIA QUERY MOBILE L */
     @media screen and (max-width: 426px) {
-       section {
-           width: 200%;
-           height: 210vh;
+        section {
+            width: 200%;
+            height: 230vh;
         }
+
+        .flex-text-container-2 p {
+            font-size: 1.5rem;
+        }
+
 
         .p-2 {
             width: 30%;
-            margin-left: -7rem;
+            margin-left: -10rem;
+            font-size: 1.8rem;
         }
 
 
@@ -129,9 +135,9 @@
         }
 
         .test {
-            width: 80%;
+            width: 90%;
             top: 240%;
-            left:87%;
+            left: 85%;
         }
     }
 
@@ -144,8 +150,7 @@
     @media screen and (max-width: 320px) {
 
 
-        }
-
+    }
 
 
 </style>
