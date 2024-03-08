@@ -170,7 +170,7 @@
     @media screen and (max-width: 426px) {
         .section-two-work-at {
             width: 200%;
-            height: 200vh;
+            height: 185vh;
         }
 
         h3 {
@@ -226,8 +226,21 @@
             text-align: left;
             margin: 0;
         }
+    }
 
+    /* MEDIA QUERY MOBILE M */
+    @media screen and (max-width: 376px) {
+        .section-two-work-at {
+            width: 220%;
+        }
+    }
 
+    /* MEDIA QUERY MOBILE S */
+    @media screen and (max-width: 320px) {
+
+        .section-two-work-at {
+            width: 260%;
+        }
     }
 
 

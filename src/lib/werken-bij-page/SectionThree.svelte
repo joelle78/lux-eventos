@@ -199,11 +199,15 @@
     @media screen and (max-width: 426px) {
         .section-three-work-at {
             width: 200%;
-            height: 320vh;
+            height: auto;
+        }
+
+        h5 {
+            font-size: 2rem;
         }
 
         p {
-            font-size: 1.2rem;
+            font-size: 1.8rem;
         }
 
         .flex-container-1, .flex-container-2 {
@@ -212,10 +216,23 @@
         }
 
         .card-container {
-            height: 40vh;
+            height: 45vh;
         }
+    }
 
+    /* MEDIA QUERY MOBILE M */
+    @media screen and (max-width: 376px) {
+        .section-three-work-at {
+            width: 220%;
+        }
+    }
 
+    /* MEDIA QUERY MOBILE S */
+    @media screen and (max-width: 320px) {
+
+        .section-three-work-at {
+            width: 260%;
+        }
     }
 
 
