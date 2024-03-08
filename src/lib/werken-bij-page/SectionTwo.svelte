@@ -7,25 +7,26 @@
 </script>
 
 <section class="section-two-work-at">
-{#each data.werkenBijPages as werkenBijPage }
+    {#each data.werkenBijPages as werkenBijPage }
 
 
-    <article>
-        <h3>Word <span>DE TOPPER</span> bij <span class="span-new-line">Lux-Eventos</span></h3>
-        <p class="p-intro">{werkenBijPage.intro2}</p>
+        <article>
+            <h3>Word <span>de topper</span> bij <span class="span-new-line">Lux-Eventos</span></h3>
+            <p class="p-intro">{werkenBijPage.intro2}</p>
 
-        <div class="image-color-container"></div>
-        <div class="flex-container-1">
-        <img src={image5} alt="Description of the image" />
-        <p class="quote">{werkenBijPage.quote2}</p>
-        </div>
+            <div class="image-color-container"></div>
+            <div class="flex-container-1">
+                <img src={image5} alt="Description of the image"/>
+                <p class="quote">{werkenBijPage.quote2}</p>
+            </div>
+            <p class="quote-display-none">{werkenBijPage.quote2}</p>
 
-        <div class="text-container">
-        <p>{werkenBijPage.beschrijving2}</p>
-            <ButtonSignUp/>
-        </div>
-    </article>
-{/each}
+            <div class="text-container">
+                <p>{werkenBijPage.beschrijving2}</p>
+                <ButtonSignUp/>
+            </div>
+        </article>
+    {/each}
 
 </section>
 
@@ -52,13 +53,14 @@
 
     span {
         font-size: var(--header-one);
-        font-family: "cormorant-garamond", serif;
-        font-weight: 400;
+        font-family: "fira-sans", serif;
+        font-weight: 100;
 
     }
 
     .span-new-line {
-        font-family: "amaranth", serif;
+        font-size: var(--header-one);
+        font-family: "abril-fatface", serif;
         font-weight: 100;
         font-style: italic;
 
@@ -117,6 +119,10 @@
         width: 80%;
     }
 
+    .quote-display-none {
+        visibility: hidden;
+    }
+
     /* MEDIA QUERY TABLET */
     @media screen and (max-width: 768px) {
         .section-two-work-at {
@@ -154,14 +160,72 @@
             margin-top: 4.7rem;
             gap: 7rem;
         }
+
+        .quote-display-none {
+            visibility: hidden;
+        }
     }
 
     /* MEDIA QUERY MOBILE L */
     @media screen and (max-width: 426px) {
         .section-two-work-at {
             width: 200%;
-            height: 210vh;
+            height: 270vh;
         }
+
+        h3 {
+            text-align: left;
+            margin-left: 6rem;
+        }
+
+        p {
+            font-size: 1.8rem;
+            margin-left: 6rem;
+
+        }
+
+        .p-intro {
+            margin-left: 6rem;
+            width: 75%;
+
+        }
+
+        .quote {
+            display: none;
+        }
+
+        .quote-display-none {
+            visibility: visible;
+            text-align: left;
+            font-style: italic;
+            width: 75%;
+            margin: 0 0 1rem 6rem;
+        }
+
+        .flex-container-1 {
+            gap: 0;
+        }
+
+        .image-color-container {
+            display: none;
+        }
+
+        img {
+            display: none;
+        }
+
+        .text-container {
+            margin: 3rem 0 1rem 6rem;
+            justify-content: left;
+            align-items: normal;
+        }
+
+        .text-container p {
+            text-align: left;
+            margin: 0;
+        }
+
+
     }
 
 

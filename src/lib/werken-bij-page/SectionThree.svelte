@@ -196,5 +196,13 @@
         }
     }
 
+    /* MEDIA QUERY MOBILE L */
+    @media screen and (max-width: 426px) {
+        .section-three-work-at {
+            width: 200%;
+            height: 210vh;
+        }
+    }
+
 
 </style>
