@@ -115,6 +115,10 @@
 
     /* MEDIA QUERY MOBILE L */
     @media screen and (max-width: 426px) {
+        h2 {
+            margin-left: 6rem;
+        }
+
         p {
             font-size: 1.8rem;
             width: 80%;
@@ -123,7 +127,7 @@
 
         .section-one-work-at {
             width: 200%;
-            height: 160vh;
+            height: 140vh;
         }
 
         img {
@@ -144,10 +148,6 @@
             width: 220%;
             height: 160vh;
         }
-
-       h2 {
-           margin-left: 6rem;
-       }
 
         .text-container {
             left: -2%;

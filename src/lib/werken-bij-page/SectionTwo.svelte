@@ -155,6 +155,16 @@
             gap: 7rem;
         }
     }
+
+    /* MEDIA QUERY MOBILE L */
+    @media screen and (max-width: 426px) {
+        .section-two-work-at {
+            width: 200%;
+            height: 210vh;
+        }
+    }
+
+
 </style>
 
 
