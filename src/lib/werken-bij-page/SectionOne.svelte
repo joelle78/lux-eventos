@@ -114,8 +114,6 @@
 
     /* MEDIA QUERY MOBILE L */
     @media screen and (max-width: 426px) {
-
-
         p {
             font-size: 1.8rem;
             width: 80%;
@@ -136,9 +134,35 @@
             width: 85%;
             height: 65vh;
         }
-
-
     }
+
+    /* MEDIA QUERY MOBILE M */
+    @media screen and (max-width: 376px) {
+        .section-one-work-at {
+            width: 220%;
+            height: 160vh;
+        }
+
+       h2 {
+           margin-left: 6rem;
+       }
+
+        .text-container {
+            left: -2%;
+            top: 5vh;
+            width: 90%;
+        }
+    }
+
+    /* MEDIA QUERY MOBILE S */
+    @media screen and (max-width: 320px) {
+
+        .section-one-work-at {
+            width: 260%;
+        }
+    }
+
+
 
 
 </style>

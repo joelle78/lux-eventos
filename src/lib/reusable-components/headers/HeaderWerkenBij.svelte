@@ -20,7 +20,6 @@
 </header>
 
 
-
 <style>
 
     h1 {
@@ -77,7 +76,6 @@
     }
 
 
-
     /* MEDIA QUERY TABLET */
     @media screen and (max-width: 768px) {
         h1 {
@@ -111,7 +109,32 @@
         }
     }
 
+    /* MEDIA QUERY MOBILE M */
+    @media screen and (max-width: 376px) {
+        header {
+            width: 220%;
+            height: 170vh;
+        }
 
+        img {
+            height: 170vh;
+            /*overflow: clip;*/
+        }
+    }
+
+    /* MEDIA QUERY MOBILE S */
+    @media screen and (max-width: 320px) {
+
+        header {
+            width: 260%;
+            height: 170vh;
+        }
+
+        img {
+            height: 170vh;
+            /*overflow: clip;*/
+        }
+    }
 
 
 </style>
