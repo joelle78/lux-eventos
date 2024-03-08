@@ -170,23 +170,24 @@
     @media screen and (max-width: 426px) {
         .section-two-work-at {
             width: 200%;
-            height: 270vh;
+            height: 200vh;
         }
 
         h3 {
             text-align: left;
-            margin-left: 6rem;
+            margin-left: 5rem;
         }
 
         p {
             font-size: 1.8rem;
-            margin-left: 6rem;
+            margin-left: 5rem;
 
         }
 
         .p-intro {
-            margin-left: 6rem;
+            margin: 3rem 0 0 5rem;
             width: 75%;
+
 
         }
 
@@ -199,11 +200,12 @@
             text-align: left;
             font-style: italic;
             width: 75%;
-            margin: 0 0 1rem 6rem;
+            margin: 0 0 1rem 5rem;
+            line-height: 2rem;
         }
 
         .flex-container-1 {
-            gap: 0;
+            margin-top: 3rem;
         }
 
         .image-color-container {
@@ -215,7 +217,7 @@
         }
 
         .text-container {
-            margin: 3rem 0 1rem 6rem;
+            margin: 3rem 0 1rem 5rem;
             justify-content: left;
             align-items: normal;
         }

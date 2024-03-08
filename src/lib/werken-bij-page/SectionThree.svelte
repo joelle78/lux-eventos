@@ -188,7 +188,6 @@
             gap: 1.5rem;
             width: 85%;
             margin-bottom: 3rem;
-
         }
 
         .card-container {
@@ -200,8 +199,23 @@
     @media screen and (max-width: 426px) {
         .section-three-work-at {
             width: 200%;
-            height: 210vh;
+            height: 320vh;
         }
+
+        p {
+            font-size: 1.2rem;
+        }
+
+        .flex-container-1, .flex-container-2 {
+           flex-wrap: wrap;
+            margin-bottom: 2rem;
+        }
+
+        .card-container {
+            height: 40vh;
+        }
+
+
     }
 
 
