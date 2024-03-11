@@ -99,6 +99,9 @@
         overflow: hidden;
         overflow-y: auto;
         height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
     }
     nav {
