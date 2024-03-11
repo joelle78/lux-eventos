@@ -87,32 +87,42 @@
     @media screen and (max-width: 768px) {
         h1 {
             font-size: 2rem;
-            line-height: 2.3rem;
+            line-height: 2.5rem;
             width: 80%;
         }
 
         header {
-            width: 130%;
-            height: 90vh;
+            width: 130vw;
         }
+
+        img {
+            width: auto;
+        }
+
+
     }
+
 
     /* MEDIA QUERY MOBILE L */
     @media screen and (max-width: 426px) {
         header {
-            width: 200%;
-            height: 170vh;
+            width: 200vw;
+            height: 150vh;
         }
 
         img {
-            height: 170vh;
-            /*overflow: clip;*/
+            width: auto;
+            height: 160vh;
         }
 
         h1 {
             font-size: 3rem;
             line-height: 3.5rem;
-            width: 90%;
+            width: 75%;
+        }
+
+        .flex-container-arrow {
+            margin-top: 100vh;
         }
     }
 
@@ -120,25 +130,24 @@
     @media screen and (max-width: 376px) {
         header {
             width: 220%;
-            height: 170vh;
+            height: 150vh;
         }
 
         img {
-            height: 170vh;
-            /*overflow: clip;*/
+            width: auto;
+            height: 160vh;
         }
     }
-
     /* MEDIA QUERY MOBILE S */
     @media screen and (max-width: 320px) {
-
         header {
             width: 260%;
             height: 170vh;
         }
 
         img {
-            height: 170vh;
+            width: auto;
+            height: 180vh;
             /*overflow: clip;*/
         }
     }
