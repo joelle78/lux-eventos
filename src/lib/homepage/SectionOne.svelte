@@ -7,7 +7,6 @@
 <section class="section-one">
     {#each data.homepages as homepage }
         <article>
-
             <div class="svg-container">
                 <svg width="37" height="25" viewBox="0 0 97 85" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M3 85V3H97" stroke="#B8A096" stroke-width="3"/>
@@ -27,16 +26,28 @@
 <style>
 
     .section-one {
+        position: relative;
         background-color: var(--background-color-light);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
     }
 
     article {
-        padding-top: 11rem;
+        position: relative;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
     }
 
     .svg-container {
-        width: 7%; /* Adjust this value as needed */
+        position: absolute;
+        width: 8%; /* Adjust this value as needed */
         margin-left: 5%; /* Adjust this value as needed */
+        top: -10vh;
+
     }
 
     svg {
@@ -44,11 +55,6 @@
         height: auto; /* Maintain aspect ratio */
     }
 
-    /*svg {*/
-    /*    position: absolute;*/
-    /*    top: 118vh;*/
-    /*    left: 6%;*/
-    /*}*/
 
     h2, span {
         font-family: "cormorant-garamond", serif;
@@ -78,14 +84,14 @@
         font-style: normal;
         font-size: var(--paragraph);
         line-height: 2.2rem;
-        margin: 2rem 0 0 24rem;
-        padding-bottom: 8rem;
+        margin: 2rem 0 0 22.5rem;
+
     }
 
     /* MEDIA QUERY TABLET */
     @media screen and (max-width: 768px) {
         .section-one {
-            width: 130%;
+            width: 130vw;
             height: 130vh;
         }
 
@@ -112,8 +118,8 @@
     /* MEDIA QUERY MOBILE L */
     @media screen and (max-width: 426px) {
         .section-one {
-            width: 200%;
-            height: 135vh;
+            width: 200vw;
+            height: 150vh;
         }
         
         svg {

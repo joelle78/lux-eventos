@@ -74,7 +74,6 @@
 
     <div class="carrousel-container">
         <div class="carrousel">
-
             <div class="carrousel-text">
                 <h6>Uurloon</h6>
                 <p>Bij Lux-Eventos begrijpen we dat jouw talent van onschatbare waarde zijn. Daarom streven we ernaar om
@@ -125,6 +124,7 @@
 <style>
     .section-four {
         background-color: var(--background-color-light);
+        height: 200vh;
     }
 
     article {
@@ -132,7 +132,7 @@
     }
 
     .svg-container {
-        width: 7%;
+        width: 8%;
         margin-left: 5%;
     }
 
@@ -178,13 +178,12 @@
         align-items: center;
         position: relative;
         margin: 2rem 0 0 0;
-        padding-bottom: 5rem;
     }
 
     .carrousel {
-        background-color: white;
-        width: 60%;
-        height: 60vh;
+        border: 3px solid var(--color-beige);
+        width: 58%;
+        height: 50vh;
         display: flex;
         overflow: auto;
         scroll-snap-type: x mandatory;
@@ -197,7 +196,7 @@
         font-style: normal;
         text-align: center;
         font-size: var(--header-three);
-        margin: 4rem 0 2rem 0;
+        margin: 2rem 0 2rem 0;
     }
 
     .carrousel-text p {
@@ -220,8 +219,10 @@
     .page-indicator {
         position: absolute;
         display: flex;
+        justify-content: center;
+        align-items: center;
         left: 47%;
-        bottom: 20%;
+        bottom: 10%;
     }
 
     .page-indicator-dot {

@@ -5,38 +5,50 @@
 </script>
 
 <section class="section-two">
-{#each data.homepages as homepage }
-
-    <div class="text-container">
     <article>
-        <h3>Wie zijn <span>wij?</span></h3>
-        <p>{homepage.beschrijving2}</p>
-    </article>
-    </div>
+        {#each data.homepages as homepage }
+            <article>
+                <div class="text-container">
+                    <h3>Wie zijn <span>wij?</span></h3>
+                    <p>{homepage.beschrijving2}</p>
+                </div>
+                <img src={image2} alt="Description of the image"/>
 
-    <img src={image2} alt="Description of the image" />
-{/each}
+            </article>
+        {/each}
+    </article>
 </section>
 
 <style>
     .section-two {
+        position: relative;
         background-color: var(--background-color-medium);
         padding-bottom: 15rem;
+        height: 100vh;
+    }
+
+    article {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        height: 100vh;
     }
 
     h3, p {
         font-family: "fira-sans", sans-serif;
         font-weight: 200;
         font-style: normal;
-        margin-left: 1rem;
+        margin-left: 2rem;
     }
 
     h3 {
         font-family: "catamaran", serif;
         font-weight: 200;
         font-size: var(--header-two);
-        margin-top: 4rem;
-        line-height: 4rem;
+        margin-top: 1rem;
+
     }
 
     span {
@@ -47,35 +59,34 @@
     p {
         font-size: var(--paragraph);
         line-height: 2.2rem;
-        margin-top: 1.5rem;
-        width: 75%;
+        margin-top: 2rem;
+        width: 84%;
     }
 
-    article {
-        margin-left: 1.5rem;
-    }
 
     .text-container {
-        position: absolute;
-        height: 80%;
-        width: 28%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
         background-color: white;
-        top: 230vh;
-        left: 23vw;
+        width: 25%;
+        height: 70vh;
+        margin-top: -8rem;
+
     }
 
     img {
         position: relative;
-        width: 25%;
-        left: 49vw;
-        margin-top: 15rem;
+        width: 23%;
+        left: -1vw;
+        top: 7vh;
     }
 
     /*MEDIA QUERY TABLET*/
     @media screen and (max-width: 768px) {
         .section-two {
             width: 130%;
-            height: 150vh;
+            height: 130vh;
         }
 
         h3 {
@@ -88,15 +99,15 @@
 
         .text-container {
             height: 80%;
-            width: 50%;
-            top: 250vh;
-            left: 25vw;
+            width: 40%;
+            top: 12vh;
+
         }
 
         img {
             width: 30%;
-            left: 70vw;
-            margin-top: 21rem;
+            left: -4vw;
+            margin-top: 15rem;
         }
     }
 
@@ -104,25 +115,26 @@
     @media screen and (max-width: 426px) {
         .section-two {
             width: 200%;
-            height: 200vh;
+            height: 180vh;
         }
 
         .text-container {
             height: 100%;
-            width: 100%;
-            top: 340vh;
-            left: 13vw;
+            width: 95vw;
+            top: 35vh;
+            left: 3vw;
+
         }
 
         img {
             width: 43%;
-            left: 105vw;
-            top: 23vh;
+            left: -5vw;
+            top: 40vh;
         }
 
         p {
             font-size: 1.8rem;
-            width:80%;
+            width: 80%;
         }
     }
 

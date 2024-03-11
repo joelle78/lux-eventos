@@ -41,6 +41,13 @@
 <style>
     .section-five {
         background-color: var(--background-color-medium);
+        height: 150vh;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        padding: 5rem 0 0 0;
     }
 
     h6 {
@@ -49,13 +56,20 @@
         font-weight: 200;
         font-style: normal;
         margin-left: 10rem;
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     }
 
     span {
         font-family: "catamaran", sans-serif;
         font-weight: 200;
         font-style: normal;
+    }
+
+    p {
+        font-family: "abril-fatface", serif;
+        font-style: italic;
+        font-weight: 800;
+        font-size: 2rem;
     }
 
     /*p {*/
@@ -72,12 +86,6 @@
 
 
 
-    article {
-        display: flex;
-        flex-direction: column;
-        padding: 8rem 0 8rem 0;
-    }
-
     ul {
         font-family: "fira-sans", sans-serif;
         font-weight: 300;
@@ -85,7 +93,7 @@
         list-style: none;
         text-align: left;
         line-height: 2.5rem;
-        margin: 3rem 0 1rem 20rem;
+        margin: 3rem 0 1rem 19rem;
         width:50%;
     }
 
@@ -104,7 +112,7 @@
     }
 
     .button {
-        margin-left: 20rem;
+        margin-left: 19rem;
     }
 
     /*MEDIA QUERY TABLET */
@@ -115,15 +123,15 @@
         }
 
         h6 {
-            margin: 0 0 1rem 7rem;
+            margin: 0 0 0 7rem;
         }
 
         ul {
-            margin-left: 18rem;
+            margin-left: 13rem;
         }
 
         .button {
-            margin-left: 18rem;
+            margin-left: 13rem;
         }
     }
 

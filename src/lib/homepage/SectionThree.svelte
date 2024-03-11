@@ -5,31 +5,51 @@
 </script>
 
 <section class="section-three">
-{#each data.homepages as homepage }
+    <article>
+        {#each data.homepages as homepage }
+            <div class="flex-container">
+<!--            <div class="image-container">-->
+<!--&lt;!&ndash;                <img src={image3} alt="Description of the image"/>&ndash;&gt;-->
+<!--            </div>-->
 
-    <div class="image-container">
-    <img src={image3} alt="Description of the image" />
-    </div>
 
+            <h4>WERKEN ALS <span>freelancer</span></h4>
+            <div class="text-container">
+                <p>{homepage.beschrijving3}</p>
+            </div>
+            </div>
+        {/each}
 
-        <h4>WERKEN ALS <span>freelancer</span></h4>
-    <div class="text-container">
-        <p>{homepage.beschrijving3}</p>
-    </div>
-{/each}
+    </article>
 </section>
 
 <style>
+    .section-three {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--background-color-dark);
+        height: 100vh;
+    }
+
+    article {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 
     h4 {
         font-family: "cormorant-garamond", serif;
         font-weight: 400;
-        position: relative;
         font-size: var(--header-one);
+        position: relative;
         color: white;
-        top: 40vh;
         left: 40vw;
-        width: 50%;
+        top: -3rem;
+        width: 40%;
     }
 
     span {
@@ -49,8 +69,7 @@
         position: relative;
         background-color: var(--background-color-light);
         width: 70%;
-        height: 35vh;
-        top: 50vh;
+        height: 30vh;
     }
 
     p {
@@ -63,49 +82,21 @@
         margin-left: 1.5rem;
     }
 
-    .section-three {
-        background-color: var(--background-color-dark);
-        height: 170vh;
-    }
-
-    .image-container {
-        position: relative;
-        background-color: white;
-        width: 30vw;
-        height: 40vh;
-        top: 20vh;
-        left: 10vw;
-    }
-
-    img {
-        position: absolute;
-        width: 110%;
-        top: 2.3vh;
-        left: 1.2vw;
-    }
 
     /* MEDIA QUERY TABLET*/
     @media screen and (max-width: 768px) {
         .section-three {
             width: 130%;
-            height: 180vh;
+            height: 130vh;
+        }
+
+        h4 {
+            width: 60%;
+            margin-bottom: 2rem;
         }
 
         p {
             font-size: var(--par-tablet);
-
-        }
-
-        .image-container {
-            width: 42vw;
-            height: 33vh;
-            top: 20vh;
-            left: 10vw;
-        }
-
-        img {
-            width: 110%;
-            left: 1.8vw;
         }
     }
 
@@ -113,20 +104,9 @@
     @media screen and (max-width: 426px) {
         .section-three {
             width: 200%;
-            height: 200vh;
+            height: 150vh;
         }
 
-        .image-container {
-            width: 80vw;
-            height: 35vh;
-            top: 20vh;
-            left: 10vw;
-        }
-
-        img {
-            width: 120%;
-            left: 4vw;
-        }
 
         h4 {
             padding-top: 2rem;
@@ -134,8 +114,8 @@
         }
 
         .text-container {
-            width: 90%;
-            height: 20%;
+            width: 80%;
+            height: 50vh;
             margin-top: 2rem;
         }
 
