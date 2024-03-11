@@ -6,8 +6,9 @@
     <img src={HeaderImgVoorOpdrachtgevers} alt="" aria-label="">
 
     <article>
+        <div class="flex-container">
         <h1>Waar <span>HORECA</span> en <span>TALENT</span> samenkomen!</h1>
-    </article>
+        </div>
 
     <div class="flex-container-arrow">
         <a href="#discover">
@@ -17,23 +18,34 @@
 
         </a>
     </div>
+    </article>
 </header>
 
 
 
 <style>
 
+    header {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 100vh;
+        overflow: clip;
+        background-color: black;
+    }
+
+
     h1 {
         font-family: "fira-sans", sans-serif;
         font-weight: 200;
         font-style: normal;
         font-size: var(--header-two);
+
         text-align: center;
-        position: absolute;
-        color: white;
-        top: 40%;
-        width: 80%;
         letter-spacing: 0.2rem;
+        color: white;
     }
 
     span {
@@ -43,36 +55,34 @@
     }
 
     article {
+        position: absolute;
         display: flex;
         justify-content: center;
         align-items: center;
-
     }
 
-    header {
-        position: relative;
-        width: 100%;
-        height: 100vh;
-        overflow-y: hidden;
-        background-color: black;
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     img {
-        width: 100%;
+        position: absolute;
+        width: 100vw;
         object-fit: cover;
-        /*filter: grayscale(0.5);*/
     }
 
     .flex-container-arrow {
+        position: absolute;
+        margin-top: 70vh;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    a {
-        position: absolute;
-        top: 90%;
-    }
+
 
 
     /* MEDIA QUERY TABLET */

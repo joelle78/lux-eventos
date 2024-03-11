@@ -7,27 +7,38 @@
     <img src={HeaderImgHome} alt="" aria-label="">
 
     <article>
-        <h1>Het event team op maat gemaakt, <span>JOUW</span> succes begint met <span>ONZE</span> selectie</h1>
-        <a href="/voor-opdrachtgevers" >
-            <button type="button">Ontdek nu!</button>
-        </a>
+        <div class="flex-container">
+            <h1>Het event team op maat gemaakt, <span>JOUW</span> succes begint met <span>ONZE</span> selectie</h1>
+            <a href="/voor-opdrachtgevers">
+                <button type="button">Ontdek nu!</button>
+            </a>
+        </div>
     </article>
 
 </header>
 
 <style>
+    header {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 100vh;
+        overflow: clip;
+        background-color: black;
+    }
 
     h1 {
         font-family: "fira-sans", sans-serif;
         font-weight: 200;
         font-style: normal;
         font-size: var(--header-two);
+
         text-align: center;
-        position: absolute;
         line-height: 5rem;
         letter-spacing: 0.2rem;
         color: white;
-        top: 40%;
         width: 80%;
     }
 
@@ -38,23 +49,21 @@
     }
 
     article {
+        position: absolute;
         display: flex;
         justify-content: center;
         align-items: center;
-
     }
 
-    header {
-        position: relative;
-        width: 100%;
-        height: 100vh;
-        overflow-y: hidden;
-        background-color: black;
-
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     img {
-        width: 100%;
+        position: absolute;
+        width: 100vw;
         object-fit: cover;
         filter: grayscale(0.5);
     }
@@ -65,7 +74,7 @@
     }
 
     button {
-        margin-top: 2rem;
+        margin-top: 5rem;
         font-family: "roboto", serif;
         font-weight: 300;
         font-style: normal;
@@ -92,38 +101,34 @@
     @media screen and (max-width: 768px) {
         h1 {
             font-size: 2rem;
-            line-height: 2.3rem;
+            line-height: 2.5rem;
             width: 80%;
         }
 
         header {
-            width: 130%;
-            height: 90vh;
+            width: 130vw;
         }
 
-
-        a {
-            position: absolute;
-            top: 70%;
+        img {
+            width: auto;
         }
 
         button {
-            margin-top: 0.1rem;
-            font-size: 12px;
+            margin-top: 7rem;
+            font-size: 20px;
         }
-
     }
 
     /* MEDIA QUERY MOBILE L */
     @media screen and (max-width: 426px) {
         header {
-            width: 200%;
-            height: 170vh;
+            width: 200vw;
+            height: 150vh;
         }
 
         img {
-            height: 170vh;
-            /*overflow: clip;*/
+            width: auto;
+            height: 160vh;
         }
 
         h1 {
@@ -133,7 +138,8 @@
         }
 
         button {
-            font-size: 22px;
+            margin-top: 10rem;
+            font-size: 23px;
         }
     }
 
@@ -141,14 +147,13 @@
     @media screen and (max-width: 376px) {
         header {
             width: 220%;
-            height: 170vh;
+            height: 150vh;
         }
 
         img {
-            height: 170vh;
-            /*overflow: clip;*/
+            width: auto;
+            height: 160vh;
         }
-
     }
 
     /* MEDIA QUERY MOBILE S */
@@ -160,12 +165,11 @@
         }
 
         img {
-            height: 170vh;
+            width: auto;
+            height: 180vh;
             /*overflow: clip;*/
         }
     }
-
-
 
 
 </style>
