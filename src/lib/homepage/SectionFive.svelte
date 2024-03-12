@@ -93,7 +93,7 @@
         list-style: none;
         text-align: left;
         line-height: 2.5rem;
-        margin: 3rem 0 1rem 19rem;
+        margin: 3rem 0 1rem 22.5rem;
         width:50%;
     }
 
@@ -107,12 +107,13 @@
     }
 
     li span {
-        font-weight: 600;
+        font-weight: 500;
         font-style: normal;
+        font-size: 1.5rem;
     }
 
     .button {
-        margin-left: 19rem;
+        margin-left: 22.5rem;
     }
 
     /*MEDIA QUERY TABLET */

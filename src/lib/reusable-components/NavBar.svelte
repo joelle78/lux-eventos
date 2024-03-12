@@ -1,4 +1,7 @@
 <script>
+    import LogoTrans from '$lib/assets/logo-transparant.png';
+
+
 
 </script>
 
@@ -15,7 +18,9 @@
         </label>
 
         <div class="nav">
+            <img src={LogoTrans} alt="" aria-label=""/>
             <div class="nav-wrapper">
+
                 <nav>
                     <ul class="menu">
                         <li><a href="/" class="menu-item">HOME</a></li>
@@ -23,6 +28,8 @@
                         <li><a href="/voor-opdrachtgevers" class="menu-item">VOOR OPDRACHTGEVERS</a></li>
                         <li><a href="/over-ons" class="menu-item">OVER ONS</a></li>
                         <li><a href="/contact" class="menu-item">CONTACT</a></li>
+
+
                     </ul>
                 </nav>
             </div>
@@ -38,7 +45,7 @@
         font-family: "fira-sans", serif;
         font-weight: 300;
         font-style: normal;
-        font-size: 1.2rem;
+        font-size: 1rem;
         letter-spacing: 0.2rem;
         display: flex;
         flex-direction: column;
@@ -82,7 +89,7 @@
         z-index: 3;
         width: 100%;
         height: 100%;
-        background-color: var(--color-beige);
+        background-color: var(--background-color-medium);
         top: -100%; left: 0; right: 0; bottom: 0;
         overflow: hidden;
         transition: all 0.3s ease-in-out;
@@ -104,16 +111,25 @@
         align-items: center;
 
     }
+
+
+
     nav {
         text-align: center;
-        margin-top: 25%;
-
-
+        margin-top: 1%;
     }
+
+    img {
+        position:absolute;
+        width: 25%;
+        top:5vh;
+        left: -10vh;
+    }
+
     nav a {
         position: relative;
         text-decoration: none;
-        color: black;
+        color: var(--color-beige);
         font-size: 2em;
         display: inline-block;
         margin-top: 1.25em;

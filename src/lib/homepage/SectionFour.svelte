@@ -1,59 +1,62 @@
 <script>
 
+    import ButtonDiscoverNow from "$lib/reusable-components/buttons/ButtonDiscoverNow.svelte";
+    import ButtonContact from "$lib/reusable-components/buttons/ButtonContact.svelte";
+
     export let data;
 
 
-    import {onMount} from 'svelte';
-
-    let carrousel;
-    let dots = [];
-    let activeDotIndex = 0;
-
-    onMount(() => {
-        carrousel = document.querySelector('.carrousel');
-        dots = Array.from(document.querySelectorAll('.page-indicator-dot'));
-
-        const updateActiveState = () => {
-            // Calculate the index of the active dot based on scroll position
-            const scrollWidth = carrousel.scrollWidth - carrousel.clientWidth;
-            const scrollLeft = carrousel.scrollLeft;
-            const newIndex = Math.round((scrollLeft / scrollWidth) * (dots.length - 1));
-
-            // Update activeDotIndex
-            activeDotIndex = newIndex;
-
-            // Update active class for dots
-            dots.forEach((dot, i) => {
-                dot.classList.toggle('active', i === activeDotIndex);
-            });
-        };
-
-        const handleScroll = () => {
-            updateActiveState();
-        };
-
-        const handleDotClick = (index) => {
-            const scrollDistance = (index / (dots.length - 1)) * (carrousel.scrollWidth - carrousel.clientWidth);
-            carrousel.scrollTo({left: scrollDistance, behavior: 'smooth'});
-        };
-
-        carrousel.addEventListener('scroll', handleScroll);
-
-        dots.forEach((dot, index) => {
-            dot.addEventListener('click', () => {
-                handleDotClick(index);
-            });
-        });
-
-        return () => {
-            carrousel.removeEventListener('scroll', handleScroll);
-            dots.forEach((dot, index) => {
-                dot.removeEventListener('click', () => {
-                    handleDotClick(index);
-                });
-            });
-        };
-    });
+    // import {onMount} from 'svelte';
+    //
+    // let carrousel;
+    // let dots = [];
+    // let activeDotIndex = 0;
+    //
+    // onMount(() => {
+    //     carrousel = document.querySelector('.carrousel');
+    //     dots = Array.from(document.querySelectorAll('.page-indicator-dot'));
+    //
+    //     const updateActiveState = () => {
+    //         // Calculate the index of the active dot based on scroll position
+    //         const scrollWidth = carrousel.scrollWidth - carrousel.clientWidth;
+    //         const scrollLeft = carrousel.scrollLeft;
+    //         const newIndex = Math.round((scrollLeft / scrollWidth) * (dots.length - 1));
+    //
+    //         // Update activeDotIndex
+    //         activeDotIndex = newIndex;
+    //
+    //         // Update active class for dots
+    //         dots.forEach((dot, i) => {
+    //             dot.classList.toggle('active', i === activeDotIndex);
+    //         });
+    //     };
+    //
+    //     const handleScroll = () => {
+    //         updateActiveState();
+    //     };
+    //
+    //     const handleDotClick = (index) => {
+    //         const scrollDistance = (index / (dots.length - 1)) * (carrousel.scrollWidth - carrousel.clientWidth);
+    //         carrousel.scrollTo({left: scrollDistance, behavior: 'smooth'});
+    //     };
+    //
+    //     carrousel.addEventListener('scroll', handleScroll);
+    //
+    //     dots.forEach((dot, index) => {
+    //         dot.addEventListener('click', () => {
+    //             handleDotClick(index);
+    //         });
+    //     });
+    //
+    //     return () => {
+    //         carrousel.removeEventListener('scroll', handleScroll);
+    //         dots.forEach((dot, index) => {
+    //             dot.removeEventListener('click', () => {
+    //                 handleDotClick(index);
+    //             });
+    //         });
+    //     };
+    // });
 </script>
 
 
@@ -67,55 +70,56 @@
                 </svg>
             </div>
 
-            <h5>Waarom freelancen <span>bij Lux-Eventos</span></h5>
+            <h5>FREELANCEN<span>bij Lux-Eventos</span></h5>
             <p>{homepage.beschrijving4}</p>
+            <div class="button"><ButtonContact /></div>
         </article>
     {/each}
 
-    <div class="carrousel-container">
-        <div class="carrousel">
-            <div class="carrousel-text">
-                <h6>Uurloon</h6>
-                <p>Bij Lux-Eventos begrijpen we dat jouw talent van onschatbare waarde zijn. Daarom streven we ernaar om
-                    niet alleen een uitzonderlijke werkomgeving te bieden, maar ook een eerlijk en concurrerend uurloon
-                    dat jou weerspiegelt.
-                </p>
-            </div>
+<!--    <div class="carrousel-container">-->
+<!--        <div class="carrousel">-->
+<!--            <div class="carrousel-text">-->
+<!--                <h6>Uurloon</h6>-->
+<!--                <p>Bij Lux-Eventos begrijpen we dat jouw talent van onschatbare waarde zijn. Daarom streven we ernaar om-->
+<!--                    niet alleen een uitzonderlijke werkomgeving te bieden, maar ook een eerlijk en concurrerend uurloon-->
+<!--                    dat jou weerspiegelt.-->
+<!--                </p>-->
+<!--            </div>-->
 
-            <div class="carrousel-text">
-                <h6>Variatie in opdrachten</h6>
-                <p>Als freelancer heb je bij ons toegang tot een breed scala aan opdrachten in de horeca en
-                    events. Of het nu gaat om een intiem diner, een grootse bruiloft, of een zakelijk evenement,
-                    er wacht altijd een nieuwe uitdaging op je.</p>
-            </div>
+<!--            <div class="carrousel-text">-->
+<!--                <h6>Variatie in opdrachten</h6>-->
+<!--                <p>Als freelancer heb je bij ons toegang tot een breed scala aan opdrachten in de horeca en-->
+<!--                    events. Of het nu gaat om een intiem diner, een grootse bruiloft, of een zakelijk evenement,-->
+<!--                    er wacht altijd een nieuwe uitdaging op je.</p>-->
+<!--            </div>-->
 
-            <div class="carrousel-text">
-                <h6>Flexibiliteit</h6>
-                <p>Wij begrijpen de waarde van flexibiliteit. Als freelancer bepaal jij zelf welke opdrachten bij jou
-                    passen en wanneer je beschikbaar bent. Jouw agenda, jouw regels.</p>
-            </div>
+<!--            <div class="carrousel-text">-->
+<!--                <h6>Flexibiliteit</h6>-->
+<!--                <p>Wij begrijpen de waarde van flexibiliteit. Als freelancer bepaal jij zelf welke opdrachten bij jou-->
+<!--                    passen en wanneer je beschikbaar bent. Jouw agenda, jouw regels.</p>-->
+<!--            </div>-->
 
-            <div class="carrousel-text">
-                <h6>Ondersteuning en samenwerking</h6>
-                <p>Bij Lux-Eventos geloven we in samenwerking en ondersteuning. Ons team staat altijd voor je
-                    klaar om je te begeleiden, vragen te beantwoorden en successen te vieren.</p>
-            </div>
+<!--            <div class="carrousel-text">-->
+<!--                <h6>Ondersteuning en samenwerking</h6>-->
+<!--                <p>Bij Lux-Eventos geloven we in samenwerking en ondersteuning. Ons team staat altijd voor je-->
+<!--                    klaar om je te begeleiden, vragen te beantwoorden en successen te vieren.</p>-->
+<!--            </div>-->
 
-            <div>
-                <div class="page-indicator">
-                    {#each Array.from({length: data.homepages.length}) as _, i}
-                        <span class="page-indicator-dot active {i === activeDotIndex ? 'active' : ''}"></span>
-                        <span class="page-indicator-dot"></span>
-                        <span class="page-indicator-dot"></span>
-                        <span class="page-indicator-dot"></span>
-                    {/each}
-                </div>
+<!--            <div>-->
+<!--                <div class="page-indicator">-->
+<!--                    {#each Array.from({length: data.homepages.length}) as _, i}-->
+<!--                        <span class="page-indicator-dot active {i === activeDotIndex ? 'active' : ''}"></span>-->
+<!--                        <span class="page-indicator-dot"></span>-->
+<!--                        <span class="page-indicator-dot"></span>-->
+<!--                        <span class="page-indicator-dot"></span>-->
+<!--                    {/each}-->
+<!--                </div>-->
 
 
-            </div>
+<!--            </div>-->
 
-        </div>
-    </div>
+<!--        </div>-->
+<!--    </div>-->
 
 
 </section>
@@ -124,11 +128,11 @@
 <style>
     .section-four {
         background-color: var(--background-color-light);
-        height: 200vh;
+        height: 100vh;
     }
 
     article {
-        padding-top: 10rem;
+        padding-top: 5rem;
     }
 
     .svg-container {
@@ -142,23 +146,21 @@
     }
 
     h5, span {
-        font-family: "catamaran", sans-serif;
-        font-weight: 200;
-        font-style: normal;
+        font-family: "cormorant-garamond", sans-serif;
+        font-weight: 100;
         margin-left: 10rem;
-    }
-
-    h5 {
         font-size: var(--header-one);
     }
 
+
+
     span {
         font-family: "fira-sans", sans-serif;
-        font-weight: 200;
-        font-style: italic;
-        font-size: var(--header-two);
-        margin: 0.5rem 0 0 0.3rem;
+        margin: 1rem 0 2rem 12rem;
         display: block;
+        font-size: var(--header-two);
+        font-weight: 200;
+
     }
 
     article p {
@@ -168,75 +170,80 @@
         font-style: normal;
         font-size: var(--paragraph);
         line-height: 2.8rem;
-        margin: 2rem 0 0 20rem;
-        padding-bottom: 8rem;
+        margin: 2rem 0 0 22.5rem;
+        padding-bottom: 1rem;
     }
 
-    .carrousel-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        margin: 2rem 0 0 0;
+    .button {
+        margin-left: 22.5rem;
     }
 
-    .carrousel {
-        border: 3px solid var(--color-beige);
-        width: 58%;
-        height: 50vh;
-        display: flex;
-        overflow: auto;
-        scroll-snap-type: x mandatory;
-        scrollbar-width: none;
-    }
 
-    h6 {
-        font-family: "catamaran", sans-serif;
-        font-weight: 300;
-        font-style: normal;
-        text-align: center;
-        font-size: var(--header-three);
-        margin: 2rem 0 2rem 0;
-    }
+    /*.carrousel-container {*/
+    /*    display: flex;*/
+    /*    justify-content: center;*/
+    /*    align-items: center;*/
+    /*    position: relative;*/
+    /*    margin: 2rem 0 0 0;*/
+    /*}*/
 
-    .carrousel-text p {
-        font-family: "fira-sans", sans-serif;
-        font-weight: 300;
-        font-style: normal;
-        text-align: center;
-        font-size: var(--paragraph);
-        line-height: 2.5rem;
-        padding: 0 2rem 0 2rem;
-    }
+    /*.carrousel {*/
+    /*    border: 3px solid var(--color-beige);*/
+    /*    width: 58%;*/
+    /*    height: 50vh;*/
+    /*    display: flex;*/
+    /*    overflow: auto;*/
+    /*    scroll-snap-type: x mandatory;*/
+    /*    scrollbar-width: none;*/
+    /*}*/
 
-    .carrousel-text {
-        flex-grow: 0;
-        flex-shrink: 0;
-        flex-basis: 100%;
-        scroll-snap-align: center;
-    }
+    /*h6 {*/
+    /*    font-family: "catamaran", sans-serif;*/
+    /*    font-weight: 300;*/
+    /*    font-style: normal;*/
+    /*    text-align: center;*/
+    /*    font-size: var(--header-three);*/
+    /*    margin: 2rem 0 2rem 0;*/
+    /*}*/
 
-    .page-indicator {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        left: 47%;
-        bottom: 10%;
-    }
+    /*.carrousel-text p {*/
+    /*    font-family: "fira-sans", sans-serif;*/
+    /*    font-weight: 300;*/
+    /*    font-style: normal;*/
+    /*    text-align: center;*/
+    /*    font-size: var(--paragraph);*/
+    /*    line-height: 2.5rem;*/
+    /*    padding: 0 2rem 0 2rem;*/
+    /*}*/
 
-    .page-indicator-dot {
-        width: 10px;
-        height: 10px;
-        border-radius: 50%;
-        background-color: black;
-        margin: 0 5px;
-        cursor: pointer;
-    }
+    /*.carrousel-text {*/
+    /*    flex-grow: 0;*/
+    /*    flex-shrink: 0;*/
+    /*    flex-basis: 100%;*/
+    /*    scroll-snap-align: center;*/
+    /*}*/
 
-    .page-indicator-dot.active {
-        background-color: var(--color-beige);
-    }
+    /*.page-indicator {*/
+    /*    position: absolute;*/
+    /*    display: flex;*/
+    /*    justify-content: center;*/
+    /*    align-items: center;*/
+    /*    left: 47%;*/
+    /*    bottom: 10%;*/
+    /*}*/
+
+    /*.page-indicator-dot {*/
+    /*    width: 10px;*/
+    /*    height: 10px;*/
+    /*    border-radius: 50%;*/
+    /*    background-color: black;*/
+    /*    margin: 0 5px;*/
+    /*    cursor: pointer;*/
+    /*}*/
+
+    /*.page-indicator-dot.active {*/
+    /*    background-color: var(--color-beige);*/
+    /*}*/
 
     /*MEDIA QUERY TABLET*/
     @media screen and (max-width: 768px) {

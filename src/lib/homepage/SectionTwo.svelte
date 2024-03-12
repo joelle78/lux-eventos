@@ -1,20 +1,20 @@
 <script>
     export let data
 
-    const image2 = data.assets[0].url;
+    // const image2 = data.assets[0].url;
 </script>
 
 <section class="section-two">
     <article>
         {#each data.homepages as homepage }
-            <article>
+
                 <div class="text-container">
                     <h3>Wie zijn <span>wij?</span></h3>
                     <p>{homepage.beschrijving2}</p>
                 </div>
-                <img src={image2} alt="Description of the image"/>
+<!--                <img src={image2} alt="Description of the image"/>-->
 
-            </article>
+
         {/each}
     </article>
 </section>
@@ -73,6 +73,7 @@
         height: 70vh;
         margin-top: -8rem;
 
+
     }
 
     img {
@@ -80,6 +81,7 @@
         width: 23%;
         left: -1vw;
         top: 7vh;
+
     }
 
     /*MEDIA QUERY TABLET*/

@@ -3,14 +3,16 @@
 
     const image3 = data.assets[1].url;
 </script>
-
+{#each data.homepages as homepage }
 <section class="section-three">
+    <div class="image-container">
+        <img src={image3} alt="Description of the image"/>
+    </div>
     <article>
-        {#each data.homepages as homepage }
+
             <div class="flex-container">
-<!--            <div class="image-container">-->
-<!--&lt;!&ndash;                <img src={image3} alt="Description of the image"/>&ndash;&gt;-->
-<!--            </div>-->
+
+
 
 
             <h4>WERKEN ALS <span>freelancer</span></h4>
@@ -18,19 +20,32 @@
                 <p>{homepage.beschrijving3}</p>
             </div>
             </div>
-        {/each}
+
 
     </article>
 </section>
+{/each}
 
 <style>
-    .section-three {
+    .image-container {
+        position: absolute;
+        left: 30vw;
+    }
 
+    img {
+        position: relative;
+        opacity: 0.06;
+        height: 100vh;
+        z-index: 1;
+    }
+
+    .section-three {
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: var(--background-color-dark);
         height: 100vh;
+
     }
 
     article {
@@ -70,6 +85,7 @@
         background-color: var(--background-color-light);
         width: 70%;
         height: 30vh;
+        z-index: 2;
     }
 
     p {

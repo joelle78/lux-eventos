@@ -58,7 +58,7 @@
 
     h2, span {
         font-family: "cormorant-garamond", serif;
-        font-weight: 400;
+        font-weight: 100;
         font-style: normal;
         margin-left: 10rem;
     }
@@ -70,7 +70,6 @@
     span {
         font-family: "fira-sans", sans-serif;
         font-weight: 200;
-        font-style: italic;
         font-size: var(--header-two);
         margin-top: 1rem;
         margin-left: 12rem;
