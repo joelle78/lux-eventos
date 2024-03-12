@@ -121,9 +121,9 @@
 
     img {
         position:absolute;
-        width: 25%;
+        width: 20%;
         top:5vh;
-        left: -10vh;
+        left: -5vh;
     }
 
     nav a {
