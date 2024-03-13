@@ -2,7 +2,6 @@
     import LogoTrans from '$lib/assets/logo-transparant.png';
 
 
-
 </script>
 
 <header>
@@ -90,7 +89,10 @@
         width: 100%;
         height: 100%;
         background-color: var(--background-color-medium);
-        top: -100%; left: 0; right: 0; bottom: 0;
+        top: -100%;
+        left: 0;
+        right: 0;
+        bottom: 0;
         overflow: hidden;
         transition: all 0.3s ease-in-out;
         transform: scale(0);
@@ -101,6 +103,7 @@
         align-items: center;
 
     }
+
     .nav-wrapper {
         position: relative;
         overflow: hidden;
@@ -113,16 +116,15 @@
     }
 
 
-
     nav {
         text-align: center;
         margin-top: 1%;
     }
 
     img {
-        position:absolute;
+        position: absolute;
         width: 20%;
-        top:5vh;
+        top: 5vh;
         left: -5vh;
     }
 
@@ -136,8 +138,8 @@
         transition: color 0.2s ease-in-out;
         letter-spacing: 1px;
 
-
     }
+
     /*nav a:before {*/
     /*    content: '';*/
     /*    height: 0;*/
@@ -150,6 +152,7 @@
     nav a:hover {
         color: white;
     }
+
     nav a:hover:before {
         height: 100%;
     }
@@ -161,10 +164,12 @@
         transform: rotate(-45deg);
         margin-top: 25px;
     }
+
     #toggle:checked + .hamburger .bottom-bun {
         opacity: 0;
         transform: rotate(45deg);
     }
+
     #toggle:checked + .hamburger .meat {
         transform: rotate(45deg);
         margin-top: -7px;
@@ -173,6 +178,32 @@
     #toggle:checked + .hamburger + .nav {
         top: 0;
         transform: scale(1);
+    }
+
+    /* MEDIA QUERY TABLET */
+    @media screen and (max-width: 768px) {
+        img {
+            width: 30%;
+        }
+    }
+
+    /* MEDIA QUERY MOBILE L */
+    @media screen and (max-width: 426px) {
+        img {
+            width: 45%;
+        }
+
+        nav a {
+            font-size: 2.5rem;
+        }
+    }
+
+    /* MEDIA QUERY MOBILE M */
+    @media screen and (max-width: 376px) {
+        img {
+            width: 45%;
+        }
+
     }
 
 </style>
