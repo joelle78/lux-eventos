@@ -1,4 +1,4 @@
-<a href="#contact-employees">
+<a href="#benefits">
     <button type="button">Ontdek de voordelen!</button>
 </a>
 

@@ -7,7 +7,7 @@
     {#each data.werkenBijPages as werkenBijPage }
         <article>
 
-            <h4>WAT BIEDEN WIJ JOU?</h4>
+            <h4 id="benefits">WAT BIEDEN WIJ JOU?</h4>
 
             <div class="container-of-containers">
                 <div class="flex-container-1">
@@ -186,7 +186,7 @@
 
         .flex-container-1, .flex-container-2 {
             gap: 1.5rem;
-            width: 85%;
+            width: 95%;
             margin-bottom: 3rem;
         }
 
@@ -204,26 +204,37 @@
 
         h5 {
             font-size: 2rem;
+            margin-bottom: 2rem;
+            line-height: 3rem;
         }
 
         p {
             font-size: 1.8rem;
+            line-height: 3rem;
         }
 
         .flex-container-1, .flex-container-2 {
            flex-wrap: wrap;
             margin-bottom: 2rem;
+            justify-content: center;
+            align-items: center;
         }
 
         .card-container {
-            height: 45vh;
+            width: 110vw;
+            height: 100vh;
         }
     }
 
     /* MEDIA QUERY MOBILE M */
     @media screen and (max-width: 376px) {
         .section-three-work-at {
-            width: 220%;
+            width: 220vw;
+        }
+
+        .card-container {
+            width: 120vw;
+
         }
     }
 
@@ -231,7 +242,12 @@
     @media screen and (max-width: 320px) {
 
         .section-three-work-at {
-            width: 260%;
+            width: 260vw;
+        }
+
+        .card-container {
+            width: 150vw;
+
         }
     }
 

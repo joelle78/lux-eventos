@@ -169,6 +169,7 @@
         font-style: normal;
         font-size: 1.3rem;
         line-height: 2.2rem;
+
     }
 
     .flex-container-freelancers-top {
@@ -195,6 +196,7 @@
         flex-direction: row;
         top: -25vh;
         gap: 5rem;
+
     }
 
     .carrousel-container-v {
@@ -204,6 +206,7 @@
         scroll-snap-type: x mandatory;
         scrollbar-width: none;
         width: 40%;
+
     }
 
     .carrousel-container-a {
@@ -214,6 +217,7 @@
         scrollbar-width: none;
         width: 40%;
 
+
     }
 
     .carrousel-text-v {
@@ -222,6 +226,7 @@
         flex-shrink: 0;
         flex-basis: 100%;
         scroll-snap-align: center;
+
     }
 
     .carrousel-text-a {
@@ -230,6 +235,7 @@
         flex-shrink: 0;
         flex-basis: 100%;
         scroll-snap-align: center;
+
     }
     
     .button-container {
@@ -251,6 +257,7 @@
         font-style: normal;
         font-size: 0.8rem;
         color: black;
+
     }
 
     .right-button {
@@ -267,6 +274,7 @@
             font-size: var(--par-tablet);
             padding-left: 3rem;
             padding-right: 3rem;
+
         }
 
         .svg-left {

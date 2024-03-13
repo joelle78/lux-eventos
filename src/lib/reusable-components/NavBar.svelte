@@ -66,7 +66,7 @@
         margin-left: -2em;
         margin-top: -45px;
         width: 2em;
-        height: 45px;
+        height: 40px;
         z-index: 5;
     }
 
@@ -74,7 +74,6 @@
         position: relative;
         width: 3em;
         height: 7px;
-        border-radius: 1px;
         background-color: white;
         margin-top: 8px;
         transition: all 0.3s ease-in-out;
