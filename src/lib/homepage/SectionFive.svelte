@@ -119,7 +119,7 @@
     /*MEDIA QUERY TABLET */
     @media screen and (max-width: 768px) {
         .section-five {
-            width: 130%;
+            width: 130vw;
             height: 210vh;
         }
 
@@ -139,8 +139,8 @@
     /* MEDIA QUERY MOBILE L */
     @media screen and (max-width: 426px) {
         .section-five {
-            width: 200%;
-            height: 225vh;
+            width: 200vw;
+            height: 200vh;
         }
 
         span {

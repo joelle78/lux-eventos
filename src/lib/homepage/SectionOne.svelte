@@ -144,7 +144,7 @@
     /* MEDIA QUERY MOBILE M */
     @media screen and (max-width: 376px) {
         .section-one {
-            width: 220%;
+            width: 220vw;
             height: 135vh;
         }
     }
@@ -152,7 +152,7 @@
     /* MEDIA QUERY MOBILE S */
     @media screen and (max-width: 321px) {
         .section-one {
-            width: 260%;
+            width: 260vw;
             height: 130vh;
         }
     }
