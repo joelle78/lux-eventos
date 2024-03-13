@@ -103,14 +103,14 @@
         }
 
         span {
-            margin-left: 11rem;
+            margin-left: 6rem;
         }
 
         p {
             width: 65%;
             font-size: var(--par-tablet);
             line-height: 2.2rem;
-            margin: 3rem 0 0 18rem;
+            margin: 3rem 0 0 13rem;
         }
     }
 
@@ -118,15 +118,15 @@
     @media screen and (max-width: 426px) {
         .section-one {
             width: 200vw;
-            height: 150vh;
+            height: 200vh;
         }
         
         svg {
-         display: none;
+         width: 7rem;
         }
 
         h2 {
-            margin-left: 4rem;
+            margin-left: 7rem;
 
         }
 
@@ -135,9 +135,9 @@
         }
 
         p {
-            margin-left: 10rem;
+            margin-left: 8rem;
             font-size: 1.8rem;
-            width: 70%;
+            width: 75%;
         }
     }
 

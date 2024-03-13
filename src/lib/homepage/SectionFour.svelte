@@ -1,7 +1,5 @@
 <script>
-
-    import ButtonDiscoverNow from "$lib/reusable-components/buttons/ButtonDiscoverNow.svelte";
-    import ButtonContact from "$lib/reusable-components/buttons/ButtonContact.svelte";
+    import ButtonBenefits from "$lib/reusable-components/buttons/ButtonBenefits.svelte";
 
     export let data;
 
@@ -72,7 +70,7 @@
 
             <h5>FREELANCEN<span>bij Lux-Eventos</span></h5>
             <p>{homepage.beschrijving4}</p>
-            <div class="button"><ButtonContact /></div>
+            <div class="button"><ButtonBenefits /></div>
         </article>
     {/each}
 
@@ -127,12 +125,12 @@
 
 <style>
     .section-four {
+        position: relative;
         background-color: var(--background-color-light);
         height: 100vh;
-    }
-
-    article {
-        padding-top: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .svg-container {
@@ -248,8 +246,8 @@
     /*MEDIA QUERY TABLET*/
     @media screen and (max-width: 768px) {
         .section-four {
-            width: 130%;
-            height: 210vh;
+            width: 130vw;
+            height: 130vh;
         }
 
         h5 {
@@ -259,12 +257,14 @@
         }
 
         span {
-            margin-left: 1rem;
+            margin-left: 6rem;
         }
+
 
         article p {
             font-size: var(--par-tablet);
             line-height: 2rem;
+            margin-left: 13rem;
         }
 
         .carrousel {
@@ -276,27 +276,35 @@
             font-size: var(--par-tablet);
             line-height: 2rem;
         }
+
+        .button {
+            margin-left: 13rem;
+        }
     }
 
     /* MEDIA QUERY MOBILE L */
     @media screen and (max-width: 426px) {
         .section-four {
-            width: 200%;
-            height: 190vh;
+            width: 200vw;
+            height: 200vh;
         }
 
-        svg {
-            display: none;
+        .svg-container {
+            width: 7rem;
         }
 
         h5 {
             line-height: 4rem;
         }
 
+        span {
+            margin-left: 0;
+        }
+
         article p {
             margin-top: 3rem;
-            margin-bottom: 7rem;
-            margin-left: 8rem;
+            margin-bottom: 2rem;
+            margin-left: 7.5rem;
             padding-bottom: 0;
             width: 75%;
             font-size: 1.8rem;
@@ -321,6 +329,10 @@
 
         .page-indicator {
             bottom: 28%;
+        }
+
+        .button {
+            margin-left: 7.5rem;
         }
     }
 

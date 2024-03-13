@@ -11,10 +11,6 @@
     <article>
 
             <div class="flex-container">
-
-
-
-
             <h4>WERKEN ALS <span>freelancer</span></h4>
             <div class="text-container">
                 <p>{homepage.beschrijving3}</p>
@@ -29,13 +25,13 @@
 <style>
     .image-container {
         position: absolute;
-        left: 30vw;
     }
 
     img {
         position: relative;
-        opacity: 0.06;
+        opacity: 0.1;
         height: 100vh;
+        width: 100vw;
         z-index: 1;
     }
 
@@ -102,7 +98,12 @@
     /* MEDIA QUERY TABLET*/
     @media screen and (max-width: 768px) {
         .section-three {
-            width: 130%;
+            width: 130vw;
+            height: 130vh;
+        }
+
+        img {
+            width: 130vw;
             height: 130vh;
         }
 
@@ -119,8 +120,13 @@
     /* MEDIA QUERY MOBILE L */
     @media screen and (max-width: 426px) {
         .section-three {
-            width: 200%;
-            height: 150vh;
+            width: 200vw;
+            height: 200vh;
+        }
+
+        img {
+            width: 200vw;
+            height: 200vh;
         }
 
 
@@ -130,9 +136,9 @@
         }
 
         .text-container {
-            width: 80%;
-            height: 50vh;
-            margin-top: 2rem;
+            width: 85%;
+            height: 40vh;
+            margin-top: 4rem;
         }
 
         p {
@@ -144,33 +150,26 @@
     /* MEDIA QUERY MOBILE M */
     @media screen and (max-width: 376px) {
         .section-three {
-            width: 220%;
+            width: 220vw;
             height: 180vh;
         }
 
-        .image-container {
-            width: 80vw;
-            height: 35vh;
-            top: 20vh;
-            left: 35vw;
-        }
-
         img {
-            width: 110%;
-            left: 5vw;
+            width: 220vw;
+            height: 180vh;
         }
     }
 
     /* MEDIA QUERY MOBILE S */
     @media screen and (max-width: 321px) {
         .section-three {
-            width: 260%;
+            width: 260vw;
             height: 180vh;
         }
 
         img {
-            width: 140%;
-            left: 5vw;
+            width: 260vw;
+            height: 180vh;
         }
 
     }
