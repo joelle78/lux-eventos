@@ -158,11 +158,12 @@
         }
 
         svg {
-            width: 7rem;
+            width: 9rem;
         }
 
         h2 {
             margin-left: 7rem;
+            margin-top: 1rem;
 
         }
 
@@ -172,7 +173,8 @@
 
         p {
             margin-left: 8rem;
-            font-size: 1.8rem;
+            font-size: 2rem;
+            line-height: 3rem;
             width: 80%;
         }
     }

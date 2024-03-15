@@ -137,6 +137,10 @@
 
     /* MEDIA QUERY MOBILE L */
     @media screen and (max-width: 426px) {
+        svg{
+            width: 9rem;
+        }
+
         section {
             width: 200vw;
             height: 200vh;
@@ -144,7 +148,7 @@
 
         li {
             margin-top: 1rem;
-            font-size: 1.8rem;
+            font-size: 2rem;
             line-height: 3rem;
         }
     }

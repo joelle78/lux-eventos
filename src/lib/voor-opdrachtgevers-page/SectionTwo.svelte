@@ -156,11 +156,12 @@
     @media screen and (max-width: 426px) {
         section {
             width: 200vw;
-            height: 200vh;
+            height: 290vh;
         }
 
         .flex-container-1 p {
-            font-size: 1.5rem;
+            font-size: 2rem;
+            line-height: 3rem;
         }
     }
 
@@ -168,7 +169,7 @@
     @media screen and (max-width: 376px) {
         section {
             width: 220vw;
-            height: 200vh;
+            height: 300vh;
         }
     }
 
@@ -176,7 +177,7 @@
     @media screen and (max-width: 321px) {
         section {
             width: 260vw;
-            height: 200vh;
+            height: 300vh;
         }
     }
 
