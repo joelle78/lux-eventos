@@ -1,5 +1,5 @@
 <a href="#benefits">
-    <button type="button">Ontdek de voordelen!</button>
+    <button type="button">Check de voordelen!</button>
 </a>
 
 <style>
@@ -22,6 +22,14 @@
     button:hover {
         border-radius: 5px;
         transition: ease 1s;
+    }
+
+    /* MEDIA QUERY MOBILE L */
+    @media screen and (max-width: 426px) {
+        button {
+            padding: 20px 30px;
+            font-size: 1.3rem;
+        }
     }
 
 </style>

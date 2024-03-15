@@ -27,7 +27,8 @@
     /* MEDIA QUERY MOBILE L */
     @media screen and (max-width: 426px) {
         button {
-            font-size: 20px;
+            padding: 20px 30px;
+            font-size: 1.3rem;
         }
     }
 
