@@ -187,16 +187,16 @@
     /* MEDIA QUERY MOBILE M */
     @media screen and (max-width: 376px) {
         .section-five {
-            width: 220%;
-            height: 235vh;
+            width: 220vw;
+            height: 240vh;
         }
     }
 
     /* MEDIA QUERY MOBILE S */
     @media screen and (max-width: 321px) {
         .section-five {
-            width: 260%;
-            height: 235vh;
+            width: 260vw;
+            height: 240vh;
         }
 
     }

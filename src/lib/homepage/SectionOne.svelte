@@ -157,7 +157,7 @@
     @media screen and (max-width: 376px) {
         .section-one {
             width: 220vw;
-            height: 135vh;
+            height: 155vh;
         }
     }
 
@@ -165,7 +165,7 @@
     @media screen and (max-width: 321px) {
         .section-one {
             width: 260vw;
-            height: 130vh;
+            height: 160vh;
         }
     }
 
