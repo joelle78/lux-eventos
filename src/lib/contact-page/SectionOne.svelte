@@ -159,9 +159,38 @@
         transition: ease 1s;
     }
 
-    @media screen and (max-width: 768px) {
+    /* MEDIA QUERY MOBILE L */
+    @media screen and (max-width: 426px) {
         section {
-            width: 130%;
+            width: 200vw;
+            height: 160vh;
+        }
+
+        p {
+            font-size: 1.8rem;
+            width: 90%;
+            padding-bottom: 2rem;
+        }
+
+        button {
+            margin-bottom: 2rem;
+        }
+    }
+
+    /* MEDIA QUERY MOBILE M */
+    @media screen and (max-width: 376px) {
+        section {
+            width: 220vw;
+            height: 160vh;
+        }
+    }
+
+    /* MEDIA QUERY MOBILE S */
+    @media screen and (max-width: 321px) {
+        section {
+            width: 260vw;
+            height: 160vh;
+
         }
     }
 </style>

@@ -41,6 +41,7 @@
         font-weight: 400;
         font-style: normal;
         font-size: var(--header-one);
+        margin-top: 2rem;
         margin-left: 9rem;
         margin-bottom: 1rem;
     }

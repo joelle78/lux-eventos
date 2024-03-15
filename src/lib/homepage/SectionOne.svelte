@@ -26,8 +26,9 @@
 <style>
 
     .section-one {
-        position: relative;
+
         background-color: var(--background-color-light);
+        position: relative;
         display: flex;
         justify-content: center;
         align-items: center;

@@ -143,7 +143,7 @@
 <style>
 
     section {
-        padding-top: 10rem;
+        padding-top: 8rem;
         background-color: var(--background-color-light);
     }
 
@@ -267,7 +267,8 @@
     /*MEDIA QUERY TABLET */
     @media screen and (max-width: 768px) {
         section {
-            width: 130%;
+            width: 130vw;
+            height: 130vh;
         }
 
         p {
@@ -286,10 +287,20 @@
         }
 
         .svg-middle {
-            padding-top: 4rem;
-            padding-bottom: 2rem;
+            position: relative;
+            top: -1rem;
         }
     }
+
+    /*MEDIA QUERY MOBILE L */
+    @media screen and (max-width: 426px) {
+        section {
+            width: 200vw;
+            height: 130vh;
+        }
+
+    }
+
 
 
 
