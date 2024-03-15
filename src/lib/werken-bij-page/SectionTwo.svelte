@@ -35,18 +35,17 @@
     {#each data.werkenBijPages as werkenBijPage }
 
         <div class="image-container">
-        <img src={image4} alt="Description of the image"/>
+            <img src={image4} alt="Description of the image"/>
         </div>
 
         <article>
             <h3>Word <span>de topper</span> bij <span class="span-new-line">Lux-Eventos</span></h3>
-<!--            <p class="p-intro">{werkenBijPage.intro2}</p>-->
+            <!--            <p class="p-intro">{werkenBijPage.intro2}</p>-->
 
             <div class="text-container">
-<!--            <p class="quote">{werkenBijPage.quote2}</p>-->
-            <p>{werkenBijPage.beschrijving2}</p>
+                <!--            <p class="quote">{werkenBijPage.quote2}</p>-->
+                <p>{werkenBijPage.beschrijving2}</p>
             </div>
-
 
 
         </article>
@@ -67,7 +66,6 @@
     }
 
     .image-container {
-
         position: absolute;
     }
 
@@ -201,11 +199,6 @@
             height: 130vh;
         }
 
-        img {
-            width: 130vw;
-            height: 130vh;
-        }
-
         h3 {
             text-align: left;
             margin-left: 7rem;
@@ -226,30 +219,29 @@
         }
     }
 
-        /*.p-intro {*/
-        /*    text-align: left;*/
-        /*    width: 50%;*/
-        /*    margin: 4rem 0 0 9rem;*/
-        /*    line-height: 2rem;*/
-        /*}*/
+    /*.p-intro {*/
+    /*    text-align: left;*/
+    /*    width: 50%;*/
+    /*    margin: 4rem 0 0 9rem;*/
+    /*    line-height: 2rem;*/
+    /*}*/
 
-        /*.image-color-container {*/
-        /*    width: 38%;*/
-        /*    height: 40%;*/
-        /*    top: 371%;*/
-        /*    left: 19%;*/
-        /*}*/
+    /*.image-color-container {*/
+    /*    width: 38%;*/
+    /*    height: 40%;*/
+    /*    top: 371%;*/
+    /*    left: 19%;*/
+    /*}*/
 
-        /*.flex-container-1 {*/
-        /*    display: flex;*/
-        /*    flex-direction: row;*/
-        /*    margin-top: 4.7rem;*/
-        /*    gap: 7rem;*/
-        /*}*/
+    /*.flex-container-1 {*/
+    /*    display: flex;*/
+    /*    flex-direction: row;*/
+    /*    margin-top: 4.7rem;*/
+    /*    gap: 7rem;*/
+    /*}*/
 
-        /*.quote-display-none {*/
-        /*    visibility: hidden;*/
-
+    /*.quote-display-none {*/
+    /*    visibility: hidden;*/
 
 
     /* MEDIA QUERY MOBILE L */
@@ -260,8 +252,7 @@
         }
 
         img {
-            width: 200vw;
-            height: 200vh;
+            visibility: hidden;
         }
 
 
@@ -285,46 +276,47 @@
             margin-top: 5rem;
             z-index: 2;
         }
-
-        /*.p-intro {*/
-        /*    margin: 3rem 0 0 5rem;*/
-        /*    width: 75%;*/
-
-
-        /*}*/
-
-        /*.quote {*/
-        /*    display: none;*/
-        /*}*/
-
-        /*.quote-display-none {*/
-        /*    visibility: visible;*/
-        /*    text-align: left;*/
-        /*    font-style: italic;*/
-        /*    width: 75%;*/
-        /*    margin: 0 0 1rem 5rem;*/
-        /*    line-height: 2rem;*/
-        /*}*/
-
-        /*.flex-container-1 {*/
-        /*    margin-top: 3rem;*/
-        /*}*/
-
-        /*.image-color-container {*/
-        /*    display: none;*/
-        /*}*/
-
-        /*.text-container {*/
-        /*    margin: 3rem 0 1rem 5rem;*/
-        /*    justify-content: left;*/
-        /*    align-items: normal;*/
-        /*}*/
-
-        /*.text-container p {*/
-        /*    text-align: left;*/
-        /*    margin: 0;*/
-        /*}*/
     }
+
+    /*.p-intro {*/
+    /*    margin: 3rem 0 0 5rem;*/
+    /*    width: 75%;*/
+
+
+    /*}*/
+
+    /*.quote {*/
+    /*    display: none;*/
+    /*}*/
+
+    /*.quote-display-none {*/
+    /*    visibility: visible;*/
+    /*    text-align: left;*/
+    /*    font-style: italic;*/
+    /*    width: 75%;*/
+    /*    margin: 0 0 1rem 5rem;*/
+    /*    line-height: 2rem;*/
+    /*}*/
+
+    /*.flex-container-1 {*/
+    /*    margin-top: 3rem;*/
+    /*}*/
+
+    /*.image-color-container {*/
+    /*    display: none;*/
+    /*}*/
+
+    /*.text-container {*/
+    /*    margin: 3rem 0 1rem 5rem;*/
+    /*    justify-content: left;*/
+    /*    align-items: normal;*/
+    /*}*/
+
+    /*.text-container p {*/
+    /*    text-align: left;*/
+    /*    margin: 0;*/
+    /*}*/
+
 
     /* MEDIA QUERY MOBILE M */
     @media screen and (max-width: 376px) {

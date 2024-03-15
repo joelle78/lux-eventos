@@ -199,19 +199,22 @@
     /* MEDIA QUERY MOBILE L */
     @media screen and (max-width: 426px) {
         .section-three-work-at {
-            width: 200%;
+            width: 200vw;
             height: auto;
         }
 
         h5 {
             font-size: 2rem;
+
             margin-bottom: 2rem;
             line-height: 3rem;
+
         }
 
         p {
             font-size: 1.8rem;
             line-height: 3rem;
+
         }
 
         .flex-container-1, .flex-container-2 {
@@ -219,11 +222,13 @@
             margin-bottom: 2rem;
             justify-content: center;
             align-items: center;
+
         }
 
         .card-container {
-            width: 110vw;
-            height: 100vh;
+            width: 135vw;
+            height: 85vh;
+
         }
     }
 

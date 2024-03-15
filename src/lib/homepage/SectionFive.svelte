@@ -142,7 +142,7 @@
     @media screen and (max-width: 426px) {
         .section-five {
             width: 200vw;
-            height: 200vh;
+            height: 210vh;
         }
 
         span {
