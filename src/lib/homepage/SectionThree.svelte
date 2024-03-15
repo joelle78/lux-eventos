@@ -141,12 +141,13 @@
 
         .text-container {
             width: 85%;
-            height: 40vh;
+            height: 65vh;
             margin-top: 4rem;
         }
 
         p {
-            font-size: 1.5rem;
+            font-size: 2rem;
+            line-height: 3rem;
             width: 88%;
         }
     }

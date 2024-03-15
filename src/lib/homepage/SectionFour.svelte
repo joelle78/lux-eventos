@@ -294,7 +294,7 @@
         }
 
         .svg-container {
-            width: 7rem;
+            width: 9rem;
         }
 
         h5 {
@@ -311,8 +311,8 @@
             margin-left: 7.5rem;
             padding-bottom: 0;
             width: 75%;
-            font-size: 1.8rem;
-            line-height: 2.2rem;
+            font-size: 2rem;
+            line-height: 3rem;
         }
 
         .carrousel {
@@ -337,6 +337,7 @@
 
         .button {
             margin-left: 7.5rem;
+
         }
     }
 

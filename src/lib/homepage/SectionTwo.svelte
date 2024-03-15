@@ -135,7 +135,7 @@
         }
 
         p {
-            font-size: 1.8rem;
+            font-size: 2rem;
             width: 80%;
         }
     }
