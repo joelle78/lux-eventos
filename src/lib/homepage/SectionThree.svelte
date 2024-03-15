@@ -82,7 +82,7 @@
         justify-content: center;
         align-items: center;
         position: relative;
-        background-color: var(--background-color-light);
+        background-color: white;
         width: 70%;
         height: 30vh;
         z-index: 2;

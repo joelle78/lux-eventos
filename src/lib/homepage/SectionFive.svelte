@@ -9,17 +9,20 @@
         <article>
 
             <h6>Hoe word je onderdeel van <span>ons team?</span></h6>
+
 <!--            <p>{homepage.beschrijving5}</p>-->
 
             <ul data-aos="zoom-in-left"
                 data-aos-duration="1500"
                >
                 <li>
+
                     <span>Aanmelden 📝</span> Registreer je als freelancer op onze website en vul je profiel in. We
                     willen alles
                     weten over jouw ervaring, passies en specialiteiten.
                 </li>
                 <li>
+
                     <span>Matchmaking 🤝</span> Ons zorgvuldige selectieproces zorgt ervoor dat we niet alleen de
                     beste freelancers
                     aantrekken, maar ook degenen die perfect passen bij de unieke eisen van onze opdrachten.
@@ -43,7 +46,7 @@
 <style>
     .section-five {
         background-color: var(--background-color-medium);
-        height: 150vh;
+        height: 170vh;
     }
 
     article {
@@ -61,6 +64,10 @@
         margin-bottom: 2rem;
     }
 
+
+
+
+
     span {
         font-family: "catamaran", sans-serif;
         font-weight: 200;
@@ -69,7 +76,7 @@
 
     p {
         font-family: "abril-fatface", serif;
-        font-style: italic;
+        font-style: normal;
         font-weight: 800;
         font-size: 2rem;
     }

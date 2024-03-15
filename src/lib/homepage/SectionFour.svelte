@@ -71,8 +71,7 @@
 
             <h5>FREELANCEN<span>bij Lux-Eventos</span></h5>
             <div data-aos="zoom-in-left"
-                 data-aos-duration="1500"
-                 >
+                 data-aos-duration="1500">
             <p>{homepage.beschrijving4}</p>
             <div class="button"><ButtonBenefits /></div>
             </div>
