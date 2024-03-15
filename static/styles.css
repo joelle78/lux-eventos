@@ -1,6 +1,6 @@
 /* ADOBE FONTS*/
 @import url("https://use.typekit.net/itk1wbv.css");
-
+@import 'aos/dist/aos.css';
 
 * {
     box-sizing: border-box;

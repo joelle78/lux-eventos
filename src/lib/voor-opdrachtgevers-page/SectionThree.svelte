@@ -16,7 +16,8 @@
 
             <h4>{opdrachtgevers.titel3}</h4>
             <!--        <p>{opdrachtgevers.nrlist3}</p>-->
-            <ol>
+            <ol data-aos="zoom-in-left"
+                data-aos-duration="1500">
                 <li>
                     Toegang tot goed opgeleide en gescreende professionals voor hun evenementen en
                     projecten.

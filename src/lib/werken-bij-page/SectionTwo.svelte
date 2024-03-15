@@ -57,23 +57,26 @@
 <style>
     .section-two-work-at {
         position: relative;
-        background-color: var(--background-color-light);
+        background-color: var(--background-color-dark);
         height: 100vh;
         width: 100vw;
         display: flex;
         justify-content: center;
         align-items: center;
+        overflow: clip;
     }
 
     .image-container {
+
         position: absolute;
     }
 
     img {
         position: relative;
-        opacity: 0.05;
+        opacity: 0.09;
         height: 100vh;
-        width: 100vw;
+        width: 70vw;
+        right: 15vw;
         z-index: 1;
     }
 
@@ -94,6 +97,7 @@
         line-height: 4rem;
         margin-left: 9rem;
         z-index: 2;
+        color: white;
     }
 
     span {

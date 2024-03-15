@@ -23,15 +23,18 @@
 {/each}
 
 <style>
+
+
     .image-container {
         position: absolute;
+        overflow: clip;
     }
 
     img {
         position: relative;
-        opacity: 0.1;
+        opacity: 0.05;
         height: 100vh;
-        width: 100vw;
+        width: 70vw;
         z-index: 1;
     }
 
@@ -40,6 +43,7 @@
         justify-content: center;
         align-items: center;
         background-color: var(--background-color-dark);
+
         height: 100vh;
 
     }

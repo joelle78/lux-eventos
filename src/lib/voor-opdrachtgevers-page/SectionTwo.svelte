@@ -12,13 +12,17 @@
         <article>
 
             <h3>ONZE AANPAK</h3>
-            <div class="flex-container-1">
+            <div
+
+                    class="flex-container-1">
                 <p>{opdrachtgevers.intro2}</p>
                 <p>{opdrachtgevers.beschrijving2}</p>
-                <div class="button"><ButtonContact/></div>
+                <div class="button">
+                    <ButtonContact/>
+                </div>
 
-<!--                <div class="color-background-1"></div>-->
-<!--                <img src={image7} alt="Description of the image"/>-->
+                <!--                <div class="color-background-1"></div>-->
+                <!--                <img src={image7} alt="Description of the image"/>-->
 
             </div>
 
@@ -69,7 +73,6 @@
     }
 
 
-
     /*.color-background-1 {*/
     /*    position: relative;*/
     /*    background-color: var(--color-beige);*/
@@ -106,7 +109,7 @@
 
     /* MEDIA QUERY TABLET */
     @media screen and (max-width: 768px) {
-        section{
+        section {
             width: 130vw;
             height: 140vh;
         }
@@ -132,24 +135,20 @@
         /*    left: 3%;*/
         /*    top: 7vh;*/
         /*}*/
-
         /*img {*/
         /*    position: absolute;*/
         /*    width: 45%;*/
         /*    left: 70%;*/
         /*    top: 350.5%;*/
         /*}*/
-
         /*.flex-container-1 {*/
         /*    margin-bottom: 5rem;*/
         /*}*/
-
         /*.flex-container-2 p {*/
         /*    width:85%;*/
         /*    font-size: var(--par-tablet);*/
         /*    line-height: 2rem;*/
         /*    margin-bottom: 2rem;*/
-
         /*}*/
     }
 

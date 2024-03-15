@@ -11,7 +11,9 @@
             <h6>Hoe word je onderdeel van <span>ons team?</span></h6>
 <!--            <p>{homepage.beschrijving5}</p>-->
 
-            <ul>
+            <ul data-aos="zoom-in-left"
+                data-aos-duration="1500"
+               >
                 <li>
                     <span>Aanmelden 📝</span> Registreer je als freelancer op onze website en vul je profiel in. We
                     willen alles

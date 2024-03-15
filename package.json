@@ -15,6 +15,7 @@
   },
   "type": "module",
   "dependencies": {
+    "aos": "^2.3.4",
     "graphql": "^16.8.1",
     "graphql-request": "^6.1.0"
   }

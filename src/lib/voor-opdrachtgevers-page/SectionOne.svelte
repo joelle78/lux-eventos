@@ -39,7 +39,9 @@
 
 
             <h2 id="discover">Ontdek <span>Lux-Eventos</span></h2>
-            <p>{opdrachtgevers.intro}</p>
+            <p data-aos="zoom-in-left"
+               data-aos-duration="1500"
+              >{opdrachtgevers.intro}</p>
 <!--            <p>{opdrachtgevers.beschrijving}</p>-->
         </article>
 

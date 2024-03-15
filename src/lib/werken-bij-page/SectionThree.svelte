@@ -9,13 +9,14 @@
 
             <h4 id="benefits">WAT BIEDEN WIJ JOU?</h4>
 
-            <div class="container-of-containers">
+            <div data-aos="fade-up"
+                 data-aos-duration="1500" class="container-of-containers">
                 <div class="flex-container-1">
                     <div class="card-container">
                         <div class="text-container">
                             <h5>Concurrerend uurloon 💵</h5>
-<!--                            <p>Ontvang wat je waar bent. Bij Lux-Eventos bieden we een concurrerend uurloon dat jouw-->
-<!--                                expertise en toewijding eerlijk weerspiegelt.</p>-->
+                            <!--                            <p>Ontvang wat je waar bent. Bij Lux-Eventos bieden we een concurrerend uurloon dat jouw-->
+                            <!--                                expertise en toewijding eerlijk weerspiegelt.</p>-->
                             {#each werkenBijPage.pijlers3 as pijler, i}
                                 {#if i === 0}
                                     <p>{pijler.text}</p>
@@ -27,9 +28,9 @@
                     <div class="card-container">
                         <div class="text-container">
                             <h5>Variatie in opdrachten 💼</h5>
-<!--                            <p>Van intieme diners tot grootschalige evenementen. Bij ons krijg je toegang tot een-->
-<!--                                gevarieerd scala aan opdrachten in de horeca en events, waardoor geen dag hetzelfde-->
-<!--                                is.</p>-->
+                            <!--                            <p>Van intieme diners tot grootschalige evenementen. Bij ons krijg je toegang tot een-->
+                            <!--                                gevarieerd scala aan opdrachten in de horeca en events, waardoor geen dag hetzelfde-->
+                            <!--                                is.</p>-->
                             {#each werkenBijPage.pijlers3 as pijler, i}
                                 {#if i === 1}
                                     <p>{pijler.text}</p>
@@ -41,9 +42,9 @@
                     <div class="card-container">
                         <div class="text-container">
                             <h5>Flexibiliteit 🗓️</h5>
-<!--                            <p>Bij Lux-Eventos geloven we in de kracht van individuen. Hier ontvang je niet alleen een-->
-<!--                                beloning voor je werk, maar ook erkenning voor de unieke bijdrage die je levert aan de-->
-<!--                                evenementen die we samen creëren.</p>-->
+                            <!--                            <p>Bij Lux-Eventos geloven we in de kracht van individuen. Hier ontvang je niet alleen een-->
+                            <!--                                beloning voor je werk, maar ook erkenning voor de unieke bijdrage die je levert aan de-->
+                            <!--                                evenementen die we samen creëren.</p>-->
                             {#each werkenBijPage.pijlers3 as pijler, i}
                                 {#if i === 2}
                                     <p>{pijler.text}</p>
@@ -58,8 +59,8 @@
                     <div class="card-container">
                         <div class="text-container">
                             <h5>Ondersteuning en samenwerking 🤝</h5>
-<!--                            <p>Bij Lux-Eventos geloven we in een hechte samenwerking. Ons team staat altijd voor je-->
-<!--                                klaar om te begeleiden, vragen te beantwoorden en successen te vieren.</p>-->
+                            <!--                            <p>Bij Lux-Eventos geloven we in een hechte samenwerking. Ons team staat altijd voor je-->
+                            <!--                                klaar om te begeleiden, vragen te beantwoorden en successen te vieren.</p>-->
                             {#each werkenBijPage.pijlers3 as pijler, i}
                                 {#if i === 3}
                                     <p>{pijler.text}</p>
@@ -71,10 +72,10 @@
                     <div class="card-container">
                         <div class="text-container">
                             <h5>Professionele groei 📈</h5>
-<!--                            <p>-->
-<!--                                Investeer in je professionele ontwikkeling. Ontvang kansen om je vaardigheden aan te-->
-<!--                                scherpen en te groeien in een dynamische en inspirerende omgeving.-->
-<!--                            </p>-->
+                            <!--                            <p>-->
+                            <!--                                Investeer in je professionele ontwikkeling. Ontvang kansen om je vaardigheden aan te-->
+                            <!--                                scherpen en te groeien in een dynamische en inspirerende omgeving.-->
+                            <!--                            </p>-->
 
                             {#each werkenBijPage.pijlers3 as pijler, i}
                                 {#if i === 4}
@@ -92,9 +93,9 @@
                                     <p>{pijler.text}</p>
                                 {/if}
                             {/each}
-<!--                            <p>Bij Lux-Eventos geloven we in de kracht van individuen. Hier ontvang je niet alleen een-->
-<!--                            beloning voor je werk, maar ook erkenning voor de unieke bijdrage die je levert aan de-->
-<!--                            evenementen die we samen creëren.</p>-->
+                            <!--                            <p>Bij Lux-Eventos geloven we in de kracht van individuen. Hier ontvang je niet alleen een-->
+                            <!--                            beloning voor je werk, maar ook erkenning voor de unieke bijdrage die je levert aan de-->
+                            <!--                            evenementen die we samen creëren.</p>-->
                         </div>
                     </div>
                 </div>
@@ -214,7 +215,7 @@
         }
 
         .flex-container-1, .flex-container-2 {
-           flex-wrap: wrap;
+            flex-wrap: wrap;
             margin-bottom: 2rem;
             justify-content: center;
             align-items: center;

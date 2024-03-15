@@ -10,14 +10,14 @@
 <section class="section-one-work-at">
     {#each data.werkenBijPages as werkenBijPage }
 
-<!--        <article>-->
-<!--            <h2 id="your-trip">Jouw <span>event</span> reis <span class="span-next-line">begint hier</span></h2>-->
-<!--            <img src={image4} alt="Description of the image"/>-->
+        <!--        <article>-->
+        <!--            <h2 id="your-trip">Jouw <span>event</span> reis <span class="span-next-line">begint hier</span></h2>-->
+        <!--            <img src={image4} alt="Description of the image"/>-->
 
-<!--            <div class="text-container">-->
-<!--            <p>{werkenBijPage.beschrijving}</p>-->
-<!--            </div>-->
-<!--        </article>-->
+        <!--            <div class="text-container">-->
+        <!--            <p>{werkenBijPage.beschrijving}</p>-->
+        <!--            </div>-->
+        <!--        </article>-->
 
         <article>
             <div class="svg-container">
@@ -29,9 +29,14 @@
 
 
             <h2 id="your-trip">Jouw <span>event</span> reis <span class="span-next-line">begint hier</span></h2>
-            <p>{werkenBijPage.beschrijving}</p>
-            <div class="button"> <ButtonSignUp/></div>
-
+            <div data-aos="zoom-in-left"
+                 data-aos-duration="1500"
+            >
+                <p>{werkenBijPage.beschrijving}</p>
+                <div class="button">
+                    <ButtonSignUp/>
+                </div>
+            </div>
 
         </article>
 
@@ -98,7 +103,7 @@
     .text-container {
         position: relative;
         z-index: 1;
-        top:20vh;
+        top: 20vh;
         left: 43%;
         background-color: white;
         width: 35%;
@@ -159,7 +164,6 @@
         /*    width: 50%;*/
         /*    margin-left: 8rem;*/
         /*}*/
-
         /*.text-container {*/
         /*    position: relative;*/
         /*    z-index: 1;*/
@@ -202,16 +206,13 @@
         }
 
 
-
         /*img {*/
         /*    display: none;*/
         /*}*/
-
         /*.text-container {*/
         /*   left: -2%;*/
         /*    top: 5vh;*/
         /*    width: 85%;*/
-
         /*}*/
     }
 
@@ -237,8 +238,6 @@
             height: 140vh;
         }
     }
-
-
 
 
 </style>

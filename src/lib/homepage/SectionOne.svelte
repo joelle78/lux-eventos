@@ -1,6 +1,12 @@
 <script>
+    import {onMount} from "svelte";
+
     export let data
 
+    onMount(() => {
+        AOS.init();
+        AOS.refresh();
+    });
 
 </script>
 
@@ -16,7 +22,10 @@
 
 
             <h2>WELKOM BIJ <span>Lux-Eventos</span></h2>
-            <p>{homepage.beschrijving}</p>
+
+            <p data-aos="zoom-in-left"
+               data-aos-duration="1500"
+               >{homepage.beschrijving}</p>
 
 
         </article>
