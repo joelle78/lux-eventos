@@ -163,12 +163,13 @@
     @media screen and (max-width: 426px) {
         section {
             width: 200vw;
-            height: 160vh;
+            height: 165vh;
         }
 
         p {
-            font-size: 1.8rem;
-            width: 90%;
+            font-size: 2rem;
+            line-height: 3rem;
+            width: 85%;
             padding-bottom: 2rem;
         }
 

@@ -292,6 +292,10 @@
             height: 130vh;
         }
 
+        .svg-middle {
+            position: relative;
+            top: 0;
+        }
     }
 
 

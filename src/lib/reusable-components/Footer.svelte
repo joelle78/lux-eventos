@@ -95,6 +95,9 @@
             height: auto;
         }
 
+        li {
+            font-size: 1.2rem;
+        }
 
     }
 
