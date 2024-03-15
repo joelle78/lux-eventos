@@ -99,7 +99,7 @@
         }
 
         img {
-            width: auto;
+            width: 130vw;
         }
 
 

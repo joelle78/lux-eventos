@@ -14,23 +14,25 @@
             <h3>ONZE AANPAK</h3>
             <div class="flex-container-1">
                 <p>{opdrachtgevers.intro2}</p>
+                <p>{opdrachtgevers.beschrijving2}</p>
+                <div class="button"><ButtonContact/></div>
 
-                <div class="color-background-1"></div>
-                <img src={image7} alt="Description of the image"/>
+<!--                <div class="color-background-1"></div>-->
+<!--                <img src={image7} alt="Description of the image"/>-->
 
             </div>
 
-            <div class="flex-container-2">
-                        <p>{opdrachtgevers.beschrijving2}</p>
-                <ButtonContact/>
-            </div>
         </article>
     {/each}
 </section>
 
 <style>
     section {
-        padding-top: 8rem;
+        position: relative;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background-color: var(--background-color-light);
     }
 
@@ -39,120 +41,143 @@
         font-weight: 400;
         font-style: normal;
         font-size: var(--header-one);
-        margin-left: 10rem;
-        margin-bottom: 3rem;
+        margin-left: 9rem;
+        margin-bottom: 1rem;
     }
 
     .flex-container-1 {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
-        margin-bottom: 10rem;
+        margin-bottom: 2rem;
     }
 
     .flex-container-1 p {
-        position: relative;
-        width: 30%;
         font-family: "fira-sans", serif;
         font-weight: 200;
         font-style: normal;
-        font-size: var(--paragraph);
-        right: 9%;
+        font-size: 1.2rem;
         line-height: 2.2rem;
-        margin-top: 3rem;
-
+        margin-top: 2rem;
+        margin-left: 9rem;
+        width: 80%;
     }
 
-    .color-background-1 {
-        position: relative;
-        background-color: var(--color-beige);
-        width: 30%;
-        height: 40vh;
+    .button {
+        margin-left: 9rem;
     }
 
-    img {
-        position: absolute;
-        width: 30%;
-        left: 49%;
-        top: 336.5%;
-    }
 
-    .flex-container-2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 5rem;
-    }
 
-    .flex-container-2 p {
-        font-size: var(--paragraph);
-        font-family: "fira-sans", serif;
-        font-weight: 200;
-        font-style: normal;
-        width:80%;
-        line-height: 2.2rem;
-        margin-bottom: 2rem;
-        text-align: center;
-    }
+    /*.color-background-1 {*/
+    /*    position: relative;*/
+    /*    background-color: var(--color-beige);*/
+    /*    width: 30%;*/
+    /*    height: 40vh;*/
+    /*}*/
 
-    /*MEDIA QUERY TABLET */
+    /*img {*/
+    /*    position: absolute;*/
+    /*    width: 30%;*/
+    /*    left: 49%;*/
+    /*    top: 336.5%;*/
+    /*}*/
+
+    /*.flex-container-2 {*/
+    /*    display: flex;*/
+    /*    justify-content: center;*/
+    /*    align-items: center;*/
+    /*    flex-direction: column;*/
+    /*    text-align: center;*/
+    /*    padding-bottom: 5rem;*/
+    /*}*/
+
+    /*.flex-container-2 p {*/
+    /*    font-size: var(--paragraph);*/
+    /*    font-family: "fira-sans", serif;*/
+    /*    font-weight: 200;*/
+    /*    font-style: normal;*/
+    /*    width:80%;*/
+    /*    line-height: 2.2rem;*/
+    /*    margin-bottom: 2rem;*/
+    /*    text-align: center;*/
+    /*}*/
+
+    /* MEDIA QUERY TABLET */
     @media screen and (max-width: 768px) {
-        section {
-            width: 130%;
-            height: 200vh;
+        section{
+            width: 130vw;
+            height: 140vh;
         }
 
         h3 {
+            margin-top: 2rem;
             margin-left: 5rem;
         }
 
-        .color-background-1 {
-            width: 35%;
-            height: 33vh;
-            left: 3%;
-            top: 7vh;
-        }
-
-        img {
-            position: absolute;
-            width: 45%;
-            left: 70%;
-            top: 350.5%;
-        }
-
-        .flex-container-1 {
-            margin-bottom: 5rem;
-        }
-
         .flex-container-1 p {
-            margin-left: 3rem;
+            margin-left: 5rem;
             font-size: var(--par-tablet);
-            line-height: 2rem;
-            width: 35%;
+            width: 85%;
         }
 
-        .flex-container-2 p {
-            width:85%;
-            font-size: var(--par-tablet);
-            line-height: 2rem;
-            margin-bottom: 2rem;
-
+        .button {
+            margin-left: 5rem;
         }
+
+        /*.color-background-1 {*/
+        /*    width: 35%;*/
+        /*    height: 33vh;*/
+        /*    left: 3%;*/
+        /*    top: 7vh;*/
+        /*}*/
+
+        /*img {*/
+        /*    position: absolute;*/
+        /*    width: 45%;*/
+        /*    left: 70%;*/
+        /*    top: 350.5%;*/
+        /*}*/
+
+        /*.flex-container-1 {*/
+        /*    margin-bottom: 5rem;*/
+        /*}*/
+
+        /*.flex-container-2 p {*/
+        /*    width:85%;*/
+        /*    font-size: var(--par-tablet);*/
+        /*    line-height: 2rem;*/
+        /*    margin-bottom: 2rem;*/
+
+        /*}*/
     }
 
     /* MEDIA QUERY MOBILE L */
     @media screen and (max-width: 426px) {
         section {
-            width: 200%;
+            width: 200vw;
             height: 200vh;
         }
 
-        p {
-            font-size: 1.8rem;
+        .flex-container-1 p {
+            font-size: 1.5rem;
         }
     }
 
+    /* MEDIA QUERY MOBILE M */
+    @media screen and (max-width: 376px) {
+        section {
+            width: 220vw;
+            height: 200vh;
+        }
+    }
+
+    /* MEDIA QUERY MOBILE S */
+    @media screen and (max-width: 321px) {
+        section {
+            width: 260vw;
+            height: 200vh;
+        }
+    }
 
 </style>

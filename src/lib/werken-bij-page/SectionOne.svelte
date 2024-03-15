@@ -41,8 +41,8 @@
 
 <style>
     .section-one-work-at {
-        position: relative;
         background-color: var(--background-color-medium);
+        position: relative;
         height: 100vh;
         display: flex;
         justify-content: center;

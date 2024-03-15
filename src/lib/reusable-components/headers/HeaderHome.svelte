@@ -111,7 +111,7 @@
         }
 
         img {
-            width: auto;
+            width: 130vw;
         }
 
         button {
