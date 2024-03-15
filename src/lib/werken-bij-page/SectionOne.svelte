@@ -195,7 +195,8 @@
         }
 
         p {
-            font-size: 1.8rem;
+            font-size: 2rem;
+            line-height: 3rem;
             width: 80%;
             margin-left: 7rem;
         }
@@ -235,7 +236,7 @@
 
         .section-one-work-at {
             width: 260vw;
-            height: 140vh;
+            height: 155vh;
         }
     }
 

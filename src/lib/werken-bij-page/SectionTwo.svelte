@@ -266,13 +266,14 @@
         }
 
         p {
-            font-size: 1.8rem;
+            font-size: 2rem;
+            line-height: 3rem;
         }
 
         .text-container {
-            background-color: white;
+            background-color: var(--background-color-light);
             width: 85%;
-            height: 90vh;
+            height: 120vh;
             margin-top: 5rem;
             z-index: 2;
         }
@@ -322,7 +323,7 @@
     @media screen and (max-width: 376px) {
         .section-two-work-at {
             width: 220vw;
-            height: 150vh;
+            height: 180vh;
         }
 
         img {
@@ -336,7 +337,7 @@
 
         .section-two-work-at {
             width: 260vw;
-            height: 140vh;
+            height: 180vh;
         }
 
         img {

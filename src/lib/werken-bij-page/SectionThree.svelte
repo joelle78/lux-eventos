@@ -212,8 +212,9 @@
         }
 
         p {
-            font-size: 1.8rem;
+            font-size: 2rem;
             line-height: 3rem;
+            width: 110%;
 
         }
 
@@ -227,7 +228,7 @@
 
         .card-container {
             width: 135vw;
-            height: 85vh;
+            height: 95vh;
 
         }
     }
