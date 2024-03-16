@@ -301,7 +301,15 @@
 
         .svg-middle {
             position: relative;
-            top: 0;
+            top: 1rem;
+        }
+
+        .carrousel-container-a {
+            margin-top: 4rem;
+        }
+
+        .carrousel-container-a p {
+            padding-left: 0;
         }
     }
 

@@ -296,6 +296,14 @@
             position: relative;
             top: 0;
         }
+
+        .carrousel-container-a {
+            margin-top: 4rem;
+        }
+
+        .carrousel-container-a p {
+            padding-left: 0;
+        }
     }
 
 
