@@ -10,7 +10,7 @@
         <div class="flex-container">
             <h1>Het event team op maat gemaakt, <span>JOUW</span> succes begint met <span>ONZE</span> selectie</h1>
             <a href="/voor-opdrachtgevers">
-                <button type="button">Ontdek nu!</button>
+                <button type="button">ONTDEK NU!</button>
             </a>
         </div>
     </article>
@@ -76,19 +76,20 @@
 
     button {
         margin-top: 5rem;
-        font-family: "roboto", serif;
-        font-weight: 300;
+        font-family: "cormorant-garamond", serif;
+        font-weight: 600;
         font-style: normal;
         background-color: transparent;
         display: inline-block;
-        padding: 10px 20px;
+        padding: 13px 20px;
         border: 2px solid white;
         color: white;
         text-decoration: none;
-        font-size: 16px;
+        font-size: 19px;
         cursor: pointer;
         transition: border-color 0.3s ease;
         letter-spacing: 0.2rem;
+        border-radius: 10px;
     }
 
     button:hover {

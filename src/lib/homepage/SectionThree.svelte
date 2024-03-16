@@ -87,6 +87,7 @@
         width: 70%;
         height: 30vh;
         z-index: 2;
+        border-radius: 0 10px 10px 0;
     }
 
     p {

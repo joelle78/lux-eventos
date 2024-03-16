@@ -18,7 +18,7 @@
             </div>
 
 
-            <h2>WELKOM BIJ <span>Lux-Eventos</span></h2>
+            <h2>Welkom bij<span>Lux-Eventos</span></h2>
 
             <p data-aos="zoom-in-left"
                data-aos-duration="1500"
@@ -51,7 +51,7 @@
 
     .svg-container {
         position: absolute;
-        width: 8%; /* Adjust this value as needed */
+        width: 10%; /* Adjust this value as needed */
         margin-left: 5%; /* Adjust this value as needed */
         top: -10vh;
 
@@ -64,7 +64,7 @@
 
 
     h2, span {
-        font-family: "cormorant-garamond", serif;
+        font-family: "PT Serif", serif;
         font-weight: 100;
         font-style: normal;
         margin-left: 10rem;
@@ -75,9 +75,9 @@
     }
 
     span {
-        font-family: "fira-sans", sans-serif;
-        font-weight: 200;
-        font-size: var(--header-two);
+        font-family: "fira-sans", serif;
+        font-weight: 100;
+        font-size: var(--header-one);
         margin-top: 1rem;
         margin-left: 12rem;
         display: block;

@@ -166,6 +166,7 @@
         outline: 2px solid var(--color-dark-brown);
         width: 100%;
         height: 50vh;
+        border-radius: 10px;
     }
 
     .text-container {

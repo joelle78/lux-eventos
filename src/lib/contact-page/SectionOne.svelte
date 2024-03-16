@@ -11,7 +11,9 @@
             contactformulier om in contact te komen! We staan klaar om al je vragen te beantwoorden en met je te praten.
 
         <div class="flex-container-contact-form">
-            <form action="#" method="POST">
+
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="33363e93-6b07-4679-8fad-6251f4982f3b">
 
                 <div class="flex-1">
                     <div>
@@ -53,7 +55,6 @@
     }
 
 
-
     h5 {
         font-family: "cormorant-garamond", serif;
         font-weight: 400;
@@ -90,7 +91,7 @@
         font-size: 1rem;
         width: 20rem;
         height: 2rem;
-
+        border-radius: 10px;
     }
 
     textarea {
@@ -129,6 +130,7 @@
 
     input, textarea {
         border: none;
+        border-radius: 10px;
     }
 
     input:focus,
@@ -151,6 +153,7 @@
         font-size: 16px;
         cursor: pointer;
         transition: border-color 0.3s ease;
+        border-radius: 10px;
 
     }
 

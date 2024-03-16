@@ -17,7 +17,7 @@
                >
                 <li>
 
-                    <span>aanmelden 📝</span> Registreer je als freelancer op onze website en vul je profiel in. We
+                    <span>Stap 1: aanmelden 📝</span> Registreer je als freelancer op onze website en vul je profiel in. We
                     willen alles
                     weten over jouw ervaring, passies en specialiteiten.
                 </li>
@@ -57,7 +57,7 @@
 
     h6 {
         font-size: var(--header-two);
-        font-family: "catamaran", serif;
+        font-family: "fira-sans", serif;
         font-weight: 200;
         font-style: normal;
         margin-left: 10rem;
@@ -69,7 +69,8 @@
 
 
     span {
-        font-family: "catamaran", sans-serif;
+
+        font-family: "PT Serif", sans-serif;
         font-weight: 200;
         font-style: normal;
     }

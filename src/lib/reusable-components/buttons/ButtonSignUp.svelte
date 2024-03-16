@@ -16,6 +16,8 @@
         font-size: 16px;
         cursor: pointer;
         transition: border-color 0.3s ease;
+
+        border-radius: 5px;
     }
 
     button:hover {

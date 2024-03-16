@@ -1,13 +1,9 @@
 <script src="https://web3forms.com/client/script.js" async defer></script>
 
 <section>
-    <form action="https://api.web3forms.com/submit" method="POST">
 
-        <!-- hCaptcha Spam Protection -->
-        <div class="h-captcha" data-captcha="true"></div>
 
-        <!-- Replace with your Access Key -->
-        <input type="hidden" name="access_key" value="33363e93-6b07-4679-8fad-6251f4982f3b">
+
 
     <div class="flex-container-contact-form-text">
         <h5 id="contact-employees">CONTACT</h5>
@@ -17,7 +13,12 @@
     </div>
 
     <div class="flex-container-contact-form">
-        <form action="#" method="POST">
+
+
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key" value="33363e93-6b07-4679-8fad-6251f4982f3b">
 
             <div class="flex-1">
                 <div>
@@ -102,6 +103,7 @@
         font-size: 1rem;
         width: 20rem;
         height: 2rem;
+        border-radius: 10px;
     }
 
     textarea {
@@ -140,6 +142,7 @@
 
     input, textarea {
         border: none;
+        border-radius: 10px;
     }
 
     input:focus,
@@ -161,6 +164,7 @@
         font-size: 16px;
         cursor: pointer;
         transition: border-color 0.3s ease;
+        border-radius: 10px;
 
     }
 

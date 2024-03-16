@@ -73,7 +73,6 @@
         height: 70vh;
         margin-top: -8rem;
 
-
     }
 
     img {

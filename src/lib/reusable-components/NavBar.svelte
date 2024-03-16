@@ -68,6 +68,7 @@
         width: 2em;
         height: 40px;
         z-index: 5;
+
     }
 
     .hamburger div {

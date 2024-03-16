@@ -45,6 +45,7 @@
         text-align: center;
         letter-spacing: 0.2rem;
         color: white;
+        width: 75%;
     }
 
     span {

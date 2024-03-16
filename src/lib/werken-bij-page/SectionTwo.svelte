@@ -127,6 +127,7 @@
         height: 35vh;
         margin-top: 5rem;
         z-index: 2;
+        border-radius: 0 10px 10px 0;
     }
 
     p {
