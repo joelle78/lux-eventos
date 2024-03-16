@@ -122,7 +122,7 @@
         align-items: center;
         flex-direction: column;
         position: relative;
-        background-color: white;
+        background-color: var(--background-color-light);
         width: 75%;
         height: 35vh;
         margin-top: 5rem;
@@ -271,7 +271,6 @@
         }
 
         .text-container {
-            background-color: var(--background-color-light);
             width: 85%;
             height: 120vh;
             margin-top: 5rem;

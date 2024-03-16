@@ -73,8 +73,8 @@
             <div data-aos="zoom-in-left"
                  data-aos-duration="1500">
             <p>{homepage.beschrijving4}</p>
-            <div class="button"><ButtonBenefits /></div>
             </div>
+            <div class="button"><ButtonBenefits /></div>
         </article>
     {/each}
 
@@ -271,10 +271,10 @@
             margin-left: 13rem;
         }
 
-        .carrousel {
-            width: 80%;
-            height: 65vh;
-        }
+        /*.carrousel {*/
+        /*    width: 80%;*/
+        /*    height: 65vh;*/
+        /*}*/
 
         .carrousel-text p {
             font-size: var(--par-tablet);
@@ -315,12 +315,12 @@
             line-height: 3rem;
         }
 
-        .carrousel {
-            margin-top: 0;
-            width: 80%;
-            height: 50vh;
+        /*.carrousel {*/
+        /*    margin-top: 0;*/
+        /*    width: 80%;*/
+        /*    height: 50vh;*/
 
-        }
+        /*}*/
 
         h6 {
             margin-top: 2rem;
@@ -331,9 +331,9 @@
             font-size: 1.2rem;
         }
 
-        .page-indicator {
-            bottom: 28%;
-        }
+        /*.page-indicator {*/
+        /*    bottom: 28%;*/
+        /*}*/
 
         .button {
             margin-left: 7.5rem;
@@ -349,9 +349,9 @@
             height: 180vh;
         }
 
-        .page-indicator {
-            bottom: 25%;
-        }
+        /*.page-indicator {*/
+        /*    bottom: 25%;*/
+        /*}*/
 
     }
 

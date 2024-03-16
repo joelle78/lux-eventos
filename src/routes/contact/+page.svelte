@@ -6,6 +6,7 @@
     import SectionTwo from "$lib/contact-page/SectionTwo.svelte";
     import SectionThree from "$lib/contact-page/SectionThree.svelte";
     import Footer from "$lib/reusable-components/Footer.svelte";
+    import SectionMissie from "$lib/contact-page/SectionMissie.svelte";
 
 
     export let data;
@@ -13,6 +14,7 @@
 
 <NavBar/>
 <HeaderContact/>
+<SectionMissie/>
 <SectionOne data={data} />
 <SectionTwo data={data} />
 <SectionThree data={data} />

@@ -28,6 +28,7 @@
     .image-container {
         position: absolute;
         overflow: clip;
+        left: 28.5vw;
     }
 
     img {
@@ -82,7 +83,7 @@
         justify-content: center;
         align-items: center;
         position: relative;
-        background-color: white;
+        background-color: var(--background-color-light);
         width: 70%;
         height: 30vh;
         z-index: 2;

@@ -17,18 +17,18 @@
                >
                 <li>
 
-                    <span>Aanmelden 📝</span> Registreer je als freelancer op onze website en vul je profiel in. We
+                    <span>aanmelden 📝</span> Registreer je als freelancer op onze website en vul je profiel in. We
                     willen alles
                     weten over jouw ervaring, passies en specialiteiten.
                 </li>
                 <li>
 
-                    <span>Matchmaking 🤝</span> Ons zorgvuldige selectieproces zorgt ervoor dat we niet alleen de
+                    <span>Stap 2: matchmaking 🤝</span> Ons zorgvuldige selectieproces zorgt ervoor dat we niet alleen de
                     beste freelancers
                     aantrekken, maar ook degenen die perfect passen bij de unieke eisen van onze opdrachten.
                 </li>
                 <li>
-                    <span>Samenwerking 💼</span> Zodra je bent geselecteerd voor een opdracht, begint de samenwerking.
+                    <span>Stap 3: samenwerking 💼</span> Zodra je bent geselecteerd voor een opdracht, begint de samenwerking.
                     Werk samen
                     met ons en ontdek hoe het is om deel uit te maken van een team dat jouw succes centraal stelt.
                 </li>

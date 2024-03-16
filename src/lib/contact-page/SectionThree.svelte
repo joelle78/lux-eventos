@@ -294,7 +294,7 @@
 
         .svg-middle {
             position: relative;
-            top: 0;
+            top: 1rem;
         }
 
         .carrousel-container-a {

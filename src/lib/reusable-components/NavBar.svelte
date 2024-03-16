@@ -25,7 +25,7 @@
                         <li><a href="/" class="menu-item">HOME</a></li>
                         <li><a href="/werken-bij" class="menu-item">WERKEN BIJ</a></li>
                         <li><a href="/voor-opdrachtgevers" class="menu-item">VOOR OPDRACHTGEVERS</a></li>
-                        <li><a href="/over-ons" class="menu-item">OVER ONS</a></li>
+<!--                        <li><a href="/over-ons" class="menu-item">OVER ONS</a></li>-->
                         <li><a href="/contact" class="menu-item">CONTACT</a></li>
 
 

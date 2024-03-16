@@ -33,9 +33,9 @@
                  data-aos-duration="1500"
             >
                 <p>{werkenBijPage.beschrijving}</p>
-                <div class="button">
-                    <ButtonSignUp/>
-                </div>
+            </div>
+            <div class="button">
+                <ButtonSignUp/>
             </div>
 
         </article>

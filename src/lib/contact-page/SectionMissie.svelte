@@ -4,11 +4,10 @@
     export let data
 
 
-
 </script>
 
 <section class="section-one">
-    {#each data.homepages as homepage }
+
         <article>
             <div class="svg-container">
                 <svg width="37" height="25" viewBox="0 0 97 85" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -18,15 +17,16 @@
             </div>
 
 
-            <h2>WELKOM BIJ <span>Lux-Eventos</span></h2>
+            <h2>ONZE MISSIE</h2>
 
             <p data-aos="zoom-in-left"
                data-aos-duration="1500"
-               >{homepage.beschrijving}</p>
+            >Bij Lux-Eventos zijn we pas tevreden als jij dat bent. We gaan verder dan het leveren van diensten; we
+                creëren partnerschappen. Jouw succes is onze missie en we zijn er trots op jouw vertrouwen te verdienen,
+                evenement na evenement.</p>
 
 
         </article>
-    {/each}
 </section>
 
 <style>
@@ -127,9 +127,9 @@
             width: 200vw;
             height: 200vh;
         }
-        
+
         svg {
-         width: 9rem;
+            width: 9rem;
         }
 
         h2 {

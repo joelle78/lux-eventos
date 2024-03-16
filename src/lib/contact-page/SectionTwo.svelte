@@ -66,7 +66,6 @@
                     <div class="carrousel-container-v" >
 
                     <div class="carrousel-text-v ">
-
                         <p> {contactpage.freelancersVraag1}</p>
                     </div>
 
