@@ -130,9 +130,7 @@
         }
 
         img {
-            visibility: hidden;
-            width: 200vw;
-            height: 200vh;
+           display: none;
         }
 
 
@@ -161,10 +159,7 @@
             height: 180vh;
         }
 
-        img {
-            width: 220vw;
-            height: 180vh;
-        }
+
     }
 
     /* MEDIA QUERY MOBILE S */
@@ -174,11 +169,7 @@
             height: 180vh;
         }
 
-        img {
-            width: 260vw;
-            height: 180vh;
-        }
-
+       
     }
 
 </style>
