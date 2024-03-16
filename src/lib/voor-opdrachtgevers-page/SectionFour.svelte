@@ -1,9 +1,14 @@
-<script>
-
-    // export let data
-</script>
+<script src="https://web3forms.com/client/script.js" async defer></script>
 
 <section>
+    <form action="https://api.web3forms.com/submit" method="POST">
+
+        <!-- hCaptcha Spam Protection -->
+        <div class="h-captcha" data-captcha="true"></div>
+
+        <!-- Replace with your Access Key -->
+        <input type="hidden" name="access_key" value="33363e93-6b07-4679-8fad-6251f4982f3b">
+
     <div class="flex-container-contact-form-text">
         <h5 id="contact-employees">CONTACT</h5>
         <p>We verbinden u graag met gekwalificeerde ZZP'ers die passen bij uw specifieke behoeften. Vul het formulier
