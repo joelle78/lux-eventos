@@ -129,6 +129,7 @@
         }
 
         img {
+            visibility: hidden;
             width: 200vw;
             height: 200vh;
         }
