@@ -1,5 +1,5 @@
-<a href="https://app.fleks.works/applicants/new-applicant/lux-eventos" >
-    <button class="outlined-button" type="button">MELD JE NU AAN!</button>
+<a href="https://app.fleks.works/applicants/new-applicant/lux-eventos" target="_blank" rel="noopener noreferrer" >
+    <button class="outlined-button"  type="button" >MELD JE NU AAN!</button>
 </a>
 
 <style>
