@@ -1,11 +1,11 @@
 <a href="#contact-employees">
-<button type="button">Neem contact op!</button>
+<button type="button">NEEM CONTACT OP!</button>
 </a>
 
 <style>
     button {
         margin-top: 2rem;
-        font-family: "roboto", serif;
+        font-family: "PT Serif", serif;
         font-weight: 400;
         font-style: normal;
         background-color: transparent;
@@ -16,13 +16,13 @@
         text-decoration: none;
         font-size: 16px;
         cursor: pointer;
-        transition: border-color 0.3s ease;
+        transition: ease-out 0.5s;
         border-radius: 10px;
     }
 
     button:hover {
-        border-radius: 5px;
-        transition: ease 1s;
+        border-radius: 25px;
+        transition: ease-in 0.5s;
     }
 
     /* MEDIA QUERY MOBILE L */

@@ -82,7 +82,7 @@
         font-weight: 100;
         font-style: normal;
         margin: 0 0 0 9rem;
-        line-height: 4rem;
+        line-height: 3rem;
     }
 
     span {

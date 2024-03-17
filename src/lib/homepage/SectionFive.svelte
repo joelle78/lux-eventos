@@ -17,18 +17,18 @@
                >
                 <li>
 
-                    <span>Stap 1: aanmelden 📝</span> Registreer je als freelancer op onze website en vul je profiel in. We
+                    <span>Stap 1: aanmelden </span> Registreer je als freelancer op onze website en vul je profiel in. We
                     willen alles
                     weten over jouw ervaring, passies en specialiteiten.
                 </li>
                 <li>
 
-                    <span>Stap 2: matchmaking 🤝</span> Ons zorgvuldige selectieproces zorgt ervoor dat we niet alleen de
+                    <span>Stap 2: matchmaking </span> Ons zorgvuldige selectieproces zorgt ervoor dat we niet alleen de
                     beste freelancers
                     aantrekken, maar ook degenen die perfect passen bij de unieke eisen van onze opdrachten.
                 </li>
                 <li>
-                    <span>Stap 3: samenwerking 💼</span> Zodra je bent geselecteerd voor een opdracht, begint de samenwerking.
+                    <span>Stap 3: samenwerking </span> Zodra je bent geselecteerd voor een opdracht, begint de samenwerking.
                     Werk samen
                     met ons en ontdek hoe het is om deel uit te maken van een team dat jouw succes centraal stelt.
                 </li>
@@ -46,7 +46,7 @@
 <style>
     .section-five {
         background-color: var(--background-color-medium);
-        height: 170vh;
+        height: 130vh;
     }
 
     article {
@@ -61,7 +61,7 @@
         font-weight: 200;
         font-style: normal;
         margin-left: 10rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
 
 
@@ -74,26 +74,6 @@
         font-weight: 200;
         font-style: normal;
     }
-
-    p {
-        font-family: "abril-fatface", serif;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 2rem;
-    }
-
-    /*p {*/
-    /*    font-family: "roboto", sans-serif;*/
-    /*    font-weight: 300;*/
-    /*    font-style: italic;*/
-    /*    font-size: var(--paragraph);*/
-    /*    line-height: 2.2rem;*/
-    /*    width: 50%;*/
-    /*    margin-bottom: 1rem;*/
-    /*    margin-left: 20rem;*/
-
-    /*}*/
-
 
 
     ul {
@@ -113,7 +93,7 @@
 
     li {
         font-size: var(--paragraph);
-        margin-bottom: 5rem;
+        margin-bottom: 2rem;
     }
 
     li span {

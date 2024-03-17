@@ -11,7 +11,7 @@
     {#each data.voorOpdrachtgeversPages as opdrachtgevers }
         <article>
 
-            <h3>ONZE AANPAK</h3>
+            <h3>Onze aanpak</h3>
             <div
 
                     class="flex-container-1">
@@ -41,13 +41,12 @@
     }
 
     h3 {
-        font-family: "cormorant-garamond", serif;
-        font-weight: 400;
-        font-style: normal;
+        font-family: "fira-sans", serif;
+        font-weight: 100;
         font-size: var(--header-one);
         margin-top: 2rem;
         margin-left: 9rem;
-        margin-bottom: 1rem;
+
     }
 
     .flex-container-1 {

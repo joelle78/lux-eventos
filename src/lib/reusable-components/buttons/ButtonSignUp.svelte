@@ -1,10 +1,10 @@
 <a href="https://app.fleks.works/applicants/new-applicant/lux-eventos" >
-    <button class="outlined-button" type="button">Meld je nu aan!</button>
+    <button class="outlined-button" type="button">MELD JE NU AAN!</button>
 </a>
 
 <style>
     button {
-        font-family: "roboto", serif;
+        font-family: "PT Serif", serif;
         font-weight: 400;
         font-style: normal;
         background-color: transparent;
@@ -15,14 +15,13 @@
         text-decoration: none;
         font-size: 16px;
         cursor: pointer;
-        transition: border-color 0.3s ease;
+        border-radius: 10px;
 
-        border-radius: 5px;
+        transition: ease-out 0.5s;
     }
 
     button:hover {
-        background-color: var(--background-color-light);
-        border-radius: 5px;
+        border-radius: 25px;
         transition: ease 1s;
     }
 

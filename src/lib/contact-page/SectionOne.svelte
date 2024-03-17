@@ -43,7 +43,7 @@
                     <textarea id="bericht" name="bericht" rows="10" required></textarea>
                 </div>
 
-                <button type="submit">Verstuur</button>
+                <button type="submit">VERSTUUR</button>
             </form>
         </div>
     </div>
@@ -56,8 +56,8 @@
 
 
     h5 {
-        font-family: "cormorant-garamond", serif;
-        font-weight: 400;
+        font-family: "PT Serif", serif;
+        font-weight: 100;
         font-style: normal;
         font-size: var(--header-two);
         margin-top: 8rem;
@@ -77,7 +77,7 @@
     }
 
     label {
-        font-family: "fira-sans", sans-serif;
+        font-family: "PT Serif", sans-serif;
         font-weight: 200;
         font-style: normal;
         font-size: var(--paragraph);
@@ -141,7 +141,7 @@
     button {
         margin-top: 2rem;
         margin-bottom: 5rem;
-        font-family: "roboto", serif;
+        font-family: "PT Serif", serif;
         font-weight: 400;
         font-style: normal;
         background-color: transparent;
@@ -152,14 +152,14 @@
         text-decoration: none;
         font-size: 16px;
         cursor: pointer;
-        transition: border-color 0.3s ease;
+        transition: ease-out 0.5s;
         border-radius: 10px;
 
     }
 
     button:hover {
-        border-radius: 5px;
-        transition: ease 1s;
+        border-radius: 25px;
+        transition: ease-in 0.5s;
     }
 
     /* MEDIA QUERY MOBILE L */

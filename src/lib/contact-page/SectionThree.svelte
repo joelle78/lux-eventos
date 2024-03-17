@@ -150,15 +150,15 @@
 
     h3 {
         margin-left: 3rem;
-        font-family: "cormorant-garamond", serif;
-        font-weight: 600;
+        font-family: "PT Serif", serif;
+        font-weight: 100;
         font-style: normal;
         font-size: var(--paragraph);
     }
 
     h4 {
-        font-family: "cormorant-garamond", serif;
-        font-weight: 600;
+        font-family: "PT Serif", serif;
+        font-weight: 100;
         font-style: normal;
         font-size: var(--header-three);
     }
@@ -247,11 +247,12 @@
         cursor: pointer;
         border: none;
         text-align: left;
-        font-family: "cormorant-garamond", serif;
-        font-weight: 800;
+        font-family: "PT Serif", serif;
+        font-weight: 100;
         font-style: normal;
         font-size: 0.8rem;
         color: black;
+        text-decoration: underline;
     }
 
     .right-button {

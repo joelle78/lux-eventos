@@ -72,7 +72,7 @@
         font-weight: 100;
         font-style: normal;
         margin: 0 0 0 9rem;
-        line-height: 4rem;
+        line-height: 5rem;
     }
 
 
@@ -95,7 +95,7 @@
         line-height: 2.5rem;
         width: 65%;
         padding-top: 2rem;
-        margin: 2rem 0 0 22.5rem;
+        margin: 2rem 0 0 18rem;
     }
 
     .svg-container {

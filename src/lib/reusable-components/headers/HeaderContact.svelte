@@ -47,8 +47,8 @@
     }
 
     span {
-        font-family: "cormorant-garamond", serif;
-        font-weight: 900;
+        font-family: "PT Serif", serif;
+        font-weight: 100;
         font-style: normal;
     }
 

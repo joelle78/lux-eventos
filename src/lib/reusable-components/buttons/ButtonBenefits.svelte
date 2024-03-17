@@ -1,27 +1,28 @@
 <a href="#benefits">
-    <button type="button">Check de voordelen!</button>
+    <button type="button">CHECK DE VOORDELEN!</button>
 </a>
 
 <style>
     button {
         margin-top: 2rem;
-        font-family: "roboto", serif;
+        font-family: "PT Serif", serif;
         font-weight: 400;
         font-style: normal;
         background-color: transparent;
         display: inline-block;
-        padding: 10px 20px;
+        padding: 13px 20px;
         border: 2px solid var(--color-beige); /* Border color */
         color: black;
         text-decoration: none;
         font-size: 16px;
         cursor: pointer;
-        transition: border-color 0.3s ease;
-        border-radius: 5px;
+        border-radius: 10px;
+
+        transition: ease-out 0.5s;
     }
 
     button:hover {
-        border-radius: 5px;
+        border-radius: 25px;
         transition: ease 1s;
     }
 

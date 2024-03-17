@@ -37,20 +37,21 @@
     }
 
     h1 {
-        font-family: "roboto", sans-serif;
+        font-family: "fira-sans", sans-serif;
         font-weight: 200;
         font-style: normal;
         font-size: var(--header-two);
 
         text-align: center;
+        line-height: 5rem;
         letter-spacing: 0.2rem;
         color: white;
         width: 75%;
     }
 
     span {
-        font-family: "cormorant-garamond", serif;
-        font-weight: 900;
+        font-family: "PT Serif", serif;
+        font-weight: 500;
         font-style: normal;
     }
 

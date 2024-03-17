@@ -69,7 +69,7 @@
             </div>
 
 
-            <h5>FREELANCEN<span>bij Lux-Eventos</span></h5>
+            <h5>Freelancen<span>bij Lux-Eventos</span></h5>
             <div data-aos="zoom-in-left"
                  data-aos-duration="1500">
             <p>{homepage.beschrijving4}</p>
@@ -148,7 +148,7 @@
     }
 
     h5, span {
-        font-family: "cormorant-garamond", sans-serif;
+        font-family: "PT Serif", sans-serif;
         font-weight: 100;
         margin-left: 10rem;
         font-size: var(--header-one);

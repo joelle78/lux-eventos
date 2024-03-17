@@ -11,7 +11,7 @@
     <article>
 
             <div class="flex-container">
-            <h4>WERKEN ALS <span>freelancer</span></h4>
+            <h4>Werken als <span>freelancer</span></h4>
             <div class="text-container">
                 <p>{homepage.beschrijving3}</p>
             </div>
@@ -58,8 +58,8 @@
 
 
     h4 {
-        font-family: "cormorant-garamond", serif;
-        font-weight: 400;
+        font-family: "PT Serif", serif;
+        font-weight: 200;
         font-size: var(--header-one);
         position: relative;
         color: white;

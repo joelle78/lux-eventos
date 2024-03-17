@@ -51,7 +51,7 @@
 
     .svg-container {
         position: absolute;
-        width: 10%; /* Adjust this value as needed */
+        width: 8%; /* Adjust this value as needed */
         margin-left: 5%; /* Adjust this value as needed */
         top: -10vh;
 

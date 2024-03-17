@@ -17,7 +17,7 @@
             </div>
 
 
-            <h2>ONZE MISSIE</h2>
+            <h2>Onze missie</h2>
 
             <p data-aos="zoom-in-left"
                data-aos-duration="1500"
@@ -63,8 +63,8 @@
     }
 
 
-    h2, span {
-        font-family: "cormorant-garamond", serif;
+    h2 {
+        font-family: "fira-sans", serif;
         font-weight: 100;
         font-style: normal;
         margin-left: 10rem;
@@ -72,15 +72,6 @@
 
     h2 {
         font-size: var(--header-one);
-    }
-
-    span {
-        font-family: "fira-sans", sans-serif;
-        font-weight: 200;
-        font-size: var(--header-two);
-        margin-top: 1rem;
-        margin-left: 12rem;
-        display: block;
     }
 
     p {

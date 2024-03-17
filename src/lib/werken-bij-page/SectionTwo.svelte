@@ -39,7 +39,7 @@
         </div>
 
         <article>
-            <h3>Word <span>de topper</span> bij <span class="span-new-line">Lux-Eventos</span></h3>
+            <h3>Word de topper bij <span class="span-new-line">Lux-Eventos</span></h3>
             <!--            <p class="p-intro">{werkenBijPage.intro2}</p>-->
 
             <div class="text-container">
@@ -88,28 +88,22 @@
 
     h3 {
         font-size: var(--header-one);
-        font-family: "fira-sans", serif;
+        font-family: "PT Serif", serif;
         font-weight: 100;
         font-style: normal;
         text-align: center;
         line-height: 4rem;
-        margin-left: 9rem;
+        margin-left: 18rem;
         z-index: 2;
         color: white;
-    }
-
-    span {
-        font-size: var(--header-one);
-        font-family: "fira-sans", serif;
-        font-weight: 100;
     }
 
     .span-new-line {
         display: block;
         font-size: var(--header-one);
-        font-family: "fira-sans", serif;
+        font-family: "abril-fatface", serif;
         font-weight: 100;
-        font-style: normal;
+        font-style: italic;
         text-align: left;
         margin-top: 2rem;
         margin-left: 30rem;

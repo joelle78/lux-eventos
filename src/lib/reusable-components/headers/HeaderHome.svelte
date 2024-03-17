@@ -40,11 +40,13 @@
         letter-spacing: 0.2rem;
         color: white;
         width: 80%;
+
+        padding-bottom: 5rem;
     }
 
     span {
-        font-family: "cormorant-garamond", serif;
-        font-weight: 900;
+        font-family: "PT Serif", serif;
+        font-weight: 500;
         font-style: normal;
     }
 
@@ -75,9 +77,8 @@
     }
 
     button {
-        margin-top: 5rem;
-        font-family: "cormorant-garamond", serif;
-        font-weight: 600;
+        font-family: "PT Serif", serif;
+        font-weight: 400;
         font-style: normal;
         background-color: transparent;
         display: inline-block;
@@ -87,15 +88,14 @@
         text-decoration: none;
         font-size: 19px;
         cursor: pointer;
-        transition: border-color 0.3s ease;
         letter-spacing: 0.2rem;
         border-radius: 10px;
+        transition: ease-out 0.5s;
     }
 
     button:hover {
-        border-radius: 5px;
-        transition: ease 1s;
-        border: 2px solid var(--background-color-medium);
+        transition: ease-in 0.5s;
+        border-radius: 25px;
         color: var(--background-color-medium);
     }
 

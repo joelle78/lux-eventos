@@ -118,20 +118,20 @@
     }
 
     h4 {
-        font-family: "cormorant-garamond", serif;
-        font-weight: 400;
+        font-family: "PT Serif", serif;
+        font-weight: 100;
         font-style: normal;
         margin-bottom: 5rem;
     }
 
     h5 {
-        font-family: "roboto", serif;
+        font-family: "PT Serif", serif;
         font-weight: 400;
         font-style: normal;
         font-size: 1.5rem;
         margin-top: 2rem;
         margin-bottom: 1rem;
-        line-height: 2rem;
+        line-height: 2.5rem;
 
     }
 

@@ -63,7 +63,7 @@
     .svg-container {
         position: absolute;
         width: 8%; /* Adjust this value as needed */
-        margin-left: -6%; /* Adjust this value as needed */
+        margin-left: 1%; /* Adjust this value as needed */
         top: 5vh;
 
     }
@@ -76,12 +76,13 @@
     h4 {
         color: white;
         font-size: var(--header-two);
-        font-family: "catamaran", sans-serif;
-        font-weight: 400;
+        font-family: "PT Serif", sans-serif;
+        font-weight: 100;
         font-style: normal;
         line-height: 4rem;
-        width: 80%;
+        width: 75%;
         margin-top: 4rem;
+        margin-left: 6rem;
 
     }
 
@@ -103,7 +104,7 @@
         text-align: left;
         width: 50%;
         margin-top: 2rem;
-        margin-left: 9rem;
+        margin-left: 13rem;
 
     }
 
