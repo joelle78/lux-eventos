@@ -23,10 +23,14 @@
             <li>
                 info@lux-eventos.nl
             </li>
-            <a href="https://www.instagram.com/luxeventos.nl/"><li class="flex-wrapper-socials"><img src={Insta} alt="" aria-label=""/>
-            </li> </a>
-
         </ul>
+
+        <div class="socials-container">
+            <p>Copyright © 2024 Lux-Eventos </p>
+            <a class="terms-conditions" href="/terms-conditions">Algemene voorwaarden</a>
+            <a href="https://www.instagram.com/luxeventos.nl/"><img src={Insta} alt="" aria-label=""/>
+            </a>
+        </div>
 
     </div>
 
@@ -36,6 +40,10 @@
     footer {
         background-color: var(--background-color-light);
         padding-bottom: 1rem;
+    }
+
+    p {
+        color: var(--color-dark-brown);
     }
 
     .flex-container-line {
@@ -57,26 +65,44 @@
     }
 
     li {
-        color: black;
-        font-family: "fira-sans", serif;
+        color: var(--color-dark-brown);
+        font-family: "PT Serif", serif;
         font-weight: 200;
         font-style: normal;
         font-size: 1rem;
-        text-align: center;
-        padding-bottom: 1rem;
+        text-align: left;
+        padding-bottom: 0.5rem;
+        margin-left: 10rem;
+
     }
 
     .flex-wrapper-footer {
         position: relative;
         display: flex;
-        justify-content: center;
-        align-items: center;
+
+        align-items: start;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .socials-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 6rem;
+        margin-right: 7rem;
+        gap: 4rem;
+        font-family: "PT Serif", serif;
 
     }
 
     img {
-        width: 10%;
-        margin-top: 1rem;
+        width: 35%;
+
+    }
+
+    .terms-conditions {
+        text-decoration: none;
+        color: var(--color-dark-brown);
     }
 
 

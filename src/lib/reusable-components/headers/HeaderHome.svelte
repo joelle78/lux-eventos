@@ -68,7 +68,7 @@
         width: 100vw;
         height: 100vh;
         object-fit: cover;
-        filter: grayscale(0.8);
+       opacity: 0.7;
     }
 
     a {

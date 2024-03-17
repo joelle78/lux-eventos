@@ -16,7 +16,7 @@
 
 
 
-        <form action="https://api.web3forms.com/submit" method="POST">
+        <form action="/form-submitted" method="POST">
 
             <input type="hidden" name="access_key" value="33363e93-6b07-4679-8fad-6251f4982f3b">
 

@@ -58,7 +58,6 @@
         position: relative;
         background-color: var(--background-color-dark);
         height: 100vh;
-        width: 100vw;
         display: flex;
         justify-content: center;
         align-items: center;

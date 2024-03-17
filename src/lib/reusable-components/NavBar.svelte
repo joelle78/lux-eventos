@@ -17,7 +17,7 @@
         </label>
 
         <div class="nav">
-            <img src={LogoTrans} alt="" aria-label=""/>
+           <a href="/"><img src={LogoTrans} alt="" aria-label=""/></a>
             <div class="nav-wrapper">
 
                 <nav>

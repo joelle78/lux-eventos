@@ -12,7 +12,7 @@
 
     <div class="flex-container-arrow">
         <a href="#discover">
-            <svg width="49" height="32" viewBox="0 0 59 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="49" height="32" viewBox="0 0 59 42" fill="white" xmlns="http://www.w3.org/2000/svg">
                 <path d="M57.7984 0.542852L29.7882 40.4509L1.70059 0.597358L57.7984 0.542852Z" stroke="white"/>
             </svg>
 
@@ -82,6 +82,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    svg {
+        opacity: 0.9;
     }
 
 

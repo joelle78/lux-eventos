@@ -1,0 +1,37 @@
+<a href="/">
+    <button type="button">GA TERUG!</button>
+</a>
+
+<style>
+    button {
+        margin-top: 2rem;
+        font-family: "PT Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+        background-color: transparent;
+        display: inline-block;
+        padding: 10px 20px;
+        border: 2px solid var(--color-beige); /* Border color */
+        color: black;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+        transition: ease-out 0.5s;
+        border-radius: 10px;
+    }
+
+    button:hover {
+        border-radius: 25px;
+        transition: ease-in 0.5s;
+    }
+
+    /* MEDIA QUERY MOBILE L */
+    @media screen and (max-width: 426px) {
+        button {
+            padding: 20px 30px;
+            font-size: 1rem;
+        }
+    }
+
+</style>
+
