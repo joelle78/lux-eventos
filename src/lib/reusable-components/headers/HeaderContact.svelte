@@ -1,5 +1,5 @@
 <script>
-    import HeaderImgContact from '$lib/assets/header-contact.png'
+    import HeaderImgContact from '$lib/assets/header-contact.jpg'
 </script>
 
 <header>
@@ -71,7 +71,7 @@
         width: 100vw;
         height: 100vh;
         object-fit: cover;
-        filter: grayscale(0.5);
+        opacity: 0.7;
     }
 
     .flex-container-arrow {

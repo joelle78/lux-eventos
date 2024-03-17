@@ -1,5 +1,5 @@
 <script>
-    import HeaderImgWerkenBij from '$lib/assets/header-werken-bij.png'
+    import HeaderImgWerkenBij from '$lib/assets/header-werken-bij.jpg'
 </script>
 
 <header>
@@ -74,6 +74,7 @@
         width: 100vw;
         height: 100vh;
         object-fit: cover;
+        opacity: 0.7;
     }
 
     .flex-container-arrow {
