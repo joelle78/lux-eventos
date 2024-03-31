@@ -225,6 +225,11 @@
         scroll-snap-align: center;
     }
 
+    .svg-middle {
+        position: relative;
+        top: 1rem;
+    }
+
     .carrousel-text-a-w {
         width: 20%;
         flex-grow: 0;

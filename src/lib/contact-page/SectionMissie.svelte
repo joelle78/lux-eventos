@@ -66,7 +66,7 @@
     h2 {
         font-family: "fira-sans", serif;
         font-weight: 100;
-        font-style: normal;
+        font-style: italic;
         margin-left: 10rem;
     }
 

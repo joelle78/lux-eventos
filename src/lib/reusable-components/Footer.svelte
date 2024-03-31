@@ -112,6 +112,17 @@
             width: 130%;
             height: auto;
         }
+
+        li {
+            font-size: 1rem;
+            margin-left: 6.5rem;
+        }
+
+        .socials-container {
+            flex-direction: row;
+            gap: 1.5rem;
+            margin-right: 4rem;
+        }
     }
 
     /* MEDIA QUERY MOBILE L */
@@ -121,8 +132,18 @@
             height: auto;
         }
 
+       .line-footer {
+           width: 95%;
+       }
+
         li {
             font-size: 1.2rem;
+            margin-left: 2rem;
+        }
+
+        .socials-container {
+            margin-right: 1rem;
+            margin-top: 7rem;
         }
 
     }

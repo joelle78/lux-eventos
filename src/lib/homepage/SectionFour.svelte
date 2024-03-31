@@ -69,7 +69,7 @@
             </div>
 
 
-            <h5>Freelancen<span>bij Lux-Eventos</span></h5>
+            <h5>Freelancen bij <span>Lux-Eventos</span></h5>
             <div data-aos="zoom-in-left"
                  data-aos-duration="1500">
             <p>{homepage.beschrijving4}</p>
@@ -148,23 +148,18 @@
         height: auto;
     }
 
-    h5, span {
+    h5 {
         font-family: "PT Serif", sans-serif;
         font-weight: 100;
         margin-left: 10rem;
         font-size: var(--header-one);
     }
 
-
-
     span {
         font-family: "fira-sans", sans-serif;
-        margin: 1rem 0 2rem 12rem;
-        display: block;
-        font-size: var(--header-two);
-        font-weight: 200;
-
+        font-weight: 100;
     }
+
 
     article p {
         width: 60%;
@@ -261,10 +256,6 @@
             margin-left: 7rem;
         }
 
-        span {
-            margin-left: 6rem;
-        }
-
 
         article p {
             font-size: var(--par-tablet);
@@ -303,7 +294,10 @@
         }
 
         span {
-            margin-left: 0;
+            margin-top: 1.5rem;
+            margin-left: 0rem;
+            font-size: 4rem;
+            display: block;
         }
 
         article p {

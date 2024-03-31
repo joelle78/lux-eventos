@@ -42,7 +42,7 @@
 
     h3 {
         font-family: "fira-sans", serif;
-        font-weight: 100;
+        font-weight: 300;
         font-size: var(--header-one);
         margin-top: 2rem;
         margin-left: 9rem;
@@ -63,7 +63,7 @@
         font-size: 1.2rem;
         line-height: 2.2rem;
         margin-top: 2rem;
-        margin-left: 9rem;
+        margin-left: 9.5rem;
         width: 80%;
     }
 

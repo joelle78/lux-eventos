@@ -24,7 +24,6 @@
 
 <style>
 
-
     .image-container {
         position: absolute;
         overflow: clip;
@@ -107,6 +106,10 @@
         .section-three {
             width: 130vw;
             height: 130vh;
+        }
+
+        .image-container {
+            left: 0;
         }
 
         img {

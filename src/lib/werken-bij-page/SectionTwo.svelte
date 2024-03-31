@@ -39,7 +39,7 @@
         </div>
 
         <article>
-            <h3>Word de topper bij <span class="span-new-line">Lux-Eventos</span></h3>
+            <h3>Word de topper bij <span class="span-new-line">Lux-Eventos!</span></h3>
             <!--            <p class="p-intro">{werkenBijPage.intro2}</p>-->
 
             <div class="text-container">

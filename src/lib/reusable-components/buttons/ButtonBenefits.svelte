@@ -1,4 +1,4 @@
-<a href="#benefits">
+<a href="https://lux-eventos.vercel.app/werken-bij">
     <button type="button">CHECK DE VOORDELEN!</button>
 </a>
 

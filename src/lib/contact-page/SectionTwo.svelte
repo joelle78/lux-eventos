@@ -32,7 +32,7 @@
         });
     }
 
-    // Function to handle cleanup (optional)
+    // Function to handle cleanup
     onMount(() => {
         updateCarousel(); // Initial setup
         return () => {
@@ -146,6 +146,11 @@
         background-color: var(--background-color-light);
     }
 
+    article {
+        display: flex;
+        flex-direction: column;
+    }
+
     h3 {
         margin-left: 3rem;
         font-family: "PT Serif", serif;
@@ -200,7 +205,7 @@
 
     .carrousel-container-v {
         display: flex;
-        flex-direction: row;
+
         overflow: auto;
         scroll-snap-type: x mandatory;
         scrollbar-width: none;
@@ -210,7 +215,7 @@
 
     .carrousel-container-a {
         display: flex;
-        flex-direction: row;
+
         overflow: auto;
         scroll-snap-type: x mandatory;
         scrollbar-width: none;
@@ -226,6 +231,11 @@
         flex-basis: 100%;
         scroll-snap-align: center;
 
+    }
+
+    .svg-middle {
+        position: relative;
+        top: 1rem;
     }
 
     .carrousel-text-a {

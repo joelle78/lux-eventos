@@ -32,7 +32,6 @@
 <style>
 
     .section-one {
-
         background-color: var(--background-color-light);
         position: relative;
         display: flex;
