@@ -27,7 +27,7 @@
 
         <div class="socials-container">
             <p>Copyright © 2024 Lux-Eventos </p>
-            <a class="terms-conditions" href="/terms-conditions">Algemene voorwaarden</a>
+<!--            <a class="terms-conditions" href="/terms-conditions">Algemene voorwaarden</a>-->
             <a href="https://www.instagram.com/luxeventos.nl/"><img src={Insta} alt="" aria-label=""/>
             </a>
         </div>
@@ -108,10 +108,10 @@
 
     /* MEDIA QUERY TABLET */
     @media screen and (max-width: 768px) {
-        footer {
+        /* footer {
             width: 130%;
             height: auto;
-        }
+        } */
 
         li {
             font-size: 1rem;
@@ -127,10 +127,10 @@
 
     /* MEDIA QUERY MOBILE L */
     @media screen and (max-width: 426px) {
-        footer {
+        /* footer {
             width: 200%;
             height: auto;
-        }
+        } */
 
        .line-footer {
            width: 95%;
@@ -151,17 +151,17 @@
 
     /* MEDIA QUERY MOBILE M */
     @media screen and (max-width: 376px) {
-        footer {
+        /* footer {
             width: 220%;
             height: auto;
-        }
+        } */
     }
 
     /* MEDIA QUERY MOBILE S */
     @media screen and (max-width: 321px) {
-        footer {
+        /* footer {
             width: 260%;
             height: auto;
-        }
+        } */
     }
 </style>

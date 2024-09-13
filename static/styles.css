@@ -10,8 +10,11 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-
 }
+
+
+
+
 
 :root {
     --background-color-light: #F2F1ED;
@@ -25,5 +28,8 @@
     --header-three: 2rem;
     --paragraph: 1.2rem;
 
+    --header-tablet: 4rem;
     --par-tablet: 1.1rem;
 }
+
+

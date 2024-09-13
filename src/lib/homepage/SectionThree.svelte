@@ -6,7 +6,7 @@
 {#each data.homepages as homepage }
 <section class="section-three">
     <div class="image-container">
-        <img src={image3} alt="Description of the image"/>
+        <!-- <img src={image3} alt="Description of the image"/> -->
     </div>
     <article>
 
@@ -103,10 +103,10 @@
 
     /* MEDIA QUERY TABLET*/
     @media screen and (max-width: 768px) {
-        .section-three {
+        /* .section-three {
             width: 130vw;
             height: 130vh;
-        }
+        } */
 
         .image-container {
             left: 0;
@@ -118,6 +118,7 @@
         }
 
         h4 {
+            left: 20vw;
             width: 60%;
             margin-bottom: 2rem;
         }
@@ -129,10 +130,10 @@
 
     /* MEDIA QUERY MOBILE L */
     @media screen and (max-width: 426px) {
-        .section-three {
+        /* .section-three {
             width: 200vw;
             height: 200vh;
-        }
+        } */
 
         img {
            display: none;
@@ -159,20 +160,20 @@
 
     /* MEDIA QUERY MOBILE M */
     @media screen and (max-width: 376px) {
-        .section-three {
+        /* .section-three {
             width: 220vw;
             height: 180vh;
-        }
+        } */
 
 
     }
 
     /* MEDIA QUERY MOBILE S */
     @media screen and (max-width: 321px) {
-        .section-three {
+        /* .section-three {
             width: 260vw;
             height: 180vh;
-        }
+        } */
 
 
     }

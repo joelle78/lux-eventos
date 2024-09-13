@@ -107,14 +107,6 @@
             width: 80%;
         }
 
-        header {
-            width: 130vw;
-        }
-
-        img {
-            width: 130vw;
-        }
-
         button {
             margin-top: 7rem;
             font-size: 20px;
@@ -123,15 +115,15 @@
 
     /* MEDIA QUERY MOBILE L */
     @media screen and (max-width: 426px) {
-        header {
+        /* header {
             width: 200vw;
             height: 150vh;
-        }
+        } */
 
-        img {
+        /* img {
             width: auto;
             height: 160vh;
-        }
+        } */
 
         h1 {
             font-size: 3rem;
@@ -147,28 +139,28 @@
 
     /* MEDIA QUERY MOBILE M */
     @media screen and (max-width: 376px) {
-        header {
+        /* header {
             width: 220%;
             height: 150vh;
-        }
+        } */
 
-        img {
+        /* img {
             width: auto;
             height: 160vh;
-        }
+        } */
     }
 
     /* MEDIA QUERY MOBILE S */
     @media screen and (max-width: 320px) {
 
-        header {
+        /* header {
             width: 260%;
             height: 170vh;
-        }
+        } */
 
         img {
-            width: auto;
-            height: 180vh;
+            /* width: auto;
+            height: 180vh; */
             /*overflow: clip;*/
         }
     }

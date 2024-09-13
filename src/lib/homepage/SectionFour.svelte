@@ -245,10 +245,10 @@
 
     /*MEDIA QUERY TABLET*/
     @media screen and (max-width: 768px) {
-        .section-four {
+        /* .section-four {
             width: 130vw;
             height: 130vh;
-        }
+        } */
 
         h5 {
             font-family: 'cormorant-garamond', sans-serif;
@@ -280,10 +280,10 @@
 
     /* MEDIA QUERY MOBILE L */
     @media screen and (max-width: 426px) {
-        .section-four {
+        /* .section-four {
             width: 200vw;
             height: 200vh;
-        }
+        } */
 
         .svg-container {
             width: 9rem;
@@ -339,10 +339,10 @@
 
     /* MEDIA QUERY MOBILE M */
     @media screen and (max-width: 376px) {
-        .section-four {
+        /* .section-four {
             width: 220vw;
             height: 180vh;
-        }
+        } */
 
         /*.page-indicator {*/
         /*    bottom: 25%;*/
@@ -352,10 +352,10 @@
 
     /* MEDIA QUERY MOBILE S */
     @media screen and (max-width: 321px) {
-        .section-four {
+        /* .section-four {
             width: 260vw;
             height: 190vh;
-        }
+        } */
     }
 
 
